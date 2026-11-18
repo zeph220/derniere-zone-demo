@@ -1,0 +1,19 @@
+{
+  "name": "chest_open",
+  "duration": 0.9,
+  "tags": [
+    "prop",
+    "storage"
+  ],
+  "keyframes": [
+    {
+      "time": 0,
+      "lid_rot_x": 0
+    },
+    {
+      "time": 0.9,
+      "lid_rot_x": 75
+    }
+  ],
+  "notes": ""
+}

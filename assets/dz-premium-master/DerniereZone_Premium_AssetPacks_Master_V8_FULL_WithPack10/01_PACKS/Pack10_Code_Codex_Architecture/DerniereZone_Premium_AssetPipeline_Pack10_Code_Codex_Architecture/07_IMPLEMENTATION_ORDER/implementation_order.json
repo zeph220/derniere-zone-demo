@@ -1,0 +1,98 @@
+[
+  {
+    "step": 1,
+    "name": "Project foundation",
+    "systems": [
+      "GameManager",
+      "DataRegistry",
+      "EventBus"
+    ],
+    "test": "Project launches and logs data load."
+  },
+  {
+    "step": 2,
+    "name": "Player + camera",
+    "systems": [
+      "PlayerController",
+      "PlayerCamera"
+    ],
+    "test": "Player can move in test room."
+  },
+  {
+    "step": 3,
+    "name": "Interaction",
+    "systems": [
+      "InteractionSystem",
+      "IInteractable"
+    ],
+    "test": "Looking at test object shows prompt and E triggers action."
+  },
+  {
+    "step": 4,
+    "name": "Inventory",
+    "systems": [
+      "InventorySystem",
+      "ItemPickup"
+    ],
+    "test": "Pick up water_bottle and see it in inventory."
+  },
+  {
+    "step": 5,
+    "name": "Survival stats",
+    "systems": [
+      "PlayerSurvivalStats"
+    ],
+    "test": "Hunger/thirst decrease, water restores thirst."
+  },
+  {
+    "step": 6,
+    "name": "HUD",
+    "systems": [
+      "HUDController",
+      "NotificationStack"
+    ],
+    "test": "Stats and objective visible."
+  },
+  {
+    "step": 7,
+    "name": "QuestManager",
+    "systems": [
+      "QuestManager"
+    ],
+    "test": "Q01_Radio advances through objectives."
+  },
+  {
+    "step": 8,
+    "name": "SaveManager",
+    "systems": [
+      "SaveManager"
+    ],
+    "test": "Save/load inventory and quest state."
+  },
+  {
+    "step": 9,
+    "name": "Enemy normal AI",
+    "systems": [
+      "EnemyBrain",
+      "EnemyPerception"
+    ],
+    "test": "Enemy patrols, detects, chases, attacks, loses player."
+  },
+  {
+    "step": 10,
+    "name": "AudioManager",
+    "systems": [
+      "AudioManager"
+    ],
+    "test": "Quest update and danger stingers play."
+  },
+  {
+    "step": 11,
+    "name": "Vertical slice assembly",
+    "systems": [
+      "SceneLoader",
+      "All core systems"
+    ],
+    "test": "Demo playable from wakeup to radio signal."
+  }
+]

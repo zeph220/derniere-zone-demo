@@ -1,0 +1,23 @@
+{
+  "name": "enemy_heavy_walk_heavy",
+  "duration": 1.4,
+  "tags": [
+    "enemy_heavy",
+    "enemy"
+  ],
+  "keyframes": [
+    {
+      "time": 0.0,
+      "pose": "start"
+    },
+    {
+      "time": 0.5,
+      "pose": "main_motion"
+    },
+    {
+      "time": 1.0,
+      "pose": "recover_or_loop"
+    }
+  ],
+  "notes": "Animation placeholder pour enemy_heavy. À remplacer par animation finale."
+}

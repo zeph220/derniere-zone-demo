@@ -1,0 +1,22 @@
+[
+  {
+    "time": 0.0,
+    "beat": "antenne centrale",
+    "event": "final_choice_beat_1"
+  },
+  {
+    "time": 30.0,
+    "beat": "factions en conflit",
+    "event": "final_choice_beat_2"
+  },
+  {
+    "time": 60.0,
+    "beat": "choix révéler/détruire/quarantaine/exode",
+    "event": "final_choice_beat_3"
+  },
+  {
+    "time": 90.0,
+    "beat": "épilogue",
+    "event": "final_choice_beat_4"
+  }
+]

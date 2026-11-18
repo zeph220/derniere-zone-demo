@@ -1,0 +1,18 @@
+newmtl torn_clothes
+Kd 0.2 0.2 0.18
+Ka 0.05 0.05 0.05
+Ks 0.1 0.1 0.1
+Ns 24
+
+newmtl heavy_bruised_skin
+Kd 0.43 0.32 0.3
+Ka 0.05 0.05 0.05
+Ks 0.1 0.1 0.1
+Ns 24
+
+newmtl rusted_restraints
+Kd 0.2 0.16 0.12
+Ka 0.05 0.05 0.05
+Ks 0.1 0.1 0.1
+Ns 24
+

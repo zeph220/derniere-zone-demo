@@ -1,0 +1,91 @@
+{
+  "note": "Selection runtime legere issue du dossier extra. Le gros pack complet est archive hors public pour ne pas alourdir le build.",
+  "count": 17,
+  "images": [
+    {
+      "id": "vision_02",
+      "sourceName": "ChatGPT Image 17 mai 2026, 18_45_17.png",
+      "path": "/assets/dz-extra-runtime/visions/vision_02.png"
+    },
+    {
+      "id": "vision_08",
+      "sourceName": "ChatGPT Image 17 mai 2026, 18_57_09 (2).png",
+      "path": "/assets/dz-extra-runtime/visions/vision_08.png"
+    },
+    {
+      "id": "vision_14",
+      "sourceName": "ChatGPT Image 17 mai 2026, 19_02_29 (2).png",
+      "path": "/assets/dz-extra-runtime/visions/vision_14.png"
+    },
+    {
+      "id": "vision_21",
+      "sourceName": "ChatGPT Image 17 mai 2026, 19_02_34 (10).png",
+      "path": "/assets/dz-extra-runtime/visions/vision_21.png"
+    },
+    {
+      "id": "vision_29",
+      "sourceName": "ChatGPT Image 17 mai 2026, 19_16_44 (2).png",
+      "path": "/assets/dz-extra-runtime/visions/vision_29.png"
+    },
+    {
+      "id": "vision_37",
+      "sourceName": "ChatGPT Image 18 mai 2026, 12_55_18 (4).png",
+      "path": "/assets/dz-extra-runtime/visions/vision_37.png"
+    },
+    {
+      "id": "vision_44",
+      "sourceName": "ChatGPT Image 19 mai 2026, 16_29_31 (1).png",
+      "path": "/assets/dz-extra-runtime/visions/vision_44.png"
+    },
+    {
+      "id": "vision_50",
+      "sourceName": "ChatGPT Image 19 mai 2026, 16_29_32 (7).png",
+      "path": "/assets/dz-extra-runtime/visions/vision_50.png"
+    },
+    {
+      "id": "vision_55",
+      "sourceName": "ChatGPT Image 19 mai 2026, 21_25_02 (1).png",
+      "path": "/assets/dz-extra-runtime/visions/vision_55.png"
+    },
+    {
+      "id": "vision_61",
+      "sourceName": "ChatGPT Image 19 mai 2026, 21_25_15 (3) (2).png",
+      "path": "/assets/dz-extra-runtime/visions/vision_61.png"
+    },
+    {
+      "id": "vision_69",
+      "sourceName": "ChatGPT Image 19 mai 2026, 21_25_28 (6) (1).png",
+      "path": "/assets/dz-extra-runtime/visions/vision_69.png"
+    },
+    {
+      "id": "vision_74",
+      "sourceName": "ChatGPT Image 19 mai 2026, 21_25_29 (7).png",
+      "path": "/assets/dz-extra-runtime/visions/vision_74.png"
+    },
+    {
+      "id": "vision_77",
+      "sourceName": "ChatGPT Image 19 mai 2026, 21_25_30 (8).png",
+      "path": "/assets/dz-extra-runtime/visions/vision_77.png"
+    },
+    {
+      "id": "vision_82",
+      "sourceName": "ChatGPT Image 19 mai 2026, 21_25_42 (10) (2).png",
+      "path": "/assets/dz-extra-runtime/visions/vision_82.png"
+    },
+    {
+      "id": "vision_85",
+      "sourceName": "ChatGPT Image 19 mai 2026, 21_27_01 (2).png",
+      "path": "/assets/dz-extra-runtime/visions/vision_85.png"
+    },
+    {
+      "id": "vision_90",
+      "sourceName": "ChatGPT Image 19 mai 2026, 21_35_24 (5).png",
+      "path": "/assets/dz-extra-runtime/visions/vision_90.png"
+    },
+    {
+      "id": "vision_91",
+      "sourceName": "choose-a-gun-to-survive-zombie-apocalypse-v0-fndm1uvy3jzb1.webp",
+      "path": "/assets/dz-extra-runtime/visions/vision_91.webp"
+    }
+  ]
+}

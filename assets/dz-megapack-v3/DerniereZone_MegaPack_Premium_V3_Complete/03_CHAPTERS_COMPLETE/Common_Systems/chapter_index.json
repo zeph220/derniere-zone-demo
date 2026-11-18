@@ -1,0 +1,44 @@
+[
+  {
+    "id": "01_city",
+    "name": "Chapitre 01 — Ville extérieure",
+    "goal": "sortir du quartier et atteindre l’abri",
+    "weather": "soir humide puis pluie"
+  },
+  {
+    "id": "02_shops_shelter",
+    "name": "Chapitre 02 — Abri et commerces",
+    "goal": "stabiliser l’abri et chercher des ressources",
+    "weather": "matin gris / intérieurs calmes"
+  },
+  {
+    "id": "03_hospital",
+    "name": "Chapitre 03 — Hôpital",
+    "goal": "trouver des médicaments et un dossier clé",
+    "weather": "orage lointain / lumière froide"
+  },
+  {
+    "id": "04_metro",
+    "name": "Chapitre 04 — Métro",
+    "goal": "traverser sous la ville",
+    "weather": "humidité constante / obscurité"
+  },
+  {
+    "id": "05_laboratory",
+    "name": "Chapitre 05 — Laboratoire",
+    "goal": "découvrir l’origine des essais",
+    "weather": "intérieur clinique / alarms"
+  },
+  {
+    "id": "06_military",
+    "name": "Chapitre 06 — Zone militaire",
+    "goal": "prendre le contrôle du checkpoint et récupérer les accès",
+    "weather": "pluie battante / projecteurs"
+  },
+  {
+    "id": "07_final_core",
+    "name": "Chapitre 07 — Cœur de la Zone",
+    "goal": "détruire ou contenir l’Hôte Zéro",
+    "weather": "orage intérieur / anomalies"
+  }
+]

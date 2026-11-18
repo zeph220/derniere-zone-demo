@@ -1,0 +1,42 @@
+category,file,recommended_use
+music,01_direction_generale_dark_city_loop.wav,loop by zone / music bus
+music,02_rue_exterieure_pluie_brouillard_loop.wav,loop by zone / music bus
+music,03_abri_chaleur_faible_radio_loop.wav,loop by zone / music bus
+music,04_hopital_froid_tension_clinique_loop.wav,loop by zone / music bus
+music,05_metro_rumble_souterrain_loop.wav,loop by zone / music bus
+music,06_laboratoire_neons_dread_loop.wav,loop by zone / music bus
+music,07_zone_militaire_pression_loop.wav,loop by zone / music bus
+ambience,ambience_fluorescent_buzz_loop.wav,gameplay event / ambience layer
+ambience,ambience_rain_loop.wav,gameplay event / ambience layer
+ambience,ambience_subway_rumble_loop.wav,gameplay event / ambience layer
+ambience,ambience_wind_empty_street_loop.wav,gameplay event / ambience layer
+sfx,button_press_old_radio.wav,gameplay event / ambience layer
+sfx,danger_stinger_rise.wav,gameplay event / ambience layer
+sfx,door_creak_heavy.wav,gameplay event / ambience layer
+enemy,enemy_blind_clicking_breath.wav,gameplay event / ambience layer
+enemy,enemy_fast_screech.wav,gameplay event / ambience layer
+enemy,enemy_heavy_low_roar.wav,gameplay event / ambience layer
+enemy,enemy_normal_groan.wav,gameplay event / ambience layer
+footstep,footstep_concrete_01.wav,gameplay event / ambience layer
+footstep,footstep_concrete_02.wav,gameplay event / ambience layer
+footstep,footstep_concrete_03.wav,gameplay event / ambience layer
+footstep,footstep_metal_01.wav,gameplay event / ambience layer
+footstep,footstep_metal_02.wav,gameplay event / ambience layer
+footstep,footstep_metal_03.wav,gameplay event / ambience layer
+footstep,footstep_wet_01.wav,gameplay event / ambience layer
+footstep,footstep_wet_02.wav,gameplay event / ambience layer
+footstep,footstep_wet_03.wav,gameplay event / ambience layer
+footstep,footstep_wood_01.wav,gameplay event / ambience layer
+footstep,footstep_wood_02.wav,gameplay event / ambience layer
+footstep,footstep_wood_03.wav,gameplay event / ambience layer
+sfx,lock_click.wav,gameplay event / ambience layer
+sfx,low_health_heartbeat_loop.wav,gameplay event / ambience layer
+sfx,melee_metal_impact.wav,gameplay event / ambience layer
+sfx,melee_swing_heavy.wav,gameplay event / ambience layer
+sfx,melee_swing_light.wav,gameplay event / ambience layer
+sfx,metal_gate_creak.wav,gameplay event / ambience layer
+sfx,pickup_key_item_bright.wav,gameplay event / ambience layer
+sfx,pickup_resource_soft.wav,gameplay event / ambience layer
+sfx,radio_static_short.wav,gameplay event / ambience layer
+ui,ui_inventory_open.wav,gameplay event / ambience layer
+ui,ui_objective_update.wav,gameplay event / ambience layer

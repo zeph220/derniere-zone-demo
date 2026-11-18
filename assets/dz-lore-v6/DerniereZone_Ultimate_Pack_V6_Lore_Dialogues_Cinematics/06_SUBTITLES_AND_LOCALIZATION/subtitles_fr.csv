@@ -1,0 +1,57 @@
+cinematic,line_id,speaker,fr
+c01_intro_rain,c01_intro_rain_01,system,plan rue inondée
+c01_intro_rain,c01_intro_rain_02,system,radio lointaine
+c01_intro_rain,c01_intro_rain_03,system,premier objectif
+c01_intro_rain,c01_intro_rain_04,system,contrôle joueur
+c01_first_random_event,c01_first_random_event_01,system,porte s'ouvre
+c01_first_random_event,c01_first_random_event_02,system,homme traverse la rue
+c01_first_random_event,c01_first_random_event_03,system,cri derrière lui
+c01_first_random_event,c01_first_random_event_04,system,disparition dans un immeuble
+c02_shelter_first_night,c02_shelter_first_night_01,system,lampe tremble
+c02_shelter_first_night,c02_shelter_first_night_02,system,Mila compte les rations
+c02_shelter_first_night,c02_shelter_first_night_03,system,bruit dehors
+c02_shelter_first_night,c02_shelter_first_night_04,system,sauvegarde débloquée
+c02_radio_signal,c02_radio_signal_01,system,main tourne radio
+c02_radio_signal,c02_radio_signal_02,system,parasites
+c02_radio_signal,c02_radio_signal_03,system,voix Saint-Mary
+c02_radio_signal,c02_radio_signal_04,system,objectif apparaît
+c03_hospital_arrival,c03_hospital_arrival_01,system,façade sous pluie
+c03_hospital_arrival,c03_hospital_arrival_02,system,néons urgences
+c03_hospital_arrival,c03_hospital_arrival_03,system,registre au sol
+c03_hospital_arrival,c03_hospital_arrival_04,system,silhouette au fond
+c03_doctoresse_intro,c03_doctoresse_intro_01,system,rideau qui bouge
+c03_doctoresse_intro,c03_doctoresse_intro_02,system,bruit d'instruments
+c03_doctoresse_intro,c03_doctoresse_intro_03,system,boss apparaît
+c03_doctoresse_intro,c03_doctoresse_intro_04,system,verrouillage service
+c04_metro_descent,c04_metro_descent_01,system,escaliers noirs
+c04_metro_descent,c04_metro_descent_02,system,gouttes
+c04_metro_descent,c04_metro_descent_03,system,lampes qui sautent
+c04_metro_descent,c04_metro_descent_04,system,premier écho de l'Oracle
+c04_oracle_intro,c04_oracle_intro_01,system,silence total
+c04_oracle_intro,c04_oracle_intro_02,system,pièce tombe
+c04_oracle_intro,c04_oracle_intro_03,system,Oracle pivote
+c04_oracle_intro,c04_oracle_intro_04,system,combat commence
+c05_lab_discovery,c05_lab_discovery_01,system,porte sas
+c05_lab_discovery,c05_lab_discovery_02,system,lumière bleue
+c05_lab_discovery,c05_lab_discovery_03,system,cuves
+c05_lab_discovery,c05_lab_discovery_04,system,documents Hélios
+c05_matriarch_intro,c05_matriarch_intro_01,system,cuve se fissure
+c05_matriarch_intro,c05_matriarch_intro_02,system,alarme
+c05_matriarch_intro,c05_matriarch_intro_03,system,masse bouge
+c05_matriarch_intro,c05_matriarch_intro_04,system,gaz au sol
+c06_military_entry,c06_military_entry_01,system,projecteurs
+c06_military_entry,c06_military_entry_02,system,haut-parleur
+c06_military_entry,c06_military_entry_03,system,checkpoint
+c06_military_entry,c06_military_entry_04,system,choix infiltration ou force
+c06_commander_intro,c06_commander_intro_01,system,silence radio
+c06_commander_intro,c06_commander_intro_02,system,porte blindée
+c06_commander_intro,c06_commander_intro_03,system,boss marche dans la pluie
+c06_commander_intro,c06_commander_intro_04,system,charge
+c07_final_core,c07_final_core_01,system,ascenseur descend
+c07_final_core,c07_final_core_02,system,murs organiques
+c07_final_core,c07_final_core_03,system,voix connues
+c07_final_core,c07_final_core_04,system,Hôte Zéro apparaît
+c07_final_choice,c07_final_choice_01,system,noyau exposé
+c07_final_choice,c07_final_choice_02,system,options apparaissent
+c07_final_choice,c07_final_choice_03,system,alliés ou souvenirs réagissent
+c07_final_choice,c07_final_choice_04,system,choix validé

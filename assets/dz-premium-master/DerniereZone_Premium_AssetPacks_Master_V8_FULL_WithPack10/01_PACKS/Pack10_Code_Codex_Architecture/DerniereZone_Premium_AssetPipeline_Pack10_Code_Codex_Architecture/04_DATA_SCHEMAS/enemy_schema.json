@@ -1,0 +1,18 @@
+{
+  "id": "string",
+  "name": "string",
+  "role": "string",
+  "health": "int",
+  "damage": "int",
+  "walk_speed": "float",
+  "chase_speed": "float",
+  "vision_distance": "float",
+  "hearing_radius": "float",
+  "ai_profile": "string",
+  "animations": [
+    "string"
+  ],
+  "audio": [
+    "string"
+  ]
+}

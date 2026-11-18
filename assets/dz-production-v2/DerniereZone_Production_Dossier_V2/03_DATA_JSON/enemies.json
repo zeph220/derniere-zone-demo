@@ -1,0 +1,191 @@
+[
+  {
+    "id": "enemy_normal",
+    "name": "Infecté errant",
+    "role": "pression de base",
+    "health": 80,
+    "damage": 12,
+    "speed_walk": 1.2,
+    "speed_chase": 3.0,
+    "vision": 15,
+    "hearing": 8,
+    "states": [
+      "idle",
+      "patrol",
+      "suspicious",
+      "investigate",
+      "chase",
+      "attack",
+      "search",
+      "return"
+    ],
+    "weakness": "contournable seul, dangereux en groupe",
+    "zones": [
+      "rue",
+      "hôpital",
+      "métro"
+    ],
+    "animations": [
+      "idle_sway",
+      "walk_limp",
+      "alert_turn",
+      "chase_lurch",
+      "attack_swipe",
+      "hit_react",
+      "death_collapse"
+    ],
+    "sounds": [
+      "enemy_normal_groan"
+    ]
+  },
+  {
+    "id": "enemy_fast",
+    "name": "Féral rapide",
+    "role": "panique et poursuite",
+    "health": 45,
+    "damage": 10,
+    "speed_walk": 1.8,
+    "speed_chase": 5.2,
+    "vision": 18,
+    "hearing": 12,
+    "states": [
+      "idle",
+      "perch",
+      "suspicious",
+      "burst_chase",
+      "attack_lunge",
+      "retreat",
+      "search"
+    ],
+    "weakness": "peu de vie, sensible aux pièges",
+    "zones": [
+      "rue_nuit",
+      "métro",
+      "labo"
+    ],
+    "animations": [
+      "idle_twitch",
+      "fast_sprint",
+      "lunge_attack",
+      "wall_recoil",
+      "death_roll"
+    ],
+    "sounds": [
+      "enemy_fast_screech"
+    ]
+  },
+  {
+    "id": "enemy_blind",
+    "name": "Traqueur aveugle",
+    "role": "discrétion/bruit",
+    "health": 95,
+    "damage": 18,
+    "speed_walk": 1.0,
+    "speed_chase": 3.2,
+    "vision": 0,
+    "hearing": 25,
+    "states": [
+      "idle_listen",
+      "wander",
+      "hear_noise",
+      "investigate_sound",
+      "chase_sound",
+      "attack_grab",
+      "lost_sound"
+    ],
+    "weakness": "ne voit pas, détournable par leurre sonore",
+    "zones": [
+      "métro",
+      "hôpital_sous_sol",
+      "labo"
+    ],
+    "animations": [
+      "idle_listen",
+      "head_twitch",
+      "slow_walk_hands_forward",
+      "sound_snap_turn",
+      "grab_attack",
+      "kneel_listen",
+      "death_fold"
+    ],
+    "sounds": [
+      "enemy_blind_clicking_breath"
+    ]
+  },
+  {
+    "id": "enemy_heavy",
+    "name": "Lourd contaminé",
+    "role": "contrôle d’espace",
+    "health": 220,
+    "damage": 35,
+    "speed_walk": 0.8,
+    "speed_chase": 2.0,
+    "vision": 12,
+    "hearing": 10,
+    "states": [
+      "idle_block",
+      "patrol_slow",
+      "roar_alert",
+      "chase_slow",
+      "heavy_slam",
+      "stagger",
+      "search"
+    ],
+    "weakness": "lent, vulnérable aux pièges",
+    "zones": [
+      "zone_militaire",
+      "hôpital",
+      "laboratoire"
+    ],
+    "animations": [
+      "idle_breath_heavy",
+      "walk_heavy",
+      "roar",
+      "slam_attack",
+      "stagger_big",
+      "death_crash"
+    ],
+    "sounds": [
+      "enemy_heavy_low_roar"
+    ]
+  },
+  {
+    "id": "enemy_lab_subject",
+    "name": "Sujet Oméga",
+    "role": "horreur narrative",
+    "health": 130,
+    "damage": 22,
+    "speed_walk": 1.4,
+    "speed_chase": 4.0,
+    "vision": 20,
+    "hearing": 16,
+    "states": [
+      "idle_shiver",
+      "observe",
+      "telegraph_attack",
+      "erratic_chase",
+      "scream_stun",
+      "attack_combo",
+      "flee_to_dark",
+      "search"
+    ],
+    "weakness": "lumière forte, alarmes",
+    "zones": [
+      "laboratoire",
+      "fin_jeu"
+    ],
+    "animations": [
+      "idle_shiver",
+      "unnatural_turn",
+      "erratic_run",
+      "scream",
+      "claw_combo",
+      "crawl_escape",
+      "death_twitch"
+    ],
+    "sounds": [
+      "lab_subject_whisper",
+      "lab_subject_scream"
+    ]
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "id": "craft_bandage",
+    "name": "Bandage",
+    "station": "inventory",
+    "time": 4,
+    "ingredients": {
+      "cloth": 2
+    },
+    "result": {
+      "bandage": 1
+    },
+    "animation": "fp_craft_quick"
+  },
+  {
+    "id": "craft_water_filter",
+    "name": "Filtre à eau",
+    "station": "workbench",
+    "time": 12,
+    "ingredients": {
+      "cloth": 2,
+      "scrap_metal": 1
+    },
+    "result": {
+      "water_filter": 1
+    },
+    "animation": "fp_craft_workbench"
+  },
+  {
+    "id": "craft_noise_lure",
+    "name": "Leurre sonore",
+    "station": "workbench",
+    "time": 10,
+    "ingredients": {
+      "battery": 1,
+      "wire": 1,
+      "scrap_metal": 1
+    },
+    "result": {
+      "noise_lure": 1
+    },
+    "animation": "fp_craft_workbench"
+  },
+  {
+    "id": "craft_nail_trap",
+    "name": "Piège à clous",
+    "station": "workbench",
+    "time": 14,
+    "ingredients": {
+      "wood_plank": 2,
+      "scrap_metal": 2
+    },
+    "result": {
+      "nail_trap": 1
+    },
+    "animation": "fp_craft_workbench"
+  },
+  {
+    "id": "repair_radio",
+    "name": "Réparer radio",
+    "station": "shelter_radio",
+    "time": 20,
+    "ingredients": {
+      "battery": 1,
+      "wire": 1,
+      "radio_part": 1
+    },
+    "result": {
+      "radio_fixed": 1
+    },
+    "animation": "fp_radio_repair"
+  },
+  {
+    "id": "repair_generator",
+    "name": "Réparer générateur",
+    "station": "shelter_generator",
+    "time": 25,
+    "ingredients": {
+      "fuse": 1,
+      "wire": 2,
+      "fuel_can": 1,
+      "scrap_metal": 2
+    },
+    "result": {
+      "generator_active": 1
+    },
+    "animation": "fp_generator_repair"
+  },
+  {
+    "id": "upgrade_backpack_1",
+    "name": "Sac amélioré I",
+    "station": "workbench",
+    "time": 18,
+    "ingredients": {
+      "cloth": 4,
+      "scrap_metal": 1
+    },
+    "result": {
+      "backpack_capacity_plus": 8
+    },
+    "animation": "fp_craft_workbench"
+  },
+  {
+    "id": "craft_barricade_kit",
+    "name": "Kit barricade",
+    "station": "workbench",
+    "time": 18,
+    "ingredients": {
+      "wood_plank": 4,
+      "scrap_metal": 2,
+      "wire": 1
+    },
+    "result": {
+      "barricade_kit": 1
+    },
+    "animation": "fp_craft_heavy"
+  }
+]

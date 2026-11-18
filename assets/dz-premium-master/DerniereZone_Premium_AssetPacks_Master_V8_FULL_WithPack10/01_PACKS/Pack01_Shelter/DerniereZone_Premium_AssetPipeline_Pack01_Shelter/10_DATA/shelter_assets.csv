@@ -1,0 +1,10 @@
+id,name,category,priority,scale,materials,animations,gameplay
+shelter_bed_messy,Lit de fortune,shelter_core,hero,2.05 x 0.9 x 0.65 m,dirty_fabric;aged_wood;rusty_metal,sleep_interact;bed_upgrade_visual,"Repos, sauvegarde, réduction fatigue."
+shelter_radio_old,Radio ancienne réparée,shelter_core,hero,0.75 x 0.32 x 0.38 m,rusty_black_metal;old_plastic;dirty_glass,radio_tune;radio_repair;radio_signal_success,"Quêtes principales, transmissions, choix narratifs."
+shelter_workbench,Établi de craft,shelter_core,hero,2.0 x 0.75 x 1.2 m,aged_wood;rusty_black_metal,craft_small;craft_heavy;repair_tool,"Craft, réparations, améliorations."
+shelter_storage_chest,Coffre de stockage,shelter_core,hero,1.25 x 0.65 x 0.65 m,aged_wood;rusty_black_metal,chest_open;chest_close,Stockage inventaire.
+shelter_generator,Générateur bricolé,shelter_core,hero,1.2 x 0.65 x 0.8 m,rusty_black_metal;rubber;wire,generator_repair;generator_start;generator_idle_shake,"Électricité, bruit, risque d'attaque."
+shelter_map_wall,Mur de carte annotée,shelter_core,hero,2.4 x 0.15 x 1.6 m,old_paper;dirty_concrete_wall;tape,map_open;pin_add,"Carte, objectifs, planification."
+shelter_oil_lamp,Lampe d'abri,props_detail,medium,0.25 x 0.25 x 0.45 m,dirty_glass;rusty_black_metal,lamp_toggle;lamp_flicker,"Ambiance, lumière, tutoriel abri."
+shelter_barricaded_door,Porte barricadée,shelter_core,hero,1.25 x 0.25 x 2.2 m,aged_wood;rusty_black_metal,door_heavy_open;barricade_upgrade,"Entrée abri, défense."
+shelter_personal_props,Props personnels,props_detail,medium,various,old_paper;dirty_fabric;rusty_black_metal,,Narration environnementale.

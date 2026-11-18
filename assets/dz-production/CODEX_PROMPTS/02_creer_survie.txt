@@ -1,0 +1,10 @@
+Utilise le rôle Gameplay Programmer. Implémente une première version simple du système de survie basé sur DATA/survival_rules.json :
+- vie
+- faim
+- soif
+- endurance
+- fatigue
+- effets quand faim/soif sont bas
+- fonctions UseItem pour eau, nourriture, bandage
+Ne fais pas l’interface complète pour l’instant, seulement une version testable avec logs et valeurs visibles.
+À la fin, liste les fichiers modifiés et comment tester.

@@ -1,0 +1,22 @@
+{
+  "id": "string",
+  "title": "string",
+  "chapter": "int",
+  "type": "main|side|dilemma|event",
+  "start_condition": "object",
+  "steps": [
+    "string"
+  ],
+  "required_items": [
+    "string"
+  ],
+  "rewards": [
+    "string"
+  ],
+  "choices": [
+    "string"
+  ],
+  "consequences": [
+    "string"
+  ]
+}

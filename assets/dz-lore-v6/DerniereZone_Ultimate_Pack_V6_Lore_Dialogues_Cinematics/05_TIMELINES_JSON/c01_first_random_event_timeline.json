@@ -1,0 +1,22 @@
+[
+  {
+    "time": 0.0,
+    "beat": "porte s'ouvre",
+    "event": "c01_first_random_event_beat_1"
+  },
+  {
+    "time": 4.5,
+    "beat": "homme traverse la rue",
+    "event": "c01_first_random_event_beat_2"
+  },
+  {
+    "time": 9.0,
+    "beat": "cri derrière lui",
+    "event": "c01_first_random_event_beat_3"
+  },
+  {
+    "time": 13.5,
+    "beat": "disparition dans un immeuble",
+    "event": "c01_first_random_event_beat_4"
+  }
+]

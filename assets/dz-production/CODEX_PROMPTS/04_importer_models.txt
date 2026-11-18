@@ -1,0 +1,11 @@
+Utilise le rôle Tech Artist/Integration. Importe les modèles placeholder depuis MODELES_3D/GLB.
+Crée une scène de test avec :
+- wall_module_dirty
+- floor_wet_asphalt
+- door_metal
+- radio
+- chest
+- enemy_normal
+- bottle
+- bandage
+Ne modifie pas les systèmes gameplay.

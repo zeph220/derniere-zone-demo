@@ -1,0 +1,27 @@
+{
+  "name": "generator_start",
+  "duration": 3.0,
+  "tags": [
+    "prop",
+    "power"
+  ],
+  "keyframes": [
+    {
+      "time": 0,
+      "state": "off"
+    },
+    {
+      "time": 1.0,
+      "sfx": "failed_turn"
+    },
+    {
+      "time": 2.2,
+      "sfx": "start"
+    },
+    {
+      "time": 3.0,
+      "state": "loop_on"
+    }
+  ],
+  "notes": ""
+}

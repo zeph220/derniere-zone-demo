@@ -1,0 +1,44 @@
+[
+  {
+    "id": "scavenger_runner",
+    "name": "Récupérateur coureur",
+    "role": "loot rapide / éclaireur",
+    "look": "sac léger, capuche, gants, silhouette nerveuse",
+    "uses": "quêtes de récupération, échanges, tutoriel de déplacement"
+  },
+  {
+    "id": "field_medic",
+    "name": "Soigneuse de terrain",
+    "role": "soins / craft médical",
+    "look": "veste médicale sale, brassard, trousse, radio",
+    "uses": "tutorial soins, PNJ refuge, dialogues de triage"
+  },
+  {
+    "id": "mechanic_brut",
+    "name": "Mécanicien du refuge",
+    "role": "craft / upgrade / générateur",
+    "look": "vêtements robustes, outils, harnais, lampe frontale",
+    "uses": "atelier, réparation porte, quêtes techniques"
+  },
+  {
+    "id": "street_hunter",
+    "name": "Chasseur urbain",
+    "role": "combat / pistage / éclaireur",
+    "look": "manteau usé, carquois improvisé ou arme de fortune",
+    "uses": "compagnon temporaire, missions en extérieur"
+  },
+  {
+    "id": "quartermaster",
+    "name": "Intendant marchand",
+    "role": "troc / stockage / économie",
+    "look": "carnet, ceinture utilitaire, sacoches, lunettes",
+    "uses": "marchand principal"
+  },
+  {
+    "id": "old_storykeeper",
+    "name": "Gardien de mémoire",
+    "role": "lore / narration / morale",
+    "look": "silhouette âgée, carnet, piles de documents",
+    "uses": "documents, flashbacks, choix narratifs"
+  }
+]

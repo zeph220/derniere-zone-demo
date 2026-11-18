@@ -1,0 +1,418 @@
+[
+  {
+    "id": "water_bottle",
+    "name": "Bouteille d’eau",
+    "category": "survie",
+    "rarity": "common",
+    "weight": 0.5,
+    "stack": 4,
+    "use": "Boire pour restaurer la soif.",
+    "effect": {
+      "thirst": 35
+    },
+    "found": [
+      "supérette",
+      "cuisines",
+      "coffres civils"
+    ],
+    "quest_use": [
+      "Q01_Radio"
+    ],
+    "model": "bottle_dirty.obj",
+    "icon": "water_bottle.png"
+  },
+  {
+    "id": "canned_food",
+    "name": "Conserve",
+    "category": "survie",
+    "rarity": "common",
+    "weight": 0.4,
+    "stack": 6,
+    "use": "Manger pour restaurer la faim.",
+    "effect": {
+      "hunger": 28
+    },
+    "found": [
+      "supérette",
+      "abri abandonné",
+      "dépôt militaire"
+    ],
+    "quest_use": [],
+    "model": "food_can.obj",
+    "icon": "food_can.png"
+  },
+  {
+    "id": "energy_bar",
+    "name": "Barre énergétique",
+    "category": "survie",
+    "rarity": "common",
+    "weight": 0.1,
+    "stack": 8,
+    "use": "Petit regain de faim et endurance.",
+    "effect": {
+      "hunger": 12,
+      "stamina": 8
+    },
+    "found": [
+      "sacs",
+      "pharmacie",
+      "bureaux"
+    ],
+    "quest_use": [],
+    "model": "energy_bar.obj",
+    "icon": "energy_bar.png"
+  },
+  {
+    "id": "bandage",
+    "name": "Bandage",
+    "category": "médical",
+    "rarity": "common",
+    "weight": 0.15,
+    "stack": 5,
+    "use": "Arrête le saignement et rend un peu de vie.",
+    "effect": {
+      "health": 15,
+      "bleeding": -1
+    },
+    "found": [
+      "pharmacie",
+      "hôpital",
+      "craft"
+    ],
+    "quest_use": [
+      "Q04_Antibiotics"
+    ],
+    "model": "bandage_roll.obj",
+    "icon": "bandage.png"
+  },
+  {
+    "id": "antibiotics",
+    "name": "Antibiotiques",
+    "category": "médical",
+    "rarity": "rare",
+    "weight": 0.1,
+    "stack": 3,
+    "use": "Réduit ou soigne l’infection.",
+    "effect": {
+      "infection": -45
+    },
+    "found": [
+      "hôpital",
+      "arrière-boutique pharmacie",
+      "médecin survivant"
+    ],
+    "quest_use": [
+      "Q04_Antibiotics"
+    ],
+    "model": "pills.obj",
+    "icon": "antibiotics.png"
+  },
+  {
+    "id": "medkit",
+    "name": "Trousse médicale",
+    "category": "médical",
+    "rarity": "rare",
+    "weight": 0.8,
+    "stack": 1,
+    "use": "Soin important. Arrête le saignement.",
+    "effect": {
+      "health": 45,
+      "bleeding": -1,
+      "infection": -10
+    },
+    "found": [
+      "hôpital",
+      "zone militaire"
+    ],
+    "quest_use": [],
+    "model": "medkit.obj",
+    "icon": "medkit.png"
+  },
+  {
+    "id": "cloth",
+    "name": "Tissu",
+    "category": "craft",
+    "rarity": "common",
+    "weight": 0.1,
+    "stack": 12,
+    "use": "Craft de bandages, filtres, améliorations.",
+    "effect": {},
+    "found": [
+      "appartements",
+      "lits",
+      "vêtements"
+    ],
+    "quest_use": [],
+    "model": "cloth_bundle.obj",
+    "icon": "cloth.png"
+  },
+  {
+    "id": "scrap_metal",
+    "name": "Métal de récupération",
+    "category": "craft",
+    "rarity": "common",
+    "weight": 0.4,
+    "stack": 10,
+    "use": "Craft, réparations, barricades.",
+    "effect": {},
+    "found": [
+      "garage",
+      "voitures",
+      "zone industrielle"
+    ],
+    "quest_use": [],
+    "model": "scrap_metal.obj",
+    "icon": "scrap_metal.png"
+  },
+  {
+    "id": "wood_plank",
+    "name": "Planche",
+    "category": "craft",
+    "rarity": "common",
+    "weight": 0.6,
+    "stack": 8,
+    "use": "Barricades, lit, coffre, pièges.",
+    "effect": {},
+    "found": [
+      "rues",
+      "meubles cassés",
+      "chantier"
+    ],
+    "quest_use": [
+      "Q07_ShelterAttack"
+    ],
+    "model": "wood_plank.obj",
+    "icon": "wood_plank.png"
+  },
+  {
+    "id": "wire",
+    "name": "Câble électrique",
+    "category": "craft",
+    "rarity": "uncommon",
+    "weight": 0.2,
+    "stack": 6,
+    "use": "Radio, générateur, pièges, portes.",
+    "effect": {},
+    "found": [
+      "garage",
+      "boîtiers électriques",
+      "labo"
+    ],
+    "quest_use": [
+      "Q01_Radio",
+      "Q06_Generator"
+    ],
+    "model": "wire.obj",
+    "icon": "wire.png"
+  },
+  {
+    "id": "battery",
+    "name": "Pile",
+    "category": "craft",
+    "rarity": "uncommon",
+    "weight": 0.2,
+    "stack": 6,
+    "use": "Lampe, radio, appareils.",
+    "effect": {},
+    "found": [
+      "supérette",
+      "pharmacie",
+      "bureaux"
+    ],
+    "quest_use": [
+      "Q01_Radio"
+    ],
+    "model": "battery_AA_pack.obj",
+    "icon": "battery.png"
+  },
+  {
+    "id": "fuse",
+    "name": "Fusible",
+    "category": "craft",
+    "rarity": "uncommon",
+    "weight": 0.1,
+    "stack": 4,
+    "use": "Remettre le courant.",
+    "effect": {},
+    "found": [
+      "garage",
+      "métro",
+      "labo"
+    ],
+    "quest_use": [
+      "Q06_Generator"
+    ],
+    "model": "fuse.obj",
+    "icon": "fuse.png"
+  },
+  {
+    "id": "fuel_can",
+    "name": "Jerrican d’essence",
+    "category": "ressource",
+    "rarity": "rare",
+    "weight": 3.0,
+    "stack": 1,
+    "use": "Générateur ou véhicule.",
+    "effect": {},
+    "found": [
+      "garage",
+      "zone militaire",
+      "voitures"
+    ],
+    "quest_use": [
+      "Q06_Generator",
+      "Q14_Vehicle"
+    ],
+    "model": "fuel_can.obj",
+    "icon": "fuel_can.png"
+  },
+  {
+    "id": "crowbar",
+    "name": "Pied-de-biche",
+    "category": "outil",
+    "rarity": "uncommon",
+    "weight": 1.5,
+    "stack": 1,
+    "use": "Ouvre portes bloquées et caisses.",
+    "effect": {},
+    "found": [
+      "garage",
+      "chantier"
+    ],
+    "quest_use": [
+      "Q03_Garage"
+    ],
+    "model": "crowbar.obj",
+    "icon": "crowbar.png"
+  },
+  {
+    "id": "gas_mask",
+    "name": "Masque à gaz",
+    "category": "outil",
+    "rarity": "rare",
+    "weight": 1.2,
+    "stack": 1,
+    "use": "Zones contaminées.",
+    "effect": {
+      "toxic_resistance": 70
+    },
+    "found": [
+      "zone militaire",
+      "laboratoire"
+    ],
+    "quest_use": [
+      "Q10_LaboratoryAccess"
+    ],
+    "model": "gas_mask.obj",
+    "icon": "gas_mask.png"
+  },
+  {
+    "id": "flashlight",
+    "name": "Lampe torche",
+    "category": "outil",
+    "rarity": "common",
+    "weight": 0.4,
+    "stack": 1,
+    "use": "Éclaire les zones sombres. Consomme des piles.",
+    "effect": {},
+    "found": [
+      "abri",
+      "garage",
+      "métro"
+    ],
+    "quest_use": [],
+    "model": "flashlight.obj",
+    "icon": "flashlight.png"
+  },
+  {
+    "id": "radio_part",
+    "name": "Module radio",
+    "category": "quête",
+    "rarity": "rare",
+    "weight": 0.5,
+    "stack": 1,
+    "use": "Réparer la radio.",
+    "effect": {},
+    "found": [
+      "antenne immeuble",
+      "boutique électronique"
+    ],
+    "quest_use": [
+      "Q01_Radio"
+    ],
+    "model": "radio_part.obj",
+    "icon": "radio_part.png"
+  },
+  {
+    "id": "pharmacy_key",
+    "name": "Clé de pharmacie",
+    "category": "quête",
+    "rarity": "unique",
+    "weight": 0.05,
+    "stack": 1,
+    "use": "Ouvre l’arrière-boutique.",
+    "effect": {},
+    "found": [
+      "bureau du gérant",
+      "cadavre dans ruelle"
+    ],
+    "quest_use": [
+      "Q02_Pharmacy"
+    ],
+    "model": "key.obj",
+    "icon": "key.png"
+  },
+  {
+    "id": "lab_keycard",
+    "name": "Carte d’accès laboratoire",
+    "category": "quête",
+    "rarity": "unique",
+    "weight": 0.05,
+    "stack": 1,
+    "use": "Accès laboratoire Oméga.",
+    "effect": {},
+    "found": [
+      "hôpital niveau -1",
+      "Eva"
+    ],
+    "quest_use": [
+      "Q10_LaboratoryAccess"
+    ],
+    "model": "keycard.obj",
+    "icon": "keycard.png"
+  },
+  {
+    "id": "journal_page",
+    "name": "Page de journal",
+    "category": "document",
+    "rarity": "varies",
+    "weight": 0.0,
+    "stack": 99,
+    "use": "Indice narratif, code ou preuve.",
+    "effect": {},
+    "found": [
+      "toutes zones"
+    ],
+    "quest_use": [],
+    "model": "journal_stack.obj",
+    "icon": "document.png"
+  },
+  {
+    "id": "map_fragment",
+    "name": "Fragment de carte",
+    "category": "document",
+    "rarity": "uncommon",
+    "weight": 0.0,
+    "stack": 12,
+    "use": "Révèle une zone ou un raccourci.",
+    "effect": {},
+    "found": [
+      "bureaux",
+      "métro",
+      "factions"
+    ],
+    "quest_use": [],
+    "model": "paper_map.obj",
+    "icon": "map_fragment.png"
+  }
+]

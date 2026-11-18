@@ -1,0 +1,18 @@
+newmtl dirty_skin
+Kd 0.55 0.38 0.28
+Ka 0.05 0.05 0.05
+Ks 0.16 0.16 0.16
+Ns 32
+
+newmtl jacket_fabric_khaki
+Kd 0.3 0.31 0.22
+Ka 0.05 0.05 0.05
+Ks 0.16 0.16 0.16
+Ns 32
+
+newmtl bandage_cloth
+Kd 0.62 0.55 0.45
+Ka 0.05 0.05 0.05
+Ks 0.16 0.16 0.16
+Ns 32
+

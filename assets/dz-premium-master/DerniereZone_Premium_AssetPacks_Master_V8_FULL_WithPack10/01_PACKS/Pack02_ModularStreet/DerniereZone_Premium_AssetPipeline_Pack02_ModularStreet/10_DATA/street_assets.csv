@@ -1,0 +1,21 @@
+id,name,category,priority,scale,materials,gameplay
+street_road_wet_4m,Route mouillée 4m,modular_ground,hero,4 x 4 m,wet_asphalt,"Sol principal, flaques, reflets, ambiance pluie."
+street_sidewalk_piece,Trottoir modulaire,modular_ground,hero,4 x 1.4 m,sidewalk_concrete,"Chemins piétons, séparation route/façades."
+street_curb_piece,Bordure de trottoir,modular_ground,medium,4 x 0.25 m,sidewalk_concrete,Lecture claire des espaces.
+building_wall_dirty_A,Mur extérieur sale A,modular_building,hero,4 x 0.25 x 3 m,dirty_storefront_wall,Façades génériques du quartier.
+building_wall_broken_B,Mur extérieur fissuré B,modular_building,hero,4 x 0.25 x 3 m,dirty_storefront_wall,"Variation endommagée, narration environnementale."
+storefront_supermarket,Façade supérette,modular_building,hero,5 x 0.35 x 3.2 m,dirty_storefront_wall;broken_glass;painted_metal_dirty,"Entrée supérette, objectif initial."
+storefront_pharmacy,Façade pharmacie,modular_building,hero,5 x 0.35 x 3.2 m,dirty_storefront_wall;broken_glass;painted_metal_dirty,"Entrée pharmacie, quêtes médicales."
+window_broken_large,Grande vitrine cassée,modular_building,hero,2.2 x 0.12 x 1.8 m,broken_glass;painted_metal_dirty,"Entrées visuelles, loot visible, ambiance."
+door_metal_shutter,Rideau métallique fermé,modular_building,medium,2.2 x 0.18 x 2.3 m,painted_metal_dirty,"Bloque accès, contrôle progression."
+door_store_glass,Porte vitrée de magasin,modular_building,hero,1.2 x 0.15 x 2.3 m,broken_glass;painted_metal_dirty,Entrée interactive.
+street_lamp_post,Lampadaire cassé,urban_props,medium,0.35 x 0.35 x 4.2 m,painted_metal_dirty;broken_glass,"Lumière, repère visuel, ambiance nuit."
+street_sign_quarantine,Panneau de quarantaine,urban_props,medium,1.0 x 0.15 x 2.1 m,painted_metal_dirty,"Lore, direction artistique."
+trash_bin_overflow,Poubelle débordante,urban_props,medium,0.8 x 0.8 x 1.2 m,painted_metal_dirty,"Couverture, loot léger, décor."
+dumpster_large,Benne rouillée,urban_props,medium,2.0 x 1.2 x 1.3 m,painted_metal_dirty,"Couverture, loot, ruelle."
+ruined_car_A,Voiture détruite A,vehicle,hero,3.8 x 1.7 x 1.4 m,rusty_vehicle_metal;broken_glass,"Blocage route, couverture, loot."
+concrete_barrier_A,Barrière béton,barricade,medium,2.4 x 0.6 x 1.0 m,sidewalk_concrete,"Blocage naturel, checkpoint."
+sandbag_wall_A,Mur de sacs de sable,barricade,medium,2.5 x 0.6 x 0.9 m,dirty_fabric,"Zone militaire, couverture."
+wood_metal_barricade_A,Barricade bois/métal,barricade,hero,2.2 x 0.4 x 1.5 m,aged_wood;painted_metal_dirty,"Rues bloquées, défense."
+bus_stop_broken,Abribus cassé,urban_props,medium,3.0 x 1.0 x 2.5 m,broken_glass;painted_metal_dirty,"Abri temporaire, repère visuel."
+manhole_drain_set,Bouche d'égout + grille,urban_props,low,1 x 1 m,painted_metal_dirty;wet_asphalt,"Détail sol, accès métro futur."

@@ -1,0 +1,159 @@
+{
+  "characters": [
+    {
+      "id": "mira",
+      "name": "Mira",
+      "role": "survivante pragmatique",
+      "tone_by_trust": {
+        "low": "froide",
+        "mid": "prudente",
+        "high": "loyale"
+      }
+    },
+    {
+      "id": "lea",
+      "name": "Léa",
+      "role": "cheffe Habitants Cachés",
+      "tone_by_trust": {
+        "low": "ferme l’accès",
+        "mid": "négocie",
+        "high": "ouvre les tunnels"
+      }
+    },
+    {
+      "id": "moreau",
+      "name": "Capitaine Moreau",
+      "role": "leader Secouristes",
+      "tone_by_trust": {
+        "low": "accuse",
+        "mid": "coopère",
+        "high": "donne renforts"
+      }
+    },
+    {
+      "id": "rask",
+      "name": "Rask",
+      "role": "chef Pillard",
+      "tone_by_trust": {
+        "low": "menace",
+        "mid": "marchande",
+        "high": "respect brutal"
+      }
+    },
+    {
+      "id": "eva",
+      "name": "Dr Eva Renaud",
+      "role": "scientifique Hélios",
+      "tone_by_trust": {
+        "low": "cache tout",
+        "mid": "révèle par fragments",
+        "high": "donne vérité"
+      }
+    },
+    {
+      "id": "keller",
+      "name": "Colonel Keller",
+      "role": "Sentinelles",
+      "tone_by_trust": {
+        "low": "arrestation",
+        "mid": "test",
+        "high": "alliance militaire"
+      }
+    }
+  ],
+  "rules": {
+    "choices_max": 4,
+    "tones": [
+      "neutre",
+      "empathique",
+      "méfiant",
+      "hostile",
+      "mensonge",
+      "compétence"
+    ],
+    "memory_flags": [
+      "helped_lea",
+      "kept_antibiotics",
+      "betrayed_pillards",
+      "revealed_truth",
+      "destroyed_research"
+    ],
+    "evolution": "Dialogues changent selon réputation, choix, documents et survivants sauvés."
+  },
+  "sample_nodes": [
+    {
+      "id": "D_MIRA_FIRST",
+      "speaker": "mira",
+      "line": "On n’est plus beaucoup à rester ici. Si tu cherches un abri, prouve que tu peux être utile.",
+      "choices": [
+        {
+          "text": "Dis-moi ce dont vous avez besoin.",
+          "tone": "empathique",
+          "effect": {
+            "trust_mira": 10,
+            "start_quest": "Q04_Antibiotics"
+          }
+        },
+        {
+          "text": "Pourquoi je devrais vous faire confiance ?",
+          "tone": "méfiant",
+          "effect": {
+            "trust_mira": 0
+          }
+        },
+        {
+          "text": "Je n’ai pas de temps pour ça.",
+          "tone": "neutre",
+          "effect": {
+            "trust_mira": -5
+          }
+        },
+        {
+          "text": "Donnez-moi ce que vous avez.",
+          "tone": "hostile",
+          "effect": {
+            "trust_mira": -25
+          }
+        }
+      ]
+    },
+    {
+      "id": "D_EVA_REVEAL",
+      "speaker": "eva",
+      "line": "Hélios n’était pas censé devenir une arme. Mais une fois la ville fermée, plus personne n’a voulu entendre.",
+      "choices": [
+        {
+          "text": "Aide-moi à tout révéler.",
+          "tone": "empathique",
+          "effect": {
+            "truth_path": "reveal",
+            "trust_eva": 10
+          }
+        },
+        {
+          "text": "Tu as sacrifié des gens.",
+          "tone": "hostile",
+          "effect": {
+            "trust_eva": -15
+          }
+        },
+        {
+          "text": "Cette recherche peut encore servir.",
+          "tone": "science",
+          "effect": {
+            "truth_path": "control",
+            "trust_eva": 20
+          }
+        },
+        {
+          "text": "Je détruis tout.",
+          "tone": "final",
+          "effect": {
+            "truth_path": "destroy",
+            "trust_eva": -30
+          }
+        }
+      ]
+    }
+  ]
+}

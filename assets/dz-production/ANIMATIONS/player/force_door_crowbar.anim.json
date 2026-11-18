@@ -1,0 +1,32 @@
+{
+  "name": "force_door_crowbar",
+  "duration": 3.0,
+  "tags": [
+    "player",
+    "tool"
+  ],
+  "keyframes": [
+    {
+      "time": 0.0,
+      "equip": "crowbar"
+    },
+    {
+      "time": 0.8,
+      "sfx": "metal_pressure"
+    },
+    {
+      "time": 1.8,
+      "camera": "strain"
+    },
+    {
+      "time": 2.4,
+      "door": "break_lock",
+      "noise": "high"
+    },
+    {
+      "time": 3.0,
+      "state": "complete"
+    }
+  ],
+  "notes": ""
+}

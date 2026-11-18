@@ -1,0 +1,27 @@
+{
+  "name": "eat_food",
+  "duration": 2.5,
+  "tags": [
+    "player",
+    "survival"
+  ],
+  "keyframes": [
+    {
+      "time": 0.0,
+      "right_hand": "raise_food"
+    },
+    {
+      "time": 0.8,
+      "sfx": "wrapper_or_can"
+    },
+    {
+      "time": 1.6,
+      "gameplay_effect": "hunger+30"
+    },
+    {
+      "time": 2.5,
+      "state": "complete"
+    }
+  ],
+  "notes": "Faim remonte à 70%."
+}

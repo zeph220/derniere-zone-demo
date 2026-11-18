@@ -1,0 +1,44 @@
+{
+  "events": [
+    {
+      "id": "on_enemy_suspicious",
+      "state": "suspicion",
+      "fade_in": 1.2,
+      "fade_out": 4.0
+    },
+    {
+      "id": "on_enemy_chase",
+      "state": "chase",
+      "stinger": "stinger_danger_rise",
+      "fade_in": 0.4,
+      "fade_out": 6.0
+    },
+    {
+      "id": "on_player_death",
+      "state": "death",
+      "stinger": "stinger_death_impact",
+      "fade_in": 0.0,
+      "fade_out": 0.0
+    },
+    {
+      "id": "on_save_complete",
+      "state": "ui",
+      "stinger": "stinger_save_pulse"
+    },
+    {
+      "id": "on_quest_update",
+      "state": "ui",
+      "stinger": "stinger_quest_update"
+    },
+    {
+      "id": "on_radio_signal_found",
+      "state": "story_reveal",
+      "stinger": "stinger_radio_static_lock"
+    },
+    {
+      "id": "on_shelter_enter",
+      "state": "safe_shelter",
+      "fade_in": 2.0
+    }
+  ]
+}

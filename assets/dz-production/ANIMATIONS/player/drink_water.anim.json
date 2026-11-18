@@ -1,0 +1,33 @@
+{
+  "name": "drink_water",
+  "duration": 2.0,
+  "tags": [
+    "player",
+    "survival"
+  ],
+  "keyframes": [
+    {
+      "time": 0.0,
+      "camera": "idle",
+      "right_hand": "reach_bottle"
+    },
+    {
+      "time": 0.4,
+      "right_hand": "bottle_to_mouth"
+    },
+    {
+      "time": 1.2,
+      "sfx": "drink_gulps",
+      "gameplay_effect": "thirst+35"
+    },
+    {
+      "time": 1.8,
+      "right_hand": "lower_bottle"
+    },
+    {
+      "time": 2.0,
+      "state": "complete"
+    }
+  ],
+  "notes": "Soif remonte à 60% de l’animation."
+}

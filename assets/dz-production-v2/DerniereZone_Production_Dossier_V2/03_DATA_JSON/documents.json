@@ -1,0 +1,362 @@
+[
+  {
+    "id": "DOC_001",
+    "title": "Avis d’évacuation secteur 3",
+    "zone": "hospital",
+    "type": "lore",
+    "visible_text": "Avis d’évacuation secteur 3. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "preuve pour choix final",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_002",
+    "title": "Journal de L. Morel — Jour 12",
+    "zone": "laboratory",
+    "type": "quest_hint",
+    "visible_text": "Journal de L. Morel — Jour 12. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "débloque dialogue",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_003",
+    "title": "Rapport de triage Saint-Mary",
+    "zone": "laboratory",
+    "type": "personal",
+    "visible_text": "Rapport de triage Saint-Mary. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "preuve pour choix final",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_004",
+    "title": "Note du pharmacien",
+    "zone": "hospital",
+    "type": "quest_hint",
+    "visible_text": "Note du pharmacien. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "preuve pour choix final",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_005",
+    "title": "Email imprimé — Projet Hélios",
+    "zone": "pharmacy",
+    "type": "faction",
+    "visible_text": "Email imprimé — Projet Hélios. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "preuve pour choix final",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_006",
+    "title": "Ordre militaire 7-B",
+    "zone": "garage",
+    "type": "scientific",
+    "visible_text": "Ordre militaire 7-B. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "débloque dialogue",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_007",
+    "title": "Lettre jamais envoyée",
+    "zone": "pharmacy",
+    "type": "faction",
+    "visible_text": "Lettre jamais envoyée. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "indice de code",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_008",
+    "title": "Registre des rations",
+    "zone": "shelter",
+    "type": "personal",
+    "visible_text": "Registre des rations. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "débloque dialogue",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_009",
+    "title": "Carte annotée du métro",
+    "zone": "district_01",
+    "type": "lore",
+    "visible_text": "Carte annotée du métro. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "emplacement de loot",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_010",
+    "title": "Rapport de laboratoire — Sujet 14",
+    "zone": "supermarket",
+    "type": "quest_hint",
+    "visible_text": "Rapport de laboratoire — Sujet 14. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "emplacement de loot",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_011",
+    "title": "Affiche quarantaine",
+    "zone": "supermarket",
+    "type": "lore",
+    "visible_text": "Affiche quarantaine. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "emplacement de loot",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_012",
+    "title": "Carnet d’infirmier",
+    "zone": "garage",
+    "type": "lore",
+    "visible_text": "Carnet d’infirmier. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "marqueur carte",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_013",
+    "title": "Message radio transcrit",
+    "zone": "shelter",
+    "type": "scientific",
+    "visible_text": "Message radio transcrit. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "indice de code",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_014",
+    "title": "Journal d’enfant",
+    "zone": "hospital",
+    "type": "scientific",
+    "visible_text": "Journal d’enfant. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "emplacement de loot",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_015",
+    "title": "Liste des disparus",
+    "zone": "hospital",
+    "type": "quest_hint",
+    "visible_text": "Liste des disparus. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "indice de code",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_016",
+    "title": "Note de pillard",
+    "zone": "district_01",
+    "type": "quest_hint",
+    "visible_text": "Note de pillard. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "preuve pour choix final",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_017",
+    "title": "Protocole de décontamination",
+    "zone": "pharmacy",
+    "type": "faction",
+    "visible_text": "Protocole de décontamination. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "marqueur carte",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_018",
+    "title": "Fiche maintenance générateur",
+    "zone": "garage",
+    "type": "faction",
+    "visible_text": "Fiche maintenance générateur. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "indice de code",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_019",
+    "title": "Plan partiel du bunker",
+    "zone": "supermarket",
+    "type": "personal",
+    "visible_text": "Plan partiel du bunker. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "débloque dialogue",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_020",
+    "title": "Observation comportementale",
+    "zone": "pharmacy",
+    "type": "lore",
+    "visible_text": "Observation comportementale. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "emplacement de loot",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_021",
+    "title": "Lettre de Clara",
+    "zone": "shelter",
+    "type": "faction",
+    "visible_text": "Lettre de Clara. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "preuve pour choix final",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_022",
+    "title": "Mémo des Sentinelles",
+    "zone": "military_zone",
+    "type": "scientific",
+    "visible_text": "Mémo des Sentinelles. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "marqueur carte",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_023",
+    "title": "Rapport d’incident hôpital",
+    "zone": "pharmacy",
+    "type": "scientific",
+    "visible_text": "Rapport d’incident hôpital. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "débloque dialogue",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_024",
+    "title": "Cahier de réparation radio",
+    "zone": "supermarket",
+    "type": "scientific",
+    "visible_text": "Cahier de réparation radio. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "marqueur carte",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_025",
+    "title": "Ordonnance froissée",
+    "zone": "district_01",
+    "type": "code_hint",
+    "visible_text": "Ordonnance froissée. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "marqueur carte",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_026",
+    "title": "Note sous une porte",
+    "zone": "laboratory",
+    "type": "personal",
+    "visible_text": "Note sous une porte. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "preuve pour choix final",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_027",
+    "title": "Instructions filtre à eau",
+    "zone": "supermarket",
+    "type": "quest_hint",
+    "visible_text": "Instructions filtre à eau. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "marqueur carte",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_028",
+    "title": "Journal du marchand",
+    "zone": "hospital",
+    "type": "code_hint",
+    "visible_text": "Journal du marchand. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "débloque dialogue",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_029",
+    "title": "Dernière page du directeur",
+    "zone": "military_zone",
+    "type": "personal",
+    "visible_text": "Dernière page du directeur. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "marqueur carte",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_030",
+    "title": "Mauvais inventaire",
+    "zone": "military_zone",
+    "type": "code_hint",
+    "visible_text": "Mauvais inventaire. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "preuve pour choix final",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_031",
+    "title": "Photo annotée",
+    "zone": "shelter",
+    "type": "personal",
+    "visible_text": "Photo annotée. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "indice de code",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_032",
+    "title": "Rumeur écrite au charbon",
+    "zone": "metro",
+    "type": "code_hint",
+    "visible_text": "Rumeur écrite au charbon. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "marqueur carte",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_033",
+    "title": "Signalement de bruit métro",
+    "zone": "supermarket",
+    "type": "lore",
+    "visible_text": "Signalement de bruit métro. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "marqueur carte",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_034",
+    "title": "Dossier Eva Renaud",
+    "zone": "garage",
+    "type": "scientific",
+    "visible_text": "Dossier Eva Renaud. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "indice de code",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_035",
+    "title": "Extrait d’expérience",
+    "zone": "metro",
+    "type": "scientific",
+    "visible_text": "Extrait d’expérience. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "marqueur carte",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_036",
+    "title": "Plan de fuite",
+    "zone": "supermarket",
+    "type": "faction",
+    "visible_text": "Plan de fuite. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "indice de code",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_037",
+    "title": "Lettre de pardon",
+    "zone": "supermarket",
+    "type": "lore",
+    "visible_text": "Lettre de pardon. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "preuve pour choix final",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_038",
+    "title": "Note du toit",
+    "zone": "laboratory",
+    "type": "personal",
+    "visible_text": "Note du toit. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "preuve pour choix final",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_039",
+    "title": "Enregistrement retranscrit",
+    "zone": "metro",
+    "type": "lore",
+    "visible_text": "Enregistrement retranscrit. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "indice de code",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  },
+  {
+    "id": "DOC_040",
+    "title": "Page finale — Hélios",
+    "zone": "laboratory",
+    "type": "faction",
+    "visible_text": "Page finale — Hélios. Fragment court, humain et inquiétant. Sert à donner un indice ou une émotion sans long pavé.",
+    "gameplay_value": "emplacement de loot",
+    "ui": "Ouverture type carnet, fermer, marquer sur carte si pertinent."
+  }
+]

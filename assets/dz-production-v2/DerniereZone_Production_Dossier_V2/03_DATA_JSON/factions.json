@@ -1,0 +1,97 @@
+[
+  {
+    "id": "secouristes",
+    "name": "Les Secouristes",
+    "leader": "Capitaine Moreau",
+    "base": "Camp médical près de l’hôpital",
+    "ideology": "Sauver les civils avant tout.",
+    "visual": "blanc sale, orange, croix médicales, tentes",
+    "audio": "radio claire, générateurs faibles",
+    "rewards": [
+      "soins",
+      "renforts finaux",
+      "réduction troc médical"
+    ],
+    "risks": [
+      "demandent des ressources",
+      "faibles militairement"
+    ],
+    "ending": "reconstruction_humaine"
+  },
+  {
+    "id": "pillards",
+    "name": "Les Pillards",
+    "leader": "Rask",
+    "base": "Ancien dépôt logistique",
+    "ideology": "La force protège les vivants.",
+    "visual": "rouge sombre, tags, ferraille",
+    "audio": "cris, percussions métalliques",
+    "rewards": [
+      "armes",
+      "munitions",
+      "accès dépôt"
+    ],
+    "risks": [
+      "violents",
+      "bloque d’autres alliances"
+    ],
+    "ending": "ordre_brule"
+  },
+  {
+    "id": "scientifiques",
+    "name": "Cellule Oméga",
+    "leader": "Dr Eva Renaud",
+    "base": "Laboratoire Oméga",
+    "ideology": "La recherche peut sauver ou condamner.",
+    "visual": "bleu froid, verre, néons",
+    "audio": "bips, ventilation, voix filtrées",
+    "rewards": [
+      "accès labo",
+      "technologie",
+      "vérité"
+    ],
+    "risks": [
+      "mensonges",
+      "sacrifices passés"
+    ],
+    "ending": "controle_scientifique"
+  },
+  {
+    "id": "habitants_caches",
+    "name": "Habitants Cachés",
+    "leader": "Léa",
+    "base": "Sous-sols et tunnels",
+    "ideology": "Rester invisibles.",
+    "visual": "vert sombre, bougies, cartes manuelles",
+    "audio": "murmures, gouttes, silence",
+    "rewards": [
+      "raccourcis",
+      "refuges",
+      "informations"
+    ],
+    "risks": [
+      "paranoïa",
+      "ressources faibles"
+    ],
+    "ending": "exode_souterrain"
+  },
+  {
+    "id": "militaires_restants",
+    "name": "Les Sentinelles",
+    "leader": "Colonel Keller",
+    "base": "Zone militaire Nord",
+    "ideology": "Maintenir la quarantaine à tout prix.",
+    "visual": "kaki, gris, projecteurs, barbelés",
+    "audio": "haut-parleurs, alarmes, métal",
+    "rewards": [
+      "équipement lourd",
+      "protection",
+      "accès zone militaire"
+    ],
+    "risks": [
+      "autoritarisme",
+      "ville verrouillée"
+    ],
+    "ending": "quarantaine_totale"
+  }
+]

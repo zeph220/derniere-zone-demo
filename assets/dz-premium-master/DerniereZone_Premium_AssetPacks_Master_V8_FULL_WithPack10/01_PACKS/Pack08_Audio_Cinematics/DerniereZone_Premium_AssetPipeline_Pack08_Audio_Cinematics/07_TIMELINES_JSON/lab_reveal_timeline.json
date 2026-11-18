@@ -1,0 +1,27 @@
+[
+  {
+    "time": 0.0,
+    "beat": "salle serveurs",
+    "event": "lab_reveal_beat_1"
+  },
+  {
+    "time": 19.0,
+    "beat": "documents Hélios",
+    "event": "lab_reveal_beat_2"
+  },
+  {
+    "time": 38.0,
+    "beat": "voix Eva",
+    "event": "lab_reveal_beat_3"
+  },
+  {
+    "time": 57.0,
+    "beat": "silhouette Sujet Oméga",
+    "event": "lab_reveal_beat_4"
+  },
+  {
+    "time": 76.0,
+    "beat": "choix données",
+    "event": "lab_reveal_beat_5"
+  }
+]

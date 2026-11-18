@@ -1,0 +1,16 @@
+{
+  "pickup": "{item_name} ramassé x{amount}",
+  "inventory_full": "Inventaire plein.",
+  "quest_update": "Objectif mis à jour.",
+  "quest_complete": "Quête terminée.",
+  "save_complete": "Progression sauvegardée.",
+  "low_health": "Vous êtes grièvement blessé.",
+  "low_hunger": "Vous avez faim.",
+  "low_thirst": "Vous avez soif.",
+  "infection": "Votre infection empire.",
+  "faction_gain": "Réputation améliorée : {faction}",
+  "faction_loss": "Réputation dégradée : {faction}",
+  "new_area": "Nouvelle zone découverte : {zone}",
+  "craft_missing": "Ingrédients manquants.",
+  "door_locked": "Porte verrouillée."
+}

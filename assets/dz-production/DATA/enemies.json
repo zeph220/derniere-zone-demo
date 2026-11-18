@@ -1,0 +1,57 @@
+[
+  {
+    "id": "enemy_normal",
+    "hp": 60,
+    "speed_walk": 1.1,
+    "speed_chase": 2.6,
+    "hearing": 0.55,
+    "vision": 0.6,
+    "damage": 12,
+    "role": "menace de base",
+    "weakness": "distraction et portes"
+  },
+  {
+    "id": "enemy_fast",
+    "hp": 35,
+    "speed_walk": 1.6,
+    "speed_chase": 4.8,
+    "hearing": 0.65,
+    "vision": 0.75,
+    "damage": 9,
+    "role": "panique et pression",
+    "weakness": "obstacles, portes, pièges"
+  },
+  {
+    "id": "enemy_blind",
+    "hp": 70,
+    "speed_walk": 1.0,
+    "speed_chase": 2.2,
+    "hearing": 1.0,
+    "vision": 0.05,
+    "damage": 18,
+    "role": "discrétion sonore",
+    "weakness": "objets lancés, silence"
+  },
+  {
+    "id": "enemy_heavy",
+    "hp": 180,
+    "speed_walk": 0.8,
+    "speed_chase": 1.6,
+    "hearing": 0.5,
+    "vision": 0.45,
+    "damage": 35,
+    "role": "contrôle de zone",
+    "weakness": "lenteur, contournement"
+  },
+  {
+    "id": "lab_subject",
+    "hp": 90,
+    "speed_walk": 1.4,
+    "speed_chase": 3.2,
+    "hearing": 0.8,
+    "vision": 0.4,
+    "damage": 20,
+    "role": "horreur narrative",
+    "weakness": "lumière, radio, environnement"
+  }
+]

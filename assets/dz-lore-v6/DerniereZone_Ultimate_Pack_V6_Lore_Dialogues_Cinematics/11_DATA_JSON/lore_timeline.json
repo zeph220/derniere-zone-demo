@@ -1,0 +1,57 @@
+[
+  {
+    "day": "J-90",
+    "title": "Ville normale",
+    "summary": "La ville vit autour d'un complexe de recherche discret et d'une zone militaire ancienne."
+  },
+  {
+    "day": "J-30",
+    "title": "Premier signal radio",
+    "summary": "Des interférences apparaissent. Les communications deviennent instables."
+  },
+  {
+    "day": "J-14",
+    "title": "Premiers symptômes",
+    "summary": "Fièvre, hallucinations, agressivité. Les hôpitaux parlent d'une intoxication inconnue."
+  },
+  {
+    "day": "J-10",
+    "title": "Quarantaine",
+    "summary": "Le Bastion boucle les quartiers. Les civils ne peuvent plus sortir."
+  },
+  {
+    "day": "J-7",
+    "title": "Effondrement des services",
+    "summary": "Électricité, police et secours s'effondrent. Les factions apparaissent."
+  },
+  {
+    "day": "J-3",
+    "title": "Protocoles Oméga",
+    "summary": "Le laboratoire tente de contenir le sujet source, mais les données sont incomplètes."
+  },
+  {
+    "day": "J0",
+    "title": "Réveil du joueur",
+    "summary": "Le joueur se réveille dans un abri, sans souvenirs clairs."
+  },
+  {
+    "day": "J+1",
+    "title": "Signal Saint-Mary",
+    "summary": "La radio capte un message venant de l'hôpital."
+  },
+  {
+    "day": "J+2",
+    "title": "Descente métro",
+    "summary": "Le métro révèle que la ville cache un réseau de fuite et de contamination."
+  },
+  {
+    "day": "J+3",
+    "title": "Laboratoire Oméga",
+    "summary": "Le joueur découvre la vérité sur les expériences."
+  },
+  {
+    "day": "J+4",
+    "title": "Le choix final",
+    "summary": "Détruire, contenir, révéler ou fuir."
+  }
+]

@@ -1,0 +1,221 @@
+[
+  {
+    "id": "fp_use_pills",
+    "duration": 1.6,
+    "effect_time": 0.85,
+    "interruptible": true,
+    "used_by": [
+      "antibiotics",
+      "painkillers"
+    ],
+    "keyframes": [
+      {
+        "t": 0,
+        "pose": "sort pill bottle"
+      },
+      {
+        "t": 0.45,
+        "pose": "shake pills"
+      },
+      {
+        "t": 0.85,
+        "event": "apply_effect_consume_item"
+      },
+      {
+        "t": 1.6,
+        "pose": "return idle"
+      }
+    ]
+  },
+  {
+    "id": "fp_use_medkit",
+    "duration": 4.8,
+    "effect_time": 4.0,
+    "interruptible": true,
+    "used_by": [
+      "medkit"
+    ],
+    "keyframes": [
+      {
+        "t": 0,
+        "pose": "open kit"
+      },
+      {
+        "t": 1.2,
+        "pose": "select supplies"
+      },
+      {
+        "t": 2.6,
+        "pose": "apply treatment"
+      },
+      {
+        "t": 4.0,
+        "event": "apply_effect_consume_item"
+      },
+      {
+        "t": 4.8,
+        "pose": "return idle"
+      }
+    ]
+  },
+  {
+    "id": "fp_pickup_heavy_item",
+    "duration": 1.2,
+    "effect_time": 0.75,
+    "interruptible": false,
+    "used_by": [
+      "wood_plank",
+      "fuel_can"
+    ],
+    "keyframes": [
+      {
+        "t": 0,
+        "pose": "reach both hands"
+      },
+      {
+        "t": 0.5,
+        "pose": "grip heavy item"
+      },
+      {
+        "t": 0.75,
+        "event": "add_inventory"
+      },
+      {
+        "t": 1.2,
+        "pose": "lower"
+      }
+    ]
+  },
+  {
+    "id": "fp_read_document",
+    "duration": 1.0,
+    "effect_time": 0.6,
+    "interruptible": false,
+    "used_by": [
+      "journal_page",
+      "map_fragment"
+    ],
+    "keyframes": [
+      {
+        "t": 0,
+        "pose": "raise paper"
+      },
+      {
+        "t": 0.6,
+        "event": "open_document_ui"
+      },
+      {
+        "t": 1.0,
+        "pose": "hold"
+      }
+    ]
+  },
+  {
+    "id": "fp_throw_lure",
+    "duration": 0.9,
+    "effect_time": 0.55,
+    "interruptible": false,
+    "used_by": [
+      "noise_lure"
+    ],
+    "keyframes": [
+      {
+        "t": 0,
+        "pose": "ready throw"
+      },
+      {
+        "t": 0.4,
+        "pose": "throw arc"
+      },
+      {
+        "t": 0.55,
+        "event": "spawn_noise_lure"
+      },
+      {
+        "t": 0.9,
+        "pose": "return idle"
+      }
+    ]
+  },
+  {
+    "id": "fp_place_trap",
+    "duration": 2.4,
+    "effect_time": 1.9,
+    "interruptible": true,
+    "used_by": [
+      "nail_trap"
+    ],
+    "keyframes": [
+      {
+        "t": 0,
+        "pose": "kneel/hand down"
+      },
+      {
+        "t": 1.1,
+        "pose": "place trap"
+      },
+      {
+        "t": 1.9,
+        "event": "spawn_trap_consume_item"
+      },
+      {
+        "t": 2.4,
+        "pose": "return idle"
+      }
+    ]
+  },
+  {
+    "id": "fp_use_tool",
+    "duration": 1.4,
+    "effect_time": 0.9,
+    "interruptible": true,
+    "used_by": [
+      "crowbar"
+    ],
+    "keyframes": [
+      {
+        "t": 0,
+        "pose": "raise tool"
+      },
+      {
+        "t": 0.6,
+        "pose": "lever/pull"
+      },
+      {
+        "t": 0.9,
+        "event": "unlock_or_open"
+      },
+      {
+        "t": 1.4,
+        "pose": "return idle"
+      }
+    ]
+  },
+  {
+    "id": "fp_equip_backpack",
+    "duration": 2.2,
+    "effect_time": 1.6,
+    "interruptible": true,
+    "used_by": [
+      "backpack"
+    ],
+    "keyframes": [
+      {
+        "t": 0,
+        "pose": "lift backpack"
+      },
+      {
+        "t": 1.2,
+        "pose": "strap motion"
+      },
+      {
+        "t": 1.6,
+        "event": "increase_capacity"
+      },
+      {
+        "t": 2.2,
+        "pose": "return idle"
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+id,name,category,rarity,weight,stack,use,found,model,icon,animation,sound
+water_bottle,Bouteille d'eau,survival,common,0.5,4,Boire pour restaurer la soif.,supérette;abri abandonné;coffres civils,water_bottle.obj,water_bottle.png,fp_drink_water,drink_water
+canned_food,Conserve,survival,common,0.4,6,Manger pour restaurer la faim.,supérette;cuisine;dépôt,canned_food.obj,canned_food.png,fp_eat_food,eat_food
+energy_bar,Barre énergétique,survival,common,0.1,8,Restaure un peu de faim et d'endurance.,sacs;pharmacie;bureaux,energy_bar.obj,energy_bar.png,fp_eat_food,eat_food
+bandage,Bandage,medical,common,0.15,5,Arrête le saignement et rend un peu de vie.,pharmacie;hôpital;craft,bandage_roll.obj,bandage.png,fp_apply_bandage,bandage_wrap
+antibiotics,Antibiotiques,medical,rare,0.1,3,Réduit l'infection.,hôpital;pharmacie verrouillée,antibiotics_bottle.obj,antibiotics.png,fp_use_pills,pill_bottle
+painkillers,Antidouleurs,medical,uncommon,0.1,4,Réduit temporairement les malus de blessure.,pharmacie;hôpital,painkillers_pack.obj,painkillers.png,fp_use_pills,pill_pack
+medkit,Trousse médicale,medical,rare,0.8,1,"Soin important, stoppe saignement et réduit infection légère.",hôpital;zone militaire,medkit.obj,medkit.png,fp_use_medkit,medkit_open
+battery,Pile,craft,uncommon,0.2,6,"Alimente lampe, radio ou dispositifs.",supérette;bureaux;pharmacie,battery_pack.obj,battery.png,fp_pickup_small_item,pickup_battery
+wire,Câble électrique,craft,uncommon,0.2,6,"Réparation radio, générateur, pièges.",garage;boîtiers électriques,wire_spool.obj,wire.png,fp_pickup_small_item,pickup_wire
+wood_plank,Planche,craft,common,0.6,8,"Barricades, améliorations, pièges.",rues;meubles cassés,wood_plank.obj,wood_plank.png,fp_pickup_heavy_item,pickup_wood
+scrap_metal,Métal de récupération,craft,common,0.4,10,Craft et réparations.,garage;voitures;zone industrielle,scrap_metal.obj,scrap_metal.png,fp_pickup_small_item,pickup_metal
+cloth,Tissu,craft,common,0.1,12,"Bandages, filtres, sacs.",appartements;lits;vêtements,cloth_bundle.obj,cloth.png,fp_pickup_small_item,pickup_cloth
+fuse,Fusible,craft,uncommon,0.1,4,Remettre le courant dans certaines zones.,garage;métro;labo,fuse.obj,fuse.png,fp_pickup_small_item,pickup_fuse
+fuel_can,Jerrican d'essence,resource,rare,3.0,1,Générateur ou véhicule.,garage;zone militaire,fuel_can.obj,fuel_can.png,fp_pickup_heavy_item,pickup_fuel
+water_filter,Filtre à eau,tool,uncommon,0.3,2,Purifie l'eau sale à l'abri.,craft;pharmacie,water_filter.obj,water_filter.png,fp_pickup_small_item,pickup_filter
+flashlight,Lampe torche,tool,common,0.4,1,"Éclaire les zones sombres, consomme des piles.",abri;garage;métro,flashlight.obj,flashlight.png,fp_flashlight_toggle,flashlight_click
+crowbar,Pied-de-biche,tool,uncommon,1.5,1,Ouvre portes bloquées et caisses.,garage;chantier,crowbar.obj,crowbar.png,fp_use_tool,crowbar_metal
+backpack,Sac amélioré,equipment,rare,1.2,1,Augmente la capacité d'inventaire.,craft;camp survivant,backpack.obj,backpack.png,fp_equip_backpack,cloth_equip
+pharmacy_key,Clé pharmacie,quest,unique,0.0,1,Ouvre l'arrière-boutique de la pharmacie.,bureau gérant;ruelle,key_pharmacy.obj,key.png,fp_pickup_small_item,pickup_key
+lab_keycard,Carte d'accès laboratoire,quest,unique,0.0,1,Débloque l'accès au laboratoire.,hôpital sous-sol;Eva,lab_keycard.obj,keycard.png,fp_pickup_small_item,pickup_keycard
+radio_part,Module radio,quest,rare,0.5,1,Réparer la radio de l'abri.,antenne immeuble;boutique électronique,radio_part.obj,radio_part.png,fp_pickup_small_item,pickup_electronic
+journal_page,Page de journal,document,varies,0.0,99,"Indice narratif, code ou lore.",toutes zones,journal_page.obj,document.png,fp_read_document,paper_pickup
+map_fragment,Fragment de carte,document,uncommon,0.0,12,Révèle une zone ou un raccourci.,bureaux;métro;factions,map_fragment.obj,map_fragment.png,fp_read_document,paper_pickup
+noise_lure,Leurre sonore,device,uncommon,0.3,3,Détourne les ennemis sensibles au bruit.,craft,noise_lure.obj,noise_lure.png,fp_throw_lure,lure_beep
+nail_trap,Piège à clous,device,uncommon,0.7,2,Ralentit ou blesse les ennemis au sol.,craft,nail_trap.obj,nail_trap.png,fp_place_trap,trap_place

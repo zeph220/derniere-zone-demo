@@ -1,0 +1,24 @@
+newmtl store_wall
+Kd 0.42 0.39 0.32
+Ka 0.05 0.05 0.05
+Ks 0.14 0.14 0.14
+Ns 28
+
+newmtl sign_supermarket
+Kd 0.3 0.45 0.25
+Ka 0.05 0.05 0.05
+Ks 0.14 0.14 0.14
+Ns 28
+
+newmtl broken_glass
+Kd 0.25 0.35 0.35
+Ka 0.05 0.05 0.05
+Ks 0.14 0.14 0.14
+Ns 28
+
+newmtl door_frame
+Kd 0.08 0.08 0.07
+Ka 0.05 0.05 0.05
+Ks 0.14 0.14 0.14
+Ns 28
+

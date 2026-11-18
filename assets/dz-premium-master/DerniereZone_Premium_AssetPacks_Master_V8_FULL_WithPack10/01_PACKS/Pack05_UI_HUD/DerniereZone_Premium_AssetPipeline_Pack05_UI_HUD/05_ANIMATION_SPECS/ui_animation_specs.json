@@ -1,0 +1,153 @@
+[
+  {
+    "id": "main_menu_title_fade",
+    "duration": 1.8,
+    "use": "Title appears with rain and radio static.",
+    "keyframes": [
+      {
+        "t": 0,
+        "alpha": 0
+      },
+      {
+        "t": 1.2,
+        "alpha": 1
+      },
+      {
+        "t": 1.8,
+        "radio": "static_pulse"
+      }
+    ]
+  },
+  {
+    "id": "inventory_open",
+    "duration": 0.25,
+    "use": "Inventory panel slides up.",
+    "keyframes": [
+      {
+        "t": 0,
+        "y": "100%",
+        "alpha": 0
+      },
+      {
+        "t": 0.25,
+        "y": "0%",
+        "alpha": 1
+      }
+    ]
+  },
+  {
+    "id": "quest_update_popup",
+    "duration": 2.8,
+    "use": "Objective update notification.",
+    "keyframes": [
+      {
+        "t": 0,
+        "x": "-20",
+        "alpha": 0
+      },
+      {
+        "t": 0.25,
+        "x": "0",
+        "alpha": 1
+      },
+      {
+        "t": 2.4,
+        "alpha": 1
+      },
+      {
+        "t": 2.8,
+        "alpha": 0
+      }
+    ]
+  },
+  {
+    "id": "save_icon_pulse",
+    "duration": 1.4,
+    "use": "Saving indicator.",
+    "keyframes": [
+      {
+        "t": 0,
+        "scale": 0.9,
+        "alpha": 0
+      },
+      {
+        "t": 0.3,
+        "scale": 1.0,
+        "alpha": 1
+      },
+      {
+        "t": 1.4,
+        "scale": 1.05,
+        "alpha": 0
+      }
+    ]
+  },
+  {
+    "id": "death_screen_fade",
+    "duration": 2.0,
+    "use": "Death transition.",
+    "keyframes": [
+      {
+        "t": 0,
+        "vignette": 0
+      },
+      {
+        "t": 0.8,
+        "vignette": 1
+      },
+      {
+        "t": 2.0,
+        "text": "visible"
+      }
+    ]
+  },
+  {
+    "id": "choice_highlight",
+    "duration": 0.18,
+    "use": "Dialogue option hover.",
+    "keyframes": [
+      {
+        "t": 0,
+        "brightness": 1
+      },
+      {
+        "t": 0.18,
+        "brightness": 1.25
+      }
+    ]
+  },
+  {
+    "id": "map_marker_pulse",
+    "duration": 1.2,
+    "use": "Objective marker pulse.",
+    "keyframes": [
+      {
+        "t": 0,
+        "scale": 1
+      },
+      {
+        "t": 0.6,
+        "scale": 1.25
+      },
+      {
+        "t": 1.2,
+        "scale": 1
+      }
+    ]
+  },
+  {
+    "id": "craft_progress",
+    "duration": "recipe_time",
+    "use": "Craft bar fills according to recipe.",
+    "keyframes": [
+      {
+        "t": 0,
+        "progress": 0
+      },
+      {
+        "t": "end",
+        "progress": 1
+      }
+    ]
+  }
+]

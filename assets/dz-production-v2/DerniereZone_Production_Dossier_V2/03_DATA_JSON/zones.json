@@ -1,0 +1,74 @@
+[
+  {
+    "id": "shelter",
+    "name": "Abri",
+    "purpose": "hub, repos, stockage, craft, radio, relations survivants",
+    "danger": "low",
+    "audio": "03_abri_chaleur_faible_radio_loop",
+    "map_notes": "Pièce principale, lit, établi, coffre, radio, porte barricadée, tableau de carte."
+  },
+  {
+    "id": "district_01",
+    "name": "Quartier de départ",
+    "purpose": "apprentissage, ressources, supérette/pharmacie/garage",
+    "danger": "low-medium",
+    "audio": "02_rue_exterieure_pluie_brouillard_loop",
+    "map_notes": "Rue principale, ruelles, voiture bloquante, abri, supérette, pharmacie, garage."
+  },
+  {
+    "id": "supermarket",
+    "name": "Supérette",
+    "purpose": "nourriture/eau, premier loot",
+    "danger": "low",
+    "audio": "ambience_fluorescent_buzz_loop",
+    "map_notes": "Rayons, caisse, réserve, porte arrière."
+  },
+  {
+    "id": "pharmacy",
+    "name": "Pharmacie",
+    "purpose": "soins, antibiotiques, dilemme médical",
+    "danger": "medium",
+    "audio": "04_hopital_froid_tension_clinique_loop",
+    "map_notes": "Comptoir, rayons, bureau, arrière-boutique verrouillée."
+  },
+  {
+    "id": "garage",
+    "name": "Garage",
+    "purpose": "outils, câbles, véhicule futur",
+    "danger": "medium",
+    "audio": "ambience_wind_empty_street_loop",
+    "map_notes": "Atelier, fosse, bureau, réserve, porte métallique."
+  },
+  {
+    "id": "hospital",
+    "name": "Hôpital Saint-Mary",
+    "purpose": "médicaments, secouristes, accès labo",
+    "danger": "high",
+    "audio": "04_hopital_froid_tension_clinique_loop",
+    "map_notes": "Accueil, urgences, chambres, pharmacie interne, bloc, sous-sol."
+  },
+  {
+    "id": "metro",
+    "name": "Métro République",
+    "purpose": "raccourcis, ennemis aveugles, chemin labo",
+    "danger": "high",
+    "audio": "05_metro_rumble_souterrain_loop",
+    "map_notes": "Entrée, billetterie, quais, train, tunnels, locaux techniques."
+  },
+  {
+    "id": "laboratory",
+    "name": "Laboratoire Oméga",
+    "purpose": "révélations, sujets, choix final",
+    "danger": "very_high",
+    "audio": "06_laboratoire_neons_dread_loop",
+    "map_notes": "Sas, recherche, observation, cellules, serveurs, salle Hélios."
+  },
+  {
+    "id": "military_zone",
+    "name": "Zone Militaire Nord",
+    "purpose": "quarantaine, équipement, Sentinelles",
+    "danger": "very_high",
+    "audio": "07_zone_militaire_pression_loop",
+    "map_notes": "Checkpoint, cour véhicules, baraquements, armurerie, commandement, bunker."
+  }
+]

@@ -1,0 +1,9 @@
+id,name,station,time,ingredients,result,animation
+craft_bandage,Bandage,inventory,4,"{""cloth"": 2}","{""bandage"": 1}",fp_craft_quick
+craft_water_filter,Filtre à eau,workbench,12,"{""cloth"": 2, ""scrap_metal"": 1}","{""water_filter"": 1}",fp_craft_workbench
+craft_noise_lure,Leurre sonore,workbench,10,"{""battery"": 1, ""wire"": 1, ""scrap_metal"": 1}","{""noise_lure"": 1}",fp_craft_workbench
+craft_nail_trap,Piège à clous,workbench,14,"{""wood_plank"": 2, ""scrap_metal"": 2}","{""nail_trap"": 1}",fp_craft_workbench
+repair_radio,Réparer radio,shelter_radio,20,"{""battery"": 1, ""wire"": 1, ""radio_part"": 1}","{""radio_fixed"": 1}",fp_radio_repair
+repair_generator,Réparer générateur,shelter_generator,25,"{""fuse"": 1, ""wire"": 2, ""fuel_can"": 1, ""scrap_metal"": 2}","{""generator_active"": 1}",fp_generator_repair
+upgrade_backpack_1,Sac amélioré I,workbench,18,"{""cloth"": 4, ""scrap_metal"": 1}","{""backpack_capacity_plus"": 8}",fp_craft_workbench
+craft_barricade_kit,Kit barricade,workbench,18,"{""wood_plank"": 4, ""scrap_metal"": 2, ""wire"": 1}","{""barricade_kit"": 1}",fp_craft_heavy

@@ -1,0 +1,330 @@
+{
+  "enemy_normal": [
+    {
+      "id": "enemy_normal_idle_sway",
+      "enemy_id": "enemy_normal",
+      "duration": 2.4,
+      "loop": true,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_normal_walk_limp",
+      "enemy_id": "enemy_normal",
+      "duration": 0.9,
+      "loop": true,
+      "root_motion": true,
+      "events": [
+        "footstep"
+      ]
+    },
+    {
+      "id": "enemy_normal_turn_alert",
+      "enemy_id": "enemy_normal",
+      "duration": 1.2,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_normal_chase_lurch",
+      "enemy_id": "enemy_normal",
+      "duration": 0.9,
+      "loop": true,
+      "root_motion": true,
+      "events": [
+        "footstep"
+      ]
+    },
+    {
+      "id": "enemy_normal_attack_swipe",
+      "enemy_id": "enemy_normal",
+      "duration": 1.1,
+      "loop": false,
+      "root_motion": false,
+      "events": [
+        "damage_apply"
+      ]
+    },
+    {
+      "id": "enemy_normal_hit_react",
+      "enemy_id": "enemy_normal",
+      "duration": 1.2,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_normal_death_collapse",
+      "enemy_id": "enemy_normal",
+      "duration": 1.8,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_normal_search_room",
+      "enemy_id": "enemy_normal",
+      "duration": 1.2,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    }
+  ],
+  "enemy_fast": [
+    {
+      "id": "enemy_fast_idle_twitch",
+      "enemy_id": "enemy_fast",
+      "duration": 2.4,
+      "loop": true,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_fast_crouched_walk",
+      "enemy_id": "enemy_fast",
+      "duration": 0.9,
+      "loop": true,
+      "root_motion": true,
+      "events": [
+        "footstep"
+      ]
+    },
+    {
+      "id": "enemy_fast_sprint_low",
+      "enemy_id": "enemy_fast",
+      "duration": 0.9,
+      "loop": true,
+      "root_motion": true,
+      "events": [
+        "footstep"
+      ]
+    },
+    {
+      "id": "enemy_fast_lunge_attack",
+      "enemy_id": "enemy_fast",
+      "duration": 1.1,
+      "loop": false,
+      "root_motion": true,
+      "events": [
+        "damage_apply"
+      ]
+    },
+    {
+      "id": "enemy_fast_wall_recoil",
+      "enemy_id": "enemy_fast",
+      "duration": 1.2,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_fast_quick_hit_react",
+      "enemy_id": "enemy_fast",
+      "duration": 1.2,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_fast_death_roll",
+      "enemy_id": "enemy_fast",
+      "duration": 1.8,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    }
+  ],
+  "enemy_blind": [
+    {
+      "id": "enemy_blind_idle_listen",
+      "enemy_id": "enemy_blind",
+      "duration": 2.4,
+      "loop": true,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_blind_slow_probe_walk",
+      "enemy_id": "enemy_blind",
+      "duration": 0.9,
+      "loop": true,
+      "root_motion": true,
+      "events": [
+        "footstep"
+      ]
+    },
+    {
+      "id": "enemy_blind_sound_snap_turn",
+      "enemy_id": "enemy_blind",
+      "duration": 1.2,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_blind_investigate_sound",
+      "enemy_id": "enemy_blind",
+      "duration": 1.2,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_blind_grab_attack",
+      "enemy_id": "enemy_blind",
+      "duration": 1.1,
+      "loop": false,
+      "root_motion": false,
+      "events": [
+        "damage_apply"
+      ]
+    },
+    {
+      "id": "enemy_blind_kneel_listen",
+      "enemy_id": "enemy_blind",
+      "duration": 1.2,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_blind_death_fold",
+      "enemy_id": "enemy_blind",
+      "duration": 1.8,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    }
+  ],
+  "enemy_heavy": [
+    {
+      "id": "enemy_heavy_idle_heavy_breath",
+      "enemy_id": "enemy_heavy",
+      "duration": 2.4,
+      "loop": true,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_heavy_heavy_walk",
+      "enemy_id": "enemy_heavy",
+      "duration": 0.9,
+      "loop": true,
+      "root_motion": true,
+      "events": [
+        "footstep"
+      ]
+    },
+    {
+      "id": "enemy_heavy_roar_alert",
+      "enemy_id": "enemy_heavy",
+      "duration": 1.2,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_heavy_slow_chase",
+      "enemy_id": "enemy_heavy",
+      "duration": 0.9,
+      "loop": true,
+      "root_motion": true,
+      "events": [
+        "footstep"
+      ]
+    },
+    {
+      "id": "enemy_heavy_slam_attack",
+      "enemy_id": "enemy_heavy",
+      "duration": 1.1,
+      "loop": false,
+      "root_motion": false,
+      "events": [
+        "damage_apply"
+      ]
+    },
+    {
+      "id": "enemy_heavy_stagger_big",
+      "enemy_id": "enemy_heavy",
+      "duration": 1.2,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_heavy_death_crash",
+      "enemy_id": "enemy_heavy",
+      "duration": 1.8,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    }
+  ],
+  "enemy_lab_subject": [
+    {
+      "id": "enemy_lab_subject_idle_shiver",
+      "enemy_id": "enemy_lab_subject",
+      "duration": 2.4,
+      "loop": true,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_lab_subject_observe_still",
+      "enemy_id": "enemy_lab_subject",
+      "duration": 1.2,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_lab_subject_erratic_turn",
+      "enemy_id": "enemy_lab_subject",
+      "duration": 1.2,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_lab_subject_crawl_burst",
+      "enemy_id": "enemy_lab_subject",
+      "duration": 1.2,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_lab_subject_scream_stun",
+      "enemy_id": "enemy_lab_subject",
+      "duration": 1.2,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_lab_subject_claw_combo",
+      "enemy_id": "enemy_lab_subject",
+      "duration": 1.2,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_lab_subject_flee_to_dark",
+      "enemy_id": "enemy_lab_subject",
+      "duration": 1.2,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    },
+    {
+      "id": "enemy_lab_subject_death_twitch",
+      "enemy_id": "enemy_lab_subject",
+      "duration": 1.8,
+      "loop": false,
+      "root_motion": false,
+      "events": []
+    }
+  ]
+}

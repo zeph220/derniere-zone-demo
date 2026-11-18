@@ -1,0 +1,12 @@
+newmtl bandage_cloth
+Kd 0.62 0.55 0.45
+Ka 0.05 0.05 0.05
+Ks 0.16 0.16 0.16
+Ns 32
+
+newmtl inner_shadow
+Kd 0.2 0.18 0.14
+Ka 0.05 0.05 0.05
+Ks 0.16 0.16 0.16
+Ns 32
+

@@ -1,0 +1,22 @@
+[
+  {
+    "time": 0.0,
+    "beat": "rideau qui bouge",
+    "event": "c03_doctoresse_intro_beat_1"
+  },
+  {
+    "time": 10.5,
+    "beat": "bruit d'instruments",
+    "event": "c03_doctoresse_intro_beat_2"
+  },
+  {
+    "time": 21.0,
+    "beat": "boss apparaît",
+    "event": "c03_doctoresse_intro_beat_3"
+  },
+  {
+    "time": 31.5,
+    "beat": "verrouillage service",
+    "event": "c03_doctoresse_intro_beat_4"
+  }
+]

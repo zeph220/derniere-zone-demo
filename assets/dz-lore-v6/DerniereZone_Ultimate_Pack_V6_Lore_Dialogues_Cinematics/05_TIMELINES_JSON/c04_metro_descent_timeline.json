@@ -1,0 +1,22 @@
+[
+  {
+    "time": 0.0,
+    "beat": "escaliers noirs",
+    "event": "c04_metro_descent_beat_1"
+  },
+  {
+    "time": 8.75,
+    "beat": "gouttes",
+    "event": "c04_metro_descent_beat_2"
+  },
+  {
+    "time": 17.5,
+    "beat": "lampes qui sautent",
+    "event": "c04_metro_descent_beat_3"
+  },
+  {
+    "time": 26.25,
+    "beat": "premier écho de l'Oracle",
+    "event": "c04_metro_descent_beat_4"
+  }
+]

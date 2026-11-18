@@ -1,0 +1,125 @@
+[
+  {
+    "id": "intro_wakeup",
+    "title": "Réveil dans l'abri",
+    "duration_sec": 55,
+    "type": "first_person_in_engine",
+    "purpose": "Présenter l'abri, la solitude et la radio silencieuse.",
+    "beats": [
+      "écran noir + respiration",
+      "yeux s'ouvrent sur plafond béton",
+      "main tremblante",
+      "radio grésille",
+      "objectif : inspecter la radio"
+    ],
+    "required_assets": [
+      "Pack01 shelter",
+      "Pack03 hands",
+      "Pack05 HUD minimal"
+    ],
+    "audio": [
+      "shelter_safe_warm_loop_12s",
+      "radio_static_low",
+      "heartbeat_soft"
+    ]
+  },
+  {
+    "id": "radio_first_signal",
+    "title": "Première transmission radio",
+    "duration_sec": 35,
+    "type": "interactive_cinematic",
+    "purpose": "Débloquer l'hôpital.",
+    "beats": [
+      "main tourne bouton",
+      "parasites",
+      "voix coupée demande aide",
+      "mot Saint-Mary entendu",
+      "nouvel objectif apparaît"
+    ],
+    "required_assets": [
+      "radio",
+      "hands_radio_tune",
+      "quest_update_ui"
+    ],
+    "audio": [
+      "stinger_radio_static_lock",
+      "quest_update"
+    ]
+  },
+  {
+    "id": "hospital_arrival",
+    "title": "Arrivée à l'hôpital",
+    "duration_sec": 25,
+    "type": "camera_reveal",
+    "purpose": "Faire comprendre que la zone est plus dangereuse.",
+    "beats": [
+      "pluie dehors",
+      "façade Saint-Mary",
+      "néons rouges",
+      "porte automatique bloquée",
+      "cri étouffé loin"
+    ],
+    "required_assets": [
+      "Pack07 hospital",
+      "rain ambience",
+      "hospital music"
+    ]
+  },
+  {
+    "id": "shelter_attack",
+    "title": "Attaque de l'abri",
+    "duration_sec": 90,
+    "type": "playable_sequence",
+    "purpose": "Rendre l'abri émotionnel et mécanique.",
+    "beats": [
+      "radio trop forte",
+      "bruit dehors",
+      "barricades tremblent",
+      "choix protéger stock ou survivant",
+      "résultat après attaque"
+    ],
+    "required_assets": [
+      "shelter barricades",
+      "enemy normal",
+      "UI shelter alert"
+    ]
+  },
+  {
+    "id": "lab_reveal",
+    "title": "Révélation Projet Hélios",
+    "duration_sec": 95,
+    "type": "in_engine_story",
+    "purpose": "Révéler la vérité centrale.",
+    "beats": [
+      "salle serveurs",
+      "documents Hélios",
+      "voix Eva",
+      "silhouette Sujet Oméga",
+      "choix données"
+    ],
+    "required_assets": [
+      "laboratory",
+      "server racks",
+      "Subject Omega",
+      "dialogue UI"
+    ]
+  },
+  {
+    "id": "final_choice",
+    "title": "Dernière transmission",
+    "duration_sec": 120,
+    "type": "interactive_finale",
+    "purpose": "Choix final et fins multiples.",
+    "beats": [
+      "antenne centrale",
+      "factions en conflit",
+      "choix révéler/détruire/quarantaine/exode",
+      "épilogue"
+    ],
+    "required_assets": [
+      "military/lab tower",
+      "faction UI",
+      "ending cards"
+    ]
+  }
+]

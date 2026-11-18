@@ -1,0 +1,23 @@
+{
+  "name": "enemy_normal_attack_grab",
+  "duration": 1.0,
+  "tags": [
+    "enemy_normal",
+    "enemy"
+  ],
+  "keyframes": [
+    {
+      "time": 0.0,
+      "pose": "start"
+    },
+    {
+      "time": 0.5,
+      "pose": "main_motion"
+    },
+    {
+      "time": 1.0,
+      "pose": "recover_or_loop"
+    }
+  ],
+  "notes": "Animation placeholder pour enemy_normal. À remplacer par animation finale."
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "time": 0.0,
+    "beat": "porte sas",
+    "event": "c05_lab_discovery_beat_1"
+  },
+  {
+    "time": 12.0,
+    "beat": "lumière bleue",
+    "event": "c05_lab_discovery_beat_2"
+  },
+  {
+    "time": 24.0,
+    "beat": "cuves",
+    "event": "c05_lab_discovery_beat_3"
+  },
+  {
+    "time": 36.0,
+    "beat": "documents Hélios",
+    "event": "c05_lab_discovery_beat_4"
+  }
+]

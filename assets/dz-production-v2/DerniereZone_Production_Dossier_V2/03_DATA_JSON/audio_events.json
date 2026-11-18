@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "zone_enter_street",
+      "music": "street_loop",
+      "ambience": [
+        "rain",
+        "wind"
+      ]
+    },
+    {
+      "id": "danger_suspicion",
+      "stinger": "danger_rise",
+      "mix": "music_down_enemy_up"
+    },
+    {
+      "id": "low_health",
+      "loop": "heartbeat",
+      "filter": "lowpass_pulse"
+    },
+    {
+      "id": "quest_update",
+      "ui": "objective_update"
+    },
+    {
+      "id": "save_checkpoint",
+      "ui": "save_icon_pulse"
+    },
+    {
+      "id": "death",
+      "music": "death_drone",
+      "sfx": "heartbeat_stop"
+    }
+  ]
+}

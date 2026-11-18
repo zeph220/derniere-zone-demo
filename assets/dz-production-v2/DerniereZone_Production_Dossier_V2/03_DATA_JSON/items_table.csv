@@ -1,0 +1,22 @@
+id,name,category,rarity,weight,stack,use,found,quest_use,model,icon
+water_bottle,Bouteille d’eau,survie,common,0.5,4,Boire pour restaurer la soif.,supérette;cuisines;coffres civils,Q01_Radio,bottle_dirty.obj,water_bottle.png
+canned_food,Conserve,survie,common,0.4,6,Manger pour restaurer la faim.,supérette;abri abandonné;dépôt militaire,,food_can.obj,food_can.png
+energy_bar,Barre énergétique,survie,common,0.1,8,Petit regain de faim et endurance.,sacs;pharmacie;bureaux,,energy_bar.obj,energy_bar.png
+bandage,Bandage,médical,common,0.15,5,Arrête le saignement et rend un peu de vie.,pharmacie;hôpital;craft,Q04_Antibiotics,bandage_roll.obj,bandage.png
+antibiotics,Antibiotiques,médical,rare,0.1,3,Réduit ou soigne l’infection.,hôpital;arrière-boutique pharmacie;médecin survivant,Q04_Antibiotics,pills.obj,antibiotics.png
+medkit,Trousse médicale,médical,rare,0.8,1,Soin important. Arrête le saignement.,hôpital;zone militaire,,medkit.obj,medkit.png
+cloth,Tissu,craft,common,0.1,12,"Craft de bandages, filtres, améliorations.",appartements;lits;vêtements,,cloth_bundle.obj,cloth.png
+scrap_metal,Métal de récupération,craft,common,0.4,10,"Craft, réparations, barricades.",garage;voitures;zone industrielle,,scrap_metal.obj,scrap_metal.png
+wood_plank,Planche,craft,common,0.6,8,"Barricades, lit, coffre, pièges.",rues;meubles cassés;chantier,Q07_ShelterAttack,wood_plank.obj,wood_plank.png
+wire,Câble électrique,craft,uncommon,0.2,6,"Radio, générateur, pièges, portes.",garage;boîtiers électriques;labo,Q01_Radio;Q06_Generator,wire.obj,wire.png
+battery,Pile,craft,uncommon,0.2,6,"Lampe, radio, appareils.",supérette;pharmacie;bureaux,Q01_Radio,battery_AA_pack.obj,battery.png
+fuse,Fusible,craft,uncommon,0.1,4,Remettre le courant.,garage;métro;labo,Q06_Generator,fuse.obj,fuse.png
+fuel_can,Jerrican d’essence,ressource,rare,3.0,1,Générateur ou véhicule.,garage;zone militaire;voitures,Q06_Generator;Q14_Vehicle,fuel_can.obj,fuel_can.png
+crowbar,Pied-de-biche,outil,uncommon,1.5,1,Ouvre portes bloquées et caisses.,garage;chantier,Q03_Garage,crowbar.obj,crowbar.png
+gas_mask,Masque à gaz,outil,rare,1.2,1,Zones contaminées.,zone militaire;laboratoire,Q10_LaboratoryAccess,gas_mask.obj,gas_mask.png
+flashlight,Lampe torche,outil,common,0.4,1,Éclaire les zones sombres. Consomme des piles.,abri;garage;métro,,flashlight.obj,flashlight.png
+radio_part,Module radio,quête,rare,0.5,1,Réparer la radio.,antenne immeuble;boutique électronique,Q01_Radio,radio_part.obj,radio_part.png
+pharmacy_key,Clé de pharmacie,quête,unique,0.05,1,Ouvre l’arrière-boutique.,bureau du gérant;cadavre dans ruelle,Q02_Pharmacy,key.obj,key.png
+lab_keycard,Carte d’accès laboratoire,quête,unique,0.05,1,Accès laboratoire Oméga.,hôpital niveau -1;Eva,Q10_LaboratoryAccess,keycard.obj,keycard.png
+journal_page,Page de journal,document,varies,0.0,99,"Indice narratif, code ou preuve.",toutes zones,,journal_stack.obj,document.png
+map_fragment,Fragment de carte,document,uncommon,0.0,12,Révèle une zone ou un raccourci.,bureaux;métro;factions,,paper_map.obj,map_fragment.png

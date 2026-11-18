@@ -1,0 +1,6 @@
+newmtl green_plastic
+Kd 0.18 0.24 0.18
+Ka 0.05 0.05 0.05
+Ks 0.1 0.1 0.1
+Ns 20
+

@@ -1,0 +1,23 @@
+{
+  "name": "enemy_blind_walk_listening",
+  "duration": 1.8,
+  "tags": [
+    "enemy_blind",
+    "enemy"
+  ],
+  "keyframes": [
+    {
+      "time": 0.0,
+      "pose": "start"
+    },
+    {
+      "time": 0.5,
+      "pose": "main_motion"
+    },
+    {
+      "time": 1.0,
+      "pose": "recover_or_loop"
+    }
+  ],
+  "notes": "Animation placeholder pour enemy_blind. À remplacer par animation finale."
+}

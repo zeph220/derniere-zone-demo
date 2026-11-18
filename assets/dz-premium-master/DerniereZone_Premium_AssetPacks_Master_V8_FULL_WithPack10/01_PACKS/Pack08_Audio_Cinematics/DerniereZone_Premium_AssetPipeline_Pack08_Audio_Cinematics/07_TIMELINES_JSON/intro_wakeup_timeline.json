@@ -1,0 +1,27 @@
+[
+  {
+    "time": 0.0,
+    "beat": "écran noir + respiration",
+    "event": "intro_wakeup_beat_1"
+  },
+  {
+    "time": 11.0,
+    "beat": "yeux s'ouvrent sur plafond béton",
+    "event": "intro_wakeup_beat_2"
+  },
+  {
+    "time": 22.0,
+    "beat": "main tremblante",
+    "event": "intro_wakeup_beat_3"
+  },
+  {
+    "time": 33.0,
+    "beat": "radio grésille",
+    "event": "intro_wakeup_beat_4"
+  },
+  {
+    "time": 44.0,
+    "beat": "objectif : inspecter la radio",
+    "event": "intro_wakeup_beat_5"
+  }
+]

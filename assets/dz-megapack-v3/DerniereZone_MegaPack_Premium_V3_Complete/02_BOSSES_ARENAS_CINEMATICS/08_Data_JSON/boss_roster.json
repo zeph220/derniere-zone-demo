@@ -1,0 +1,44 @@
+[
+  {
+    "id": "dame_de_pluie",
+    "name": "La Dame de Pluie",
+    "chapter": "Ville extérieure",
+    "arena": "avenue inondée",
+    "theme": "illusion, mobilité, pluie"
+  },
+  {
+    "id": "doctoresse_du_tri",
+    "name": "La Doctoresse du Tri",
+    "chapter": "Hôpital",
+    "arena": "service de triage",
+    "theme": "toxicité, médecine dévoyée, couloirs"
+  },
+  {
+    "id": "oracle_des_tunnels",
+    "name": "L’Oracle des Tunnels",
+    "chapter": "Métro",
+    "arena": "station noyée",
+    "theme": "son, obscurité, chasse"
+  },
+  {
+    "id": "matriarche_des_cuves",
+    "name": "La Matriarche des Cuves",
+    "chapter": "Laboratoire",
+    "arena": "salle de cuves",
+    "theme": "corrosion, mutations, contrôle de zone"
+  },
+  {
+    "id": "commandante_du_bastion",
+    "name": "La Commandante du Bastion",
+    "chapter": "Zone militaire",
+    "arena": "checkpoint fortifié",
+    "theme": "pression, blindage, renforts"
+  },
+  {
+    "id": "hote_zero",
+    "name": "L’Hôte Zéro",
+    "chapter": "Cœur de la Zone",
+    "arena": "noyau expérimental",
+    "theme": "source de l’infection, mutation de phase"
+  }
+]

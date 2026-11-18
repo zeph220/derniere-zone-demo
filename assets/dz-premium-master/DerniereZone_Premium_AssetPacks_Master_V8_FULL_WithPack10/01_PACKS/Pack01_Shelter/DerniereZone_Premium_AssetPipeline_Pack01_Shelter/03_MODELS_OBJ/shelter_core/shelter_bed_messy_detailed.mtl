@@ -1,0 +1,30 @@
+newmtl aged_wood
+Kd 0.32 0.22 0.12
+Ka 0.05 0.05 0.05
+Ks 0.15 0.15 0.15
+Ns 32
+
+newmtl dirty_mattress
+Kd 0.55 0.52 0.43
+Ka 0.05 0.05 0.05
+Ks 0.15 0.15 0.15
+Ns 32
+
+newmtl dirty_blanket
+Kd 0.3 0.34 0.27
+Ka 0.05 0.05 0.05
+Ks 0.15 0.15 0.15
+Ns 32
+
+newmtl dirty_fabric
+Kd 0.48 0.45 0.37
+Ka 0.05 0.05 0.05
+Ks 0.15 0.15 0.15
+Ns 32
+
+newmtl rusty_metal
+Kd 0.1 0.09 0.08
+Ka 0.05 0.05 0.05
+Ks 0.15 0.15 0.15
+Ns 32
+

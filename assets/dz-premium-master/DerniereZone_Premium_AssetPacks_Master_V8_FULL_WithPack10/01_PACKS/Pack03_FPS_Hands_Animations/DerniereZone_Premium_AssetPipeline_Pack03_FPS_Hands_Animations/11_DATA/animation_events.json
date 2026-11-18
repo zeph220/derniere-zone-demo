@@ -1,0 +1,106 @@
+{
+  "fp_drink_water": [
+    {
+      "time": 0.3,
+      "type": "play_sound",
+      "id": "bottle_raise"
+    },
+    {
+      "time": 1.25,
+      "type": "apply_effect",
+      "stat": "thirst",
+      "value": 35
+    },
+    {
+      "time": 1.3,
+      "type": "consume_item",
+      "item_id": "water_bottle"
+    },
+    {
+      "time": 2.15,
+      "type": "return_idle"
+    }
+  ],
+  "fp_eat_food": [
+    {
+      "time": 0.25,
+      "type": "play_sound",
+      "id": "food_wrapper"
+    },
+    {
+      "time": 1.0,
+      "type": "apply_effect",
+      "stat": "hunger",
+      "value": 28
+    },
+    {
+      "time": 1.05,
+      "type": "consume_item",
+      "item_id": "canned_food"
+    },
+    {
+      "time": 2.35,
+      "type": "return_idle"
+    }
+  ],
+  "fp_apply_bandage": [
+    {
+      "time": 0.4,
+      "type": "play_sound",
+      "id": "bandage_unroll"
+    },
+    {
+      "time": 2.6,
+      "type": "block_interrupt",
+      "value": false
+    },
+    {
+      "time": 3.5,
+      "type": "apply_effect",
+      "stat": "bleeding",
+      "value": "stop"
+    },
+    {
+      "time": 3.55,
+      "type": "consume_item",
+      "item_id": "bandage"
+    },
+    {
+      "time": 4.2,
+      "type": "return_idle"
+    }
+  ],
+  "fp_radio_tune": [
+    {
+      "time": 0.4,
+      "type": "play_sound",
+      "id": "radio_knob"
+    },
+    {
+      "time": 1.0,
+      "type": "play_sound",
+      "id": "radio_static_rise"
+    },
+    {
+      "time": 2.5,
+      "type": "quest_event",
+      "id": "radio_signal_found"
+    }
+  ],
+  "fp_death_fall": [
+    {
+      "time": 0.0,
+      "type": "lock_input"
+    },
+    {
+      "time": 1.75,
+      "type": "show_vignette",
+      "id": "death_red"
+    },
+    {
+      "time": 2.6,
+      "type": "load_ui",
+      "id": "death_screen"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+newmtl frame_metal
+Kd 0.06 0.06 0.055
+Ka 0.05 0.05 0.05
+Ks 0.14 0.14 0.14
+Ns 28
+
+newmtl broken_glass
+Kd 0.28 0.38 0.38
+Ka 0.05 0.05 0.05
+Ks 0.14 0.14 0.14
+Ns 28
+
+newmtl crack_line
+Kd 0.02 0.02 0.02
+Ka 0.05 0.05 0.05
+Ks 0.14 0.14 0.14
+Ns 28
+

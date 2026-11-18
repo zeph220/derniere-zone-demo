@@ -1,0 +1,26 @@
+{
+  "district_01": [
+    "hospital",
+    "metro",
+    "military_zone"
+  ],
+  "hospital": [
+    "district_01",
+    "metro",
+    "laboratory_hint"
+  ],
+  "metro": [
+    "district_01",
+    "hospital",
+    "laboratory",
+    "hidden_residents"
+  ],
+  "laboratory": [
+    "metro",
+    "military_zone_final_route"
+  ],
+  "military_zone": [
+    "district_01",
+    "laboratory_final_route"
+  ]
+}

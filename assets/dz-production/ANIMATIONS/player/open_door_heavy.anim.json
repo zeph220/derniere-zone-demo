@@ -1,0 +1,27 @@
+{
+  "name": "open_door_heavy",
+  "duration": 1.6,
+  "tags": [
+    "player",
+    "interaction"
+  ],
+  "keyframes": [
+    {
+      "time": 0.0,
+      "right_hand": "grab_handle"
+    },
+    {
+      "time": 0.5,
+      "sfx": "door_creak_start"
+    },
+    {
+      "time": 1.2,
+      "door": "open"
+    },
+    {
+      "time": 1.6,
+      "state": "complete"
+    }
+  ],
+  "notes": ""
+}

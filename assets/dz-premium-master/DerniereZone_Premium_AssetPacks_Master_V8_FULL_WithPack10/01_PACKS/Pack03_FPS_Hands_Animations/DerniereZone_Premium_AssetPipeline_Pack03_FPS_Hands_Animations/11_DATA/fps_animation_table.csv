@@ -1,0 +1,11 @@
+id,name,duration,loop,priority,purpose
+fp_idle_breathing,Idle FPS respiration,2.4,True,critical,Base permanente des mains FPS.
+fp_pickup_small_item,Ramasser petit objet,0.85,False,critical,"Ramassage eau, pile, clé, note."
+fp_drink_water,Boire bouteille,2.15,False,critical,Restaurer la soif.
+fp_eat_food,Manger conserve/barre,2.35,False,critical,Restaurer la faim.
+fp_apply_bandage,Mettre un bandage,4.2,False,critical,Arrêter saignement / soin léger.
+fp_open_door,Ouvrir porte,1.05,False,high,Interaction portes/poignées.
+fp_radio_tune,Régler la radio,3.0,False,high,Moments narratifs de radio.
+fp_flashlight_toggle,Allumer lampe,0.65,False,high,Lampe torche / zones sombres.
+fp_craft_workbench,Craft établi,3.2,False,medium,Fabrication courte à l'abri.
+fp_death_fall,Mort FPS chute caméra,2.6,False,high,Transition vers écran de mort.

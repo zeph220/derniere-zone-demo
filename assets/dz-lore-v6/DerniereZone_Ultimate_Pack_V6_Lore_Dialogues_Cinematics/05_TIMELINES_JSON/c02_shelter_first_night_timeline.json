@@ -1,0 +1,22 @@
+[
+  {
+    "time": 0.0,
+    "beat": "lampe tremble",
+    "event": "c02_shelter_first_night_beat_1"
+  },
+  {
+    "time": 12.5,
+    "beat": "Mila compte les rations",
+    "event": "c02_shelter_first_night_beat_2"
+  },
+  {
+    "time": 25.0,
+    "beat": "bruit dehors",
+    "event": "c02_shelter_first_night_beat_3"
+  },
+  {
+    "time": 37.5,
+    "beat": "sauvegarde débloquée",
+    "event": "c02_shelter_first_night_beat_4"
+  }
+]

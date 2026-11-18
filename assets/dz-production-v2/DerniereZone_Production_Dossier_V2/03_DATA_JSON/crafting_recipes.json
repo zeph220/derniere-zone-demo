@@ -1,0 +1,173 @@
+[
+  {
+    "id": "craft_bandage",
+    "name": "Bandage",
+    "station": "inventory",
+    "time_sec": 4,
+    "ingredients": {
+      "cloth": 2
+    },
+    "result": {
+      "bandage": 1
+    },
+    "skill": "none",
+    "animation": "fp_bandage_prepare"
+  },
+  {
+    "id": "craft_water_filter",
+    "name": "Filtre à eau",
+    "station": "workbench",
+    "time_sec": 12,
+    "ingredients": {
+      "cloth": 2,
+      "charcoal": 2,
+      "scrap_metal": 1
+    },
+    "result": {
+      "water_filter": 1
+    },
+    "skill": "craft_1",
+    "animation": "workbench_small"
+  },
+  {
+    "id": "craft_noise_lure",
+    "name": "Leurre sonore",
+    "station": "workbench",
+    "time_sec": 10,
+    "ingredients": {
+      "battery": 1,
+      "wire": 1,
+      "scrap_metal": 1
+    },
+    "result": {
+      "noise_lure": 1
+    },
+    "skill": "craft_1",
+    "animation": "workbench_electrical"
+  },
+  {
+    "id": "craft_nail_trap",
+    "name": "Piège à clous",
+    "station": "workbench",
+    "time_sec": 14,
+    "ingredients": {
+      "wood_plank": 2,
+      "scrap_metal": 2
+    },
+    "result": {
+      "nail_trap": 1
+    },
+    "skill": "craft_1",
+    "animation": "workbench_heavy"
+  },
+  {
+    "id": "craft_barricade_kit",
+    "name": "Kit de barricade",
+    "station": "workbench",
+    "time_sec": 18,
+    "ingredients": {
+      "wood_plank": 4,
+      "scrap_metal": 2,
+      "wire": 1
+    },
+    "result": {
+      "barricade_kit": 1
+    },
+    "skill": "craft_2",
+    "animation": "shelter_build"
+  },
+  {
+    "id": "repair_radio",
+    "name": "Réparer la radio",
+    "station": "shelter_radio",
+    "time_sec": 20,
+    "ingredients": {
+      "battery": 1,
+      "wire": 1,
+      "radio_part": 1
+    },
+    "result": {
+      "radio_fixed": 1
+    },
+    "skill": "story",
+    "animation": "fp_radio_repair"
+  },
+  {
+    "id": "repair_generator",
+    "name": "Réparer le générateur",
+    "station": "shelter_generator",
+    "time_sec": 25,
+    "ingredients": {
+      "fuse": 1,
+      "wire": 2,
+      "fuel_can": 1,
+      "scrap_metal": 2
+    },
+    "result": {
+      "generator_active": 1
+    },
+    "skill": "story",
+    "animation": "generator_repair"
+  },
+  {
+    "id": "upgrade_backpack_1",
+    "name": "Sac amélioré I",
+    "station": "workbench",
+    "time_sec": 18,
+    "ingredients": {
+      "cloth": 4,
+      "scrap_metal": 1
+    },
+    "result": {
+      "backpack_capacity_plus": 8
+    },
+    "skill": "craft_1",
+    "animation": "workbench_small"
+  },
+  {
+    "id": "upgrade_bed_1",
+    "name": "Lit réparé",
+    "station": "shelter_bed",
+    "time_sec": 16,
+    "ingredients": {
+      "cloth": 4,
+      "wood_plank": 3
+    },
+    "result": {
+      "shelter_bed_level": 1
+    },
+    "skill": "none",
+    "animation": "shelter_build"
+  },
+  {
+    "id": "upgrade_storage_1",
+    "name": "Coffre agrandi",
+    "station": "shelter_chest",
+    "time_sec": 14,
+    "ingredients": {
+      "wood_plank": 3,
+      "scrap_metal": 2
+    },
+    "result": {
+      "storage_capacity_plus": 20
+    },
+    "skill": "none",
+    "animation": "shelter_build"
+  },
+  {
+    "id": "upgrade_water_collector",
+    "name": "Récupérateur d’eau",
+    "station": "shelter_roof",
+    "time_sec": 30,
+    "ingredients": {
+      "scrap_metal": 4,
+      "wire": 1,
+      "water_filter": 1
+    },
+    "result": {
+      "water_daily": 1
+    },
+    "skill": "craft_2",
+    "animation": "shelter_build"
+  }
+]

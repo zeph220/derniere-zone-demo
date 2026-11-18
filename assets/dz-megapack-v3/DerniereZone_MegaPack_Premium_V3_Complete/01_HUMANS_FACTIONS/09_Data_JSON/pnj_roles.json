@@ -1,0 +1,27 @@
+[
+  {
+    "id": "quest_giver",
+    "name": "Donneur de quête",
+    "focus": "mission, progression, drama"
+  },
+  {
+    "id": "ambient_survivor",
+    "name": "Survivant d’ambiance",
+    "focus": "vie du refuge, crédibilité du monde"
+  },
+  {
+    "id": "companion_temp",
+    "name": "Compagnon temporaire",
+    "focus": "combat scripté, dialogues mobiles"
+  },
+  {
+    "id": "trader_static",
+    "name": "Marchand fixe",
+    "focus": "économie et progression"
+  },
+  {
+    "id": "wanderer_event",
+    "name": "Passant événementiel",
+    "focus": "événements aléatoires et rencontres"
+  }
+]

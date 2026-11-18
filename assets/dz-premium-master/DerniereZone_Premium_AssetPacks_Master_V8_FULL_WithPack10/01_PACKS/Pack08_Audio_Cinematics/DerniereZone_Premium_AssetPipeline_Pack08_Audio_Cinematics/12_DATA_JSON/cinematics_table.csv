@@ -1,0 +1,7 @@
+id,title,duration_sec,type,purpose,beats,required_assets
+intro_wakeup,Réveil dans l'abri,55,first_person_in_engine,"Présenter l'abri, la solitude et la radio silencieuse.",écran noir + respiration;yeux s'ouvrent sur plafond béton;main tremblante;radio grésille;objectif : inspecter la radio,Pack01 shelter;Pack03 hands;Pack05 HUD minimal
+radio_first_signal,Première transmission radio,35,interactive_cinematic,Débloquer l'hôpital.,main tourne bouton;parasites;voix coupée demande aide;mot Saint-Mary entendu;nouvel objectif apparaît,radio;hands_radio_tune;quest_update_ui
+hospital_arrival,Arrivée à l'hôpital,25,camera_reveal,Faire comprendre que la zone est plus dangereuse.,pluie dehors;façade Saint-Mary;néons rouges;porte automatique bloquée;cri étouffé loin,Pack07 hospital;rain ambience;hospital music
+shelter_attack,Attaque de l'abri,90,playable_sequence,Rendre l'abri émotionnel et mécanique.,radio trop forte;bruit dehors;barricades tremblent;choix protéger stock ou survivant;résultat après attaque,shelter barricades;enemy normal;UI shelter alert
+lab_reveal,Révélation Projet Hélios,95,in_engine_story,Révéler la vérité centrale.,salle serveurs;documents Hélios;voix Eva;silhouette Sujet Oméga;choix données,laboratory;server racks;Subject Omega;dialogue UI
+final_choice,Dernière transmission,120,interactive_finale,Choix final et fins multiples.,antenne centrale;factions en conflit;choix révéler/détruire/quarantaine/exode;épilogue,military/lab tower;faction UI;ending cards

@@ -1,0 +1,35 @@
+{
+  "name": "use_bandage",
+  "duration": 4.0,
+  "tags": [
+    "player",
+    "medical"
+  ],
+  "keyframes": [
+    {
+      "time": 0.0,
+      "camera": "look_down_arm"
+    },
+    {
+      "time": 0.8,
+      "left_arm": "present_wound"
+    },
+    {
+      "time": 1.4,
+      "right_hand": "wrap_bandage"
+    },
+    {
+      "time": 2.7,
+      "sfx": "cloth_tighten"
+    },
+    {
+      "time": 3.2,
+      "gameplay_effect": "stop_bleeding"
+    },
+    {
+      "time": 4.0,
+      "state": "complete"
+    }
+  ],
+  "notes": "Interruption possible si dégâts."
+}

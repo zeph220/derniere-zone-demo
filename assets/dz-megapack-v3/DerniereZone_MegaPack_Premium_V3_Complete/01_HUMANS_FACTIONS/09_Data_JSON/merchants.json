@@ -1,0 +1,22 @@
+[
+  {
+    "id": "med_trader",
+    "name": "Clara, vendeuse médicale",
+    "specialty": "bandages, antiseptiques, sérums, piles de moniteur"
+  },
+  {
+    "id": "scrap_trader",
+    "name": "Boris, ferrailleur",
+    "specialty": "métal, pièces, outils, batteries"
+  },
+  {
+    "id": "food_trader",
+    "name": "Nina, ravitaillement",
+    "specialty": "conserves, eau, échange nourriture contre services"
+  },
+  {
+    "id": "arms_contact",
+    "name": "Marek, contact armé",
+    "specialty": "munitions rares, pièces d’armes, lames, troc risqué"
+  }
+]

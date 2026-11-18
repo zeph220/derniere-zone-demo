@@ -1,0 +1,22 @@
+[
+  {
+    "time": 0.0,
+    "beat": "noyau exposé",
+    "event": "c07_final_choice_beat_1"
+  },
+  {
+    "time": 18.75,
+    "beat": "options apparaissent",
+    "event": "c07_final_choice_beat_2"
+  },
+  {
+    "time": 37.5,
+    "beat": "alliés ou souvenirs réagissent",
+    "event": "c07_final_choice_beat_3"
+  },
+  {
+    "time": 56.25,
+    "beat": "choix validé",
+    "event": "c07_final_choice_beat_4"
+  }
+]

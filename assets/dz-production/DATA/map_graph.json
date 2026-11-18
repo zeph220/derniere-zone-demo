@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    "abri",
+    "rue_principale",
+    "superette",
+    "pharmacie",
+    "garage",
+    "hopital",
+    "metro_station",
+    "zone_militaire",
+    "laboratoire",
+    "refuge_ecole"
+  ],
+  "edges": [
+    [
+      "abri",
+      "rue_principale"
+    ],
+    [
+      "rue_principale",
+      "superette"
+    ],
+    [
+      "rue_principale",
+      "pharmacie"
+    ],
+    [
+      "rue_principale",
+      "garage"
+    ],
+    [
+      "garage",
+      "metro_station"
+    ],
+    [
+      "metro_station",
+      "hopital"
+    ],
+    [
+      "metro_station",
+      "laboratoire"
+    ],
+    [
+      "rue_principale",
+      "zone_militaire"
+    ],
+    [
+      "rue_principale",
+      "refuge_ecole"
+    ]
+  ],
+  "locks": {
+    "garage": "accessible after MQ02 start",
+    "hopital": "after radio message",
+    "metro_station": "requires crowbar",
+    "laboratoire": "requires access_card_lab and gas_mask",
+    "zone_militaire": "after factions chapter"
+  }
+}

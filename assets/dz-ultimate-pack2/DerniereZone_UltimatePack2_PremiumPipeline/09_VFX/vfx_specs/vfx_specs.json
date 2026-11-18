@@ -1,0 +1,22 @@
+{
+  "dust_impact": {
+    "spritesheet": "vfx_dust_spritesheet.png",
+    "duration": 0.6,
+    "use": "concrete hits, enemy heavy slam"
+  },
+  "metal_sparks": {
+    "spritesheet": "vfx_sparks_spritesheet.png",
+    "duration": 0.35,
+    "use": "metal impacts, electrical panel"
+  },
+  "infection_mist": {
+    "spritesheet": "vfx_infection_spritesheet.png",
+    "duration": 1.2,
+    "use": "toxic zones, lab leaks"
+  },
+  "electric_arc": {
+    "spritesheet": "vfx_electric_spritesheet.png",
+    "duration": 0.45,
+    "use": "generator, lab terminals"
+  }
+}

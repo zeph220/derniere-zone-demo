@@ -1,0 +1,233 @@
+[
+  {
+    "id": "street_road_wet_4m",
+    "name": "Route mouillée 4m",
+    "category": "modular_ground",
+    "priority": "hero",
+    "scale": "4 x 4 m",
+    "materials": [
+      "wet_asphalt"
+    ],
+    "gameplay": "Sol principal, flaques, reflets, ambiance pluie."
+  },
+  {
+    "id": "street_sidewalk_piece",
+    "name": "Trottoir modulaire",
+    "category": "modular_ground",
+    "priority": "hero",
+    "scale": "4 x 1.4 m",
+    "materials": [
+      "sidewalk_concrete"
+    ],
+    "gameplay": "Chemins piétons, séparation route/façades."
+  },
+  {
+    "id": "street_curb_piece",
+    "name": "Bordure de trottoir",
+    "category": "modular_ground",
+    "priority": "medium",
+    "scale": "4 x 0.25 m",
+    "materials": [
+      "sidewalk_concrete"
+    ],
+    "gameplay": "Lecture claire des espaces."
+  },
+  {
+    "id": "building_wall_dirty_A",
+    "name": "Mur extérieur sale A",
+    "category": "modular_building",
+    "priority": "hero",
+    "scale": "4 x 0.25 x 3 m",
+    "materials": [
+      "dirty_storefront_wall"
+    ],
+    "gameplay": "Façades génériques du quartier."
+  },
+  {
+    "id": "building_wall_broken_B",
+    "name": "Mur extérieur fissuré B",
+    "category": "modular_building",
+    "priority": "hero",
+    "scale": "4 x 0.25 x 3 m",
+    "materials": [
+      "dirty_storefront_wall"
+    ],
+    "gameplay": "Variation endommagée, narration environnementale."
+  },
+  {
+    "id": "storefront_supermarket",
+    "name": "Façade supérette",
+    "category": "modular_building",
+    "priority": "hero",
+    "scale": "5 x 0.35 x 3.2 m",
+    "materials": [
+      "dirty_storefront_wall",
+      "broken_glass",
+      "painted_metal_dirty"
+    ],
+    "gameplay": "Entrée supérette, objectif initial."
+  },
+  {
+    "id": "storefront_pharmacy",
+    "name": "Façade pharmacie",
+    "category": "modular_building",
+    "priority": "hero",
+    "scale": "5 x 0.35 x 3.2 m",
+    "materials": [
+      "dirty_storefront_wall",
+      "broken_glass",
+      "painted_metal_dirty"
+    ],
+    "gameplay": "Entrée pharmacie, quêtes médicales."
+  },
+  {
+    "id": "window_broken_large",
+    "name": "Grande vitrine cassée",
+    "category": "modular_building",
+    "priority": "hero",
+    "scale": "2.2 x 0.12 x 1.8 m",
+    "materials": [
+      "broken_glass",
+      "painted_metal_dirty"
+    ],
+    "gameplay": "Entrées visuelles, loot visible, ambiance."
+  },
+  {
+    "id": "door_metal_shutter",
+    "name": "Rideau métallique fermé",
+    "category": "modular_building",
+    "priority": "medium",
+    "scale": "2.2 x 0.18 x 2.3 m",
+    "materials": [
+      "painted_metal_dirty"
+    ],
+    "gameplay": "Bloque accès, contrôle progression."
+  },
+  {
+    "id": "door_store_glass",
+    "name": "Porte vitrée de magasin",
+    "category": "modular_building",
+    "priority": "hero",
+    "scale": "1.2 x 0.15 x 2.3 m",
+    "materials": [
+      "broken_glass",
+      "painted_metal_dirty"
+    ],
+    "gameplay": "Entrée interactive."
+  },
+  {
+    "id": "street_lamp_post",
+    "name": "Lampadaire cassé",
+    "category": "urban_props",
+    "priority": "medium",
+    "scale": "0.35 x 0.35 x 4.2 m",
+    "materials": [
+      "painted_metal_dirty",
+      "broken_glass"
+    ],
+    "gameplay": "Lumière, repère visuel, ambiance nuit."
+  },
+  {
+    "id": "street_sign_quarantine",
+    "name": "Panneau de quarantaine",
+    "category": "urban_props",
+    "priority": "medium",
+    "scale": "1.0 x 0.15 x 2.1 m",
+    "materials": [
+      "painted_metal_dirty"
+    ],
+    "gameplay": "Lore, direction artistique."
+  },
+  {
+    "id": "trash_bin_overflow",
+    "name": "Poubelle débordante",
+    "category": "urban_props",
+    "priority": "medium",
+    "scale": "0.8 x 0.8 x 1.2 m",
+    "materials": [
+      "painted_metal_dirty"
+    ],
+    "gameplay": "Couverture, loot léger, décor."
+  },
+  {
+    "id": "dumpster_large",
+    "name": "Benne rouillée",
+    "category": "urban_props",
+    "priority": "medium",
+    "scale": "2.0 x 1.2 x 1.3 m",
+    "materials": [
+      "painted_metal_dirty"
+    ],
+    "gameplay": "Couverture, loot, ruelle."
+  },
+  {
+    "id": "ruined_car_A",
+    "name": "Voiture détruite A",
+    "category": "vehicle",
+    "priority": "hero",
+    "scale": "3.8 x 1.7 x 1.4 m",
+    "materials": [
+      "rusty_vehicle_metal",
+      "broken_glass"
+    ],
+    "gameplay": "Blocage route, couverture, loot."
+  },
+  {
+    "id": "concrete_barrier_A",
+    "name": "Barrière béton",
+    "category": "barricade",
+    "priority": "medium",
+    "scale": "2.4 x 0.6 x 1.0 m",
+    "materials": [
+      "sidewalk_concrete"
+    ],
+    "gameplay": "Blocage naturel, checkpoint."
+  },
+  {
+    "id": "sandbag_wall_A",
+    "name": "Mur de sacs de sable",
+    "category": "barricade",
+    "priority": "medium",
+    "scale": "2.5 x 0.6 x 0.9 m",
+    "materials": [
+      "dirty_fabric"
+    ],
+    "gameplay": "Zone militaire, couverture."
+  },
+  {
+    "id": "wood_metal_barricade_A",
+    "name": "Barricade bois/métal",
+    "category": "barricade",
+    "priority": "hero",
+    "scale": "2.2 x 0.4 x 1.5 m",
+    "materials": [
+      "aged_wood",
+      "painted_metal_dirty"
+    ],
+    "gameplay": "Rues bloquées, défense."
+  },
+  {
+    "id": "bus_stop_broken",
+    "name": "Abribus cassé",
+    "category": "urban_props",
+    "priority": "medium",
+    "scale": "3.0 x 1.0 x 2.5 m",
+    "materials": [
+      "broken_glass",
+      "painted_metal_dirty"
+    ],
+    "gameplay": "Abri temporaire, repère visuel."
+  },
+  {
+    "id": "manhole_drain_set",
+    "name": "Bouche d'égout + grille",
+    "category": "urban_props",
+    "priority": "low",
+    "scale": "1 x 1 m",
+    "materials": [
+      "painted_metal_dirty",
+      "wet_asphalt"
+    ],
+    "gameplay": "Détail sol, accès métro futur."
+  }
+]

@@ -1,0 +1,12 @@
+newmtl medical_cloth
+Kd 0.58 0.55 0.48
+Ka 0.05 0.05 0.05
+Ks 0.12 0.12 0.12
+Ns 24
+
+newmtl red_cross
+Kd 0.55 0.05 0.05
+Ka 0.05 0.05 0.05
+Ks 0.12 0.12 0.12
+Ns 24
+

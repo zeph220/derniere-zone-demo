@@ -1,0 +1,22 @@
+[
+  {
+    "time": 0.0,
+    "beat": "plan rue inondée",
+    "event": "c01_intro_rain_beat_1"
+  },
+  {
+    "time": 11.25,
+    "beat": "radio lointaine",
+    "event": "c01_intro_rain_beat_2"
+  },
+  {
+    "time": 22.5,
+    "beat": "premier objectif",
+    "event": "c01_intro_rain_beat_3"
+  },
+  {
+    "time": 33.75,
+    "beat": "contrôle joueur",
+    "event": "c01_intro_rain_beat_4"
+  }
+]

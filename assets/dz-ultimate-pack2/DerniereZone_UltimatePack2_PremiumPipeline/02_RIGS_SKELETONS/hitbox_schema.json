@@ -1,0 +1,23 @@
+{
+  "enemy_hitboxes": [
+    "head",
+    "neck",
+    "torso",
+    "pelvis",
+    "upper_arm_l",
+    "upper_arm_r",
+    "lower_arm_l",
+    "lower_arm_r",
+    "upper_leg_l",
+    "upper_leg_r",
+    "lower_leg_l",
+    "lower_leg_r"
+  ],
+  "damage_multipliers": {
+    "head": 1.6,
+    "torso": 1.0,
+    "arms": 0.65,
+    "legs": 0.75
+  },
+  "notes": "Ajuster par ennemi. Lourd a résistance globale, féral a hitboxes plus fines."
+}

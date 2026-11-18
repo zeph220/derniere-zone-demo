@@ -1,0 +1,220 @@
+[
+  {
+    "id": "water_bottle",
+    "name": "Bouteille d’eau",
+    "category": "survival",
+    "use": "Soif +35",
+    "found": [
+      "supérette",
+      "appartements",
+      "abri avec récupérateur"
+    ],
+    "animation": "drink_water"
+  },
+  {
+    "id": "empty_bottle",
+    "name": "Bouteille vide",
+    "category": "craft",
+    "use": "Stocker eau / craft filtre",
+    "found": [
+      "rues",
+      "poubelles",
+      "supérette"
+    ],
+    "animation": "pickup_item"
+  },
+  {
+    "id": "food_can",
+    "name": "Conserve",
+    "category": "survival",
+    "use": "Faim +30",
+    "found": [
+      "supérette",
+      "appartements",
+      "dépôt militaire"
+    ],
+    "animation": "eat_food"
+  },
+  {
+    "id": "energy_bar",
+    "name": "Barre énergétique",
+    "category": "survival",
+    "use": "Faim +15, endurance temporaire +10",
+    "found": [
+      "distributeurs",
+      "sacs"
+    ],
+    "animation": "eat_food"
+  },
+  {
+    "id": "bandage",
+    "name": "Bandage",
+    "category": "medical",
+    "use": "Arrête saignement, Vie +10",
+    "found": [
+      "pharmacie",
+      "hôpital",
+      "craft tissu"
+    ],
+    "animation": "use_bandage"
+  },
+  {
+    "id": "dirty_bandage",
+    "name": "Bandage sale",
+    "category": "medical",
+    "use": "Arrête saignement mais risque infection",
+    "found": [
+      "rues",
+      "ennemis",
+      "bâtiments sales"
+    ],
+    "animation": "use_bandage"
+  },
+  {
+    "id": "antiseptic",
+    "name": "Antiseptique",
+    "category": "medical",
+    "use": "Réduit risque infection",
+    "found": [
+      "pharmacie",
+      "hôpital"
+    ],
+    "animation": "apply_antiseptic"
+  },
+  {
+    "id": "antibiotics",
+    "name": "Antibiotiques",
+    "category": "medical",
+    "use": "Réduit infection déclarée",
+    "found": [
+      "réserve pharmacie",
+      "hôpital"
+    ],
+    "animation": "take_pills"
+  },
+  {
+    "id": "medkit",
+    "name": "Kit médical",
+    "category": "medical",
+    "use": "Vie +45, arrête saignement",
+    "found": [
+      "hôpital",
+      "ambulance",
+      "zone militaire"
+    ],
+    "animation": "use_medkit"
+  },
+  {
+    "id": "cloth",
+    "name": "Tissu",
+    "category": "craft",
+    "use": "Bandages, filtres, réparations",
+    "found": [
+      "draps",
+      "vêtements",
+      "rideaux"
+    ],
+    "animation": "pickup_item"
+  },
+  {
+    "id": "wood",
+    "name": "Bois",
+    "category": "craft",
+    "use": "Barricades, attelle, abri",
+    "found": [
+      "palettes",
+      "meubles",
+      "barricades"
+    ],
+    "animation": "pickup_heavy"
+  },
+  {
+    "id": "metal_scrap",
+    "name": "Métal",
+    "category": "craft",
+    "use": "Outils, renforts, réparations",
+    "found": [
+      "garage",
+      "voitures",
+      "grilles"
+    ],
+    "animation": "pickup_heavy"
+  },
+  {
+    "id": "cable",
+    "name": "Câble",
+    "category": "craft",
+    "use": "Radio, générateur, portes",
+    "found": [
+      "garage",
+      "boîtiers électriques",
+      "labo"
+    ],
+    "animation": "pickup_item"
+  },
+  {
+    "id": "battery",
+    "name": "Pile",
+    "category": "craft",
+    "use": "Lampe, radio, appareil",
+    "found": [
+      "supérette",
+      "tiroirs",
+      "lampes"
+    ],
+    "animation": "pickup_item"
+  },
+  {
+    "id": "flashlight",
+    "name": "Lampe torche",
+    "category": "equipment",
+    "use": "Éclairer, attire certains ennemis",
+    "found": [
+      "garage",
+      "abri"
+    ],
+    "animation": "toggle_flashlight"
+  },
+  {
+    "id": "crowbar",
+    "name": "Pied-de-biche",
+    "category": "equipment",
+    "use": "Ouvrir portes/caisses/planches",
+    "found": [
+      "garage"
+    ],
+    "animation": "force_door"
+  },
+  {
+    "id": "gas_mask",
+    "name": "Masque à gaz",
+    "category": "equipment",
+    "use": "Zones contaminées",
+    "found": [
+      "zone militaire",
+      "labo"
+    ],
+    "animation": "equip_mask"
+  },
+  {
+    "id": "radio_part_antenna",
+    "name": "Antenne radio",
+    "category": "quest",
+    "use": "Réparer radio de l’abri",
+    "found": [
+      "toit immeuble"
+    ],
+    "animation": "install_part"
+  },
+  {
+    "id": "access_card_lab",
+    "name": "Carte d’accès laboratoire",
+    "category": "quest",
+    "use": "Ouvrir laboratoire B-07",
+    "found": [
+      "zone militaire",
+      "scientifique"
+    ],
+    "animation": "use_keycard"
+  }
+]

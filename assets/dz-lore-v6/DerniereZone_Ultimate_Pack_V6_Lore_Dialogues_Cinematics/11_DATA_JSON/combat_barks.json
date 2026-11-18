@@ -1,0 +1,22 @@
+{
+  "low_health": [
+    "Je vais tomber...",
+    "Plus vite. Maintenant.",
+    "Ça tourne..."
+  ],
+  "enemy_seen": [
+    "Là-bas.",
+    "Ne bouge plus.",
+    "On n'est pas seuls."
+  ],
+  "boss_intro": [
+    "Ce n'est pas un infecté ordinaire.",
+    "Recule. Regarde sa posture.",
+    "La Zone l'a gardé pour nous."
+  ],
+  "after_fight": [
+    "C'est fini ?",
+    "Ça ne devrait pas pouvoir mourir.",
+    "Prends ce qu'on est venus chercher."
+  ]
+}

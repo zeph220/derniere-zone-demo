@@ -1,0 +1,67 @@
+{
+  "status": [
+    "health",
+    "hunger",
+    "thirst",
+    "stamina",
+    "fatigue",
+    "infection",
+    "bleeding",
+    "toxic",
+    "cold",
+    "noise"
+  ],
+  "inventory": [
+    "water",
+    "food",
+    "bandage",
+    "antibiotics",
+    "battery",
+    "wire",
+    "wood",
+    "metal",
+    "key",
+    "keycard",
+    "document",
+    "flashlight",
+    "fuel",
+    "filter",
+    "medkit",
+    "tool"
+  ],
+  "map": [
+    "player",
+    "shelter",
+    "objective",
+    "danger",
+    "enemy",
+    "merchant",
+    "locked",
+    "stash",
+    "safehouse",
+    "faction",
+    "radio",
+    "exit"
+  ],
+  "actions": [
+    "use",
+    "drop",
+    "transfer",
+    "craft",
+    "read",
+    "talk",
+    "save",
+    "sleep",
+    "repair",
+    "trade",
+    "inspect",
+    "equip"
+  ],
+  "factions": [
+    "secouristes",
+    "pillards",
+    "scientifiques",
+    "habitants_caches",
+    "sentinelles"
+  ]
+}

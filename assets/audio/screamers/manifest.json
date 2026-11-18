@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "status": "placeholder-manifest",
+  "note": "Premium screamer files still need licensed replacements. Runtime currently falls back to existing music stingers.",
+  "needed": [
+    {
+      "id": "screamer_short",
+      "query": "horror jumpscare sting short sound effect wav commercial license"
+    },
+    {
+      "id": "screamer_long",
+      "query": "cinematic horror jump scare impact wav commercial license"
+    },
+    {
+      "id": "metro_whisper",
+      "query": "subway monster whisper reverb horror sound wav commercial license"
+    },
+    {
+      "id": "infection_snap",
+      "query": "organic infection snap horror sound wav commercial license"
+    }
+  ],
+  "currentFallback": "/assets/audio/music/jingles_HIT03.ogg"
+}

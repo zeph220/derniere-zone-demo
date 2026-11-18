@@ -1,0 +1,23 @@
+{
+  "name": "enemy_fast_stop_brutal",
+  "duration": 2.2,
+  "tags": [
+    "enemy_fast",
+    "enemy"
+  ],
+  "keyframes": [
+    {
+      "time": 0.0,
+      "pose": "start"
+    },
+    {
+      "time": 0.5,
+      "pose": "main_motion"
+    },
+    {
+      "time": 1.0,
+      "pose": "recover_or_loop"
+    }
+  ],
+  "notes": "Animation placeholder pour enemy_fast. À remplacer par animation finale."
+}

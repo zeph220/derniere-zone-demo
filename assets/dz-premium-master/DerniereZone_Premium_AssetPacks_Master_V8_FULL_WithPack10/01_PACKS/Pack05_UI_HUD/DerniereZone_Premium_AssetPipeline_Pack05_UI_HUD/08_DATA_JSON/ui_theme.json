@@ -1,0 +1,24 @@
+{
+  "palette": {
+    "background_dark": "#101413",
+    "panel": "#202826",
+    "panel_light": "#303B37",
+    "text": "#E8E1C8",
+    "muted_text": "#AFA895",
+    "danger_red": "#A33A32",
+    "warning_orange": "#C28737",
+    "success_green": "#6E9369",
+    "info_blue": "#6F8C9C",
+    "faction_orange": "#D08A3A"
+  },
+  "rules": [
+    "UI sombre, lisible, semi-transparente.",
+    "Peu de couleurs saturées.",
+    "Rouge réservé au danger.",
+    "Animations courtes.",
+    "Aucun écran ne doit cacher une information critique sans pause.",
+    "Lisibilité prioritaire sur style."
+  ],
+  "font_direction": "Sans-serif condensée/technique pour UI, style carnet pour documents.",
+  "sound_direction": "clics radio, papier, bips faibles, heartbeat pour danger."
+}

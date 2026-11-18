@@ -1,0 +1,217 @@
+[
+  {
+    "id": "hospital",
+    "folder": "Hospital",
+    "name": "Hôpital Saint-Mary",
+    "role": "Zone médicale majeure, première grande zone dangereuse.",
+    "mood": "froid, clinique, abandonné, humide, néons instables",
+    "main_resources": [
+      "antibiotics",
+      "medkit",
+      "bandage",
+      "painkillers",
+      "documents"
+    ],
+    "main_enemies": [
+      "enemy_normal",
+      "enemy_heavy"
+    ],
+    "special_enemy": "enemy_blind optional in basement",
+    "faction": "secouristes",
+    "unlock_from": "Q05_HospitalSignal",
+    "unlocks": [
+      "metro_access",
+      "lab_keycard_hint",
+      "secouristes_faction"
+    ],
+    "music": "04_hopital_froid_tension_clinique_loop",
+    "ambience": [
+      "fluorescent_buzz",
+      "distant_drips",
+      "muffled_alarm"
+    ],
+    "palette": [
+      "dirty white",
+      "cold green",
+      "red emergency",
+      "blue shadows"
+    ],
+    "subzones": [
+      "reception",
+      "emergency_ward",
+      "patient_rooms",
+      "internal_pharmacy",
+      "surgery",
+      "basement"
+    ],
+    "gameplay": [
+      "medical loot",
+      "locked pharmacy",
+      "triage documents",
+      "power puzzle",
+      "first heavy enemy"
+    ]
+  },
+  {
+    "id": "metro",
+    "folder": "Metro",
+    "name": "Métro République",
+    "role": "Réseau souterrain, raccourcis et zone de discrétion/bruit.",
+    "mood": "souterrain, noir, résonnant, humide, claustrophobe",
+    "main_resources": [
+      "battery",
+      "fuse",
+      "wire",
+      "map_fragment",
+      "scrap_metal"
+    ],
+    "main_enemies": [
+      "enemy_blind",
+      "enemy_fast"
+    ],
+    "special_enemy": "enemy_blind primary",
+    "faction": "habitants_caches",
+    "unlock_from": "Q08_MetroAccess",
+    "unlocks": [
+      "laboratory_route",
+      "hidden_residents",
+      "fast_travel_shortcuts"
+    ],
+    "music": "05_metro_rumble_souterrain_loop",
+    "ambience": [
+      "subway_rumble",
+      "drips",
+      "metal_echo"
+    ],
+    "palette": [
+      "black concrete",
+      "green emergency",
+      "wet steel",
+      "orange warning"
+    ],
+    "subzones": [
+      "street_entrance",
+      "ticket_hall",
+      "platforms",
+      "abandoned_train",
+      "maintenance_tunnel",
+      "service_room"
+    ],
+    "gameplay": [
+      "sound stealth",
+      "blind enemy",
+      "restore local power",
+      "shortcuts",
+      "map fragments"
+    ]
+  },
+  {
+    "id": "laboratory",
+    "folder": "Laboratory",
+    "name": "Laboratoire Oméga",
+    "role": "Révélation principale, zone scientifique, choix de vérité.",
+    "mood": "stérile mais détruit, froid, électrique, inquiétant, silencieux",
+    "main_resources": [
+      "lab_keycard",
+      "radio_part",
+      "documents",
+      "fuse",
+      "experimental_device"
+    ],
+    "main_enemies": [
+      "enemy_lab_subject",
+      "enemy_normal",
+      "enemy_heavy"
+    ],
+    "special_enemy": "enemy_lab_subject",
+    "faction": "scientifiques",
+    "unlock_from": "Q10_LaboratoryAccess",
+    "unlocks": [
+      "truth_evidence",
+      "final_choice",
+      "omega_files"
+    ],
+    "music": "06_laboratoire_neons_dread_loop",
+    "ambience": [
+      "ventilation",
+      "server_hum",
+      "electrical_pops",
+      "distant_subject_scream"
+    ],
+    "palette": [
+      "cold blue",
+      "dirty white",
+      "black glass",
+      "red lockdown"
+    ],
+    "subzones": [
+      "security_sas",
+      "offices",
+      "observation",
+      "containment_cells",
+      "server_room",
+      "helios_core"
+    ],
+    "gameplay": [
+      "keycard access",
+      "lockdown puzzle",
+      "truth documents",
+      "Subject Omega encounter",
+      "ending flags"
+    ]
+  },
+  {
+    "id": "military_zone",
+    "folder": "MilitaryZone",
+    "name": "Zone Militaire Nord",
+    "role": "Quarantaine, équipement, faction Sentinelles, fin militaire.",
+    "mood": "autoritaire, interdit, projecteurs, métal, barbelés, alarmes",
+    "main_resources": [
+      "fuel_can",
+      "medkit",
+      "gas_mask",
+      "scrap_metal",
+      "military_docs"
+    ],
+    "main_enemies": [
+      "enemy_heavy",
+      "human_hostile_placeholder"
+    ],
+    "special_enemy": "enemy_heavy near bunker",
+    "faction": "sentinelles",
+    "unlock_from": "Q09_FactionsChoice or Q12_Final",
+    "unlocks": [
+      "heavy_equipment",
+      "final_route",
+      "quarantine_ending"
+    ],
+    "music": "07_zone_militaire_pression_loop",
+    "ambience": [
+      "searchlights_hum",
+      "distant_speaker",
+      "metal_gate",
+      "wind_flags"
+    ],
+    "palette": [
+      "khaki",
+      "dark grey",
+      "warning orange",
+      "searchlight white"
+    ],
+    "subzones": [
+      "checkpoint",
+      "vehicle_yard",
+      "barracks",
+      "armory",
+      "command_room",
+      "bunker"
+    ],
+    "gameplay": [
+      "checkpoint gates",
+      "spotlights",
+      "faction access",
+      "fuel",
+      "command decision"
+    ]
+  }
+]

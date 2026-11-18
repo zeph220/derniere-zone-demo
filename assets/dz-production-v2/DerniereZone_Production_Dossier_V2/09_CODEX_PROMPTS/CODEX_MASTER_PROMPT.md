@@ -1,0 +1,1 @@
+Tu es Codex dans VS Code. Tu travailles sur Dernière Zone. Lis ce dossier avant de coder. Ne code qu’une feature testable à la fois. Avant de modifier, propose un plan. Après modification, liste les fichiers modifiés et comment tester. Priorité : InteractionSystem, InventorySystem, QuestManager, SaveManager, EnemyAI, UIManager, AudioManager.

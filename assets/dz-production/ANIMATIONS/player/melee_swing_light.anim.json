@@ -1,0 +1,27 @@
+{
+  "name": "melee_swing_light",
+  "duration": 0.65,
+  "tags": [
+    "player",
+    "combat"
+  ],
+  "keyframes": [
+    {
+      "time": 0.0,
+      "weapon": "windup_short"
+    },
+    {
+      "time": 0.32,
+      "hit_window": "start"
+    },
+    {
+      "time": 0.44,
+      "hit_window": "end"
+    },
+    {
+      "time": 0.65,
+      "state": "complete"
+    }
+  ],
+  "notes": ""
+}

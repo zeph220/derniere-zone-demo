@@ -1,0 +1,116 @@
+{
+  "radio_tune": {
+    "duration": 3.0,
+    "keyframes": [
+      {
+        "t": 0,
+        "right_hand": "approach knob"
+      },
+      {
+        "t": 0.45,
+        "right_hand": "grip knob"
+      },
+      {
+        "t": 1.2,
+        "right_hand": "turn left/right",
+        "audio": "static rises"
+      },
+      {
+        "t": 2.3,
+        "audio": "signal locks"
+      },
+      {
+        "t": 3.0,
+        "ui": "new transmission"
+      }
+    ]
+  },
+  "chest_open": {
+    "duration": 1.1,
+    "keyframes": [
+      {
+        "t": 0,
+        "lid": "closed"
+      },
+      {
+        "t": 0.25,
+        "sound": "unlock click"
+      },
+      {
+        "t": 0.75,
+        "lid": "open 75 degrees"
+      },
+      {
+        "t": 1.1,
+        "ui": "storage opens"
+      }
+    ]
+  },
+  "craft_small": {
+    "duration": 2.5,
+    "keyframes": [
+      {
+        "t": 0,
+        "hands": "place materials"
+      },
+      {
+        "t": 0.8,
+        "hands": "tool movement"
+      },
+      {
+        "t": 1.8,
+        "hands": "tighten/fold"
+      },
+      {
+        "t": 2.5,
+        "result": "item created"
+      }
+    ]
+  },
+  "generator_start": {
+    "duration": 2.8,
+    "keyframes": [
+      {
+        "t": 0,
+        "lever": "idle"
+      },
+      {
+        "t": 0.5,
+        "lever": "pull"
+      },
+      {
+        "t": 1.2,
+        "generator": "shake weak"
+      },
+      {
+        "t": 2.0,
+        "lights": "flicker"
+      },
+      {
+        "t": 2.8,
+        "generator": "idle loop"
+      }
+    ]
+  },
+  "sleep_interact": {
+    "duration": 4.0,
+    "keyframes": [
+      {
+        "t": 0,
+        "camera": "look at bed"
+      },
+      {
+        "t": 1,
+        "screen": "fade warm dark"
+      },
+      {
+        "t": 2.5,
+        "audio": "muffled shelter ambience"
+      },
+      {
+        "t": 4,
+        "screen": "wake fade in"
+      }
+    ]
+  }
+}

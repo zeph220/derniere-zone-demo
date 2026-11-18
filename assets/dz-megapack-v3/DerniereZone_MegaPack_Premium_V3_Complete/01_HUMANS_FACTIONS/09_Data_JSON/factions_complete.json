@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ferrailleurs",
+    "name": "Les Ferrailleurs",
+    "identity": "mécanique, récupération, autonomie, logique pratique",
+    "allies": "souvent neutres",
+    "conflicts": "détestent le Bastion"
+  },
+  {
+    "id": "veilleurs_metro",
+    "name": "Les Veilleurs du Métro",
+    "identity": "furtivité, cartes de tunnels, pièges sonores",
+    "allies": "peuvent aider le joueur dans le métro",
+    "conflicts": "hostiles aux inconnus bruyants"
+  },
+  {
+    "id": "cellule_sanitaire_9",
+    "name": "Cellule Sanitaire 9",
+    "identity": "anciens soignants, rigueur, discipline, médicaments",
+    "allies": "hôpital / refuge médical",
+    "conflicts": "peur de la contamination libre"
+  },
+  {
+    "id": "reste_bastion",
+    "name": "Reste du Bastion",
+    "identity": "survie par la force, checkpoints, armes, ordre dur",
+    "allies": "peut commercer mais manipule",
+    "conflicts": "avec presque tout le monde"
+  },
+  {
+    "id": "errants_foireux",
+    "name": "Les Errants Foireux",
+    "identity": "petits pillards, opportunistes, marché noir",
+    "allies": "alliances changeantes",
+    "conflicts": "source de quêtes et d’embuscades"
+  }
+]

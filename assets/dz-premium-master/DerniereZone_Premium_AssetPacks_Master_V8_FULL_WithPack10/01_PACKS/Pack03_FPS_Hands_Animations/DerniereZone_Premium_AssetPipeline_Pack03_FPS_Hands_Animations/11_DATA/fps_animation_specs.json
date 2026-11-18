@@ -1,0 +1,404 @@
+[
+  {
+    "id": "fp_idle_breathing",
+    "name": "Idle FPS respiration",
+    "duration": 2.4,
+    "loop": true,
+    "priority": "critical",
+    "purpose": "Base permanente des mains FPS.",
+    "frames": [
+      {
+        "frame": 0,
+        "time": 0.0,
+        "pose": "mains basses, caméra stable"
+      },
+      {
+        "frame": 12,
+        "time": 0.4,
+        "pose": "micro descente respiration"
+      },
+      {
+        "frame": 24,
+        "time": 0.8,
+        "pose": "retour neutre"
+      },
+      {
+        "frame": 48,
+        "time": 1.6,
+        "pose": "micro montée faible"
+      },
+      {
+        "frame": 72,
+        "time": 2.4,
+        "pose": "retour boucle"
+      }
+    ],
+    "notes": "Très subtil. Ne doit pas gêner la visée ni l'interaction."
+  },
+  {
+    "id": "fp_pickup_small_item",
+    "name": "Ramasser petit objet",
+    "duration": 0.85,
+    "loop": false,
+    "priority": "critical",
+    "purpose": "Ramassage eau, pile, clé, note.",
+    "frames": [
+      {
+        "frame": 0,
+        "time": 0.0,
+        "pose": "main droite visible en bas"
+      },
+      {
+        "frame": 8,
+        "time": 0.13,
+        "pose": "main avance vers objet"
+      },
+      {
+        "frame": 18,
+        "time": 0.3,
+        "pose": "doigts se ferment"
+      },
+      {
+        "frame": 32,
+        "time": 0.53,
+        "pose": "objet retiré vers caméra"
+      },
+      {
+        "frame": 51,
+        "time": 0.85,
+        "pose": "retour idle"
+      }
+    ],
+    "sounds": [
+      "pickup_resource_soft"
+    ],
+    "ui_event": "pickup_popup"
+  },
+  {
+    "id": "fp_drink_water",
+    "name": "Boire bouteille",
+    "duration": 2.15,
+    "loop": false,
+    "priority": "critical",
+    "purpose": "Restaurer la soif.",
+    "frames": [
+      {
+        "frame": 0,
+        "time": 0.0,
+        "pose": "bouteille en bas droite"
+      },
+      {
+        "frame": 18,
+        "time": 0.3,
+        "pose": "bouteille monte"
+      },
+      {
+        "frame": 42,
+        "time": 0.7,
+        "pose": "bouteille bouche, inclinaison"
+      },
+      {
+        "frame": 78,
+        "time": 1.3,
+        "pose": "maintien, son gorgées"
+      },
+      {
+        "frame": 105,
+        "time": 1.75,
+        "pose": "bouteille descend"
+      },
+      {
+        "frame": 129,
+        "time": 2.15,
+        "pose": "retour idle"
+      }
+    ],
+    "interruptible": true,
+    "gameplay_apply_time": 1.25
+  },
+  {
+    "id": "fp_eat_food",
+    "name": "Manger conserve/barre",
+    "duration": 2.35,
+    "loop": false,
+    "priority": "critical",
+    "purpose": "Restaurer la faim.",
+    "frames": [
+      {
+        "frame": 0,
+        "time": 0.0,
+        "pose": "nourriture en main"
+      },
+      {
+        "frame": 20,
+        "time": 0.33,
+        "pose": "main approche bouche"
+      },
+      {
+        "frame": 48,
+        "time": 0.8,
+        "pose": "morsure"
+      },
+      {
+        "frame": 78,
+        "time": 1.3,
+        "pose": "mastication légère"
+      },
+      {
+        "frame": 112,
+        "time": 1.87,
+        "pose": "main descend"
+      },
+      {
+        "frame": 141,
+        "time": 2.35,
+        "pose": "retour idle"
+      }
+    ],
+    "interruptible": true,
+    "gameplay_apply_time": 1.0
+  },
+  {
+    "id": "fp_apply_bandage",
+    "name": "Mettre un bandage",
+    "duration": 4.2,
+    "loop": false,
+    "priority": "critical",
+    "purpose": "Arrêter saignement / soin léger.",
+    "frames": [
+      {
+        "frame": 0,
+        "time": 0.0,
+        "pose": "avant-bras gauche exposé"
+      },
+      {
+        "frame": 24,
+        "time": 0.4,
+        "pose": "main droite sort bandage"
+      },
+      {
+        "frame": 60,
+        "time": 1.0,
+        "pose": "premier tour autour bras"
+      },
+      {
+        "frame": 108,
+        "time": 1.8,
+        "pose": "serrage, respiration stressée"
+      },
+      {
+        "frame": 156,
+        "time": 2.6,
+        "pose": "deuxième tour"
+      },
+      {
+        "frame": 210,
+        "time": 3.5,
+        "pose": "nœud / fixation"
+      },
+      {
+        "frame": 252,
+        "time": 4.2,
+        "pose": "bras redescend"
+      }
+    ],
+    "interruptible": true,
+    "gameplay_apply_time": 3.5,
+    "risk": "L'animation longue expose le joueur au danger."
+  },
+  {
+    "id": "fp_open_door",
+    "name": "Ouvrir porte",
+    "duration": 1.05,
+    "loop": false,
+    "priority": "high",
+    "purpose": "Interaction portes/poignées.",
+    "frames": [
+      {
+        "frame": 0,
+        "time": 0.0,
+        "pose": "main vers poignée"
+      },
+      {
+        "frame": 12,
+        "time": 0.2,
+        "pose": "contact poignée"
+      },
+      {
+        "frame": 26,
+        "time": 0.43,
+        "pose": "tourne poignée"
+      },
+      {
+        "frame": 46,
+        "time": 0.77,
+        "pose": "pousse/tire"
+      },
+      {
+        "frame": 63,
+        "time": 1.05,
+        "pose": "retour"
+      }
+    ],
+    "sync": [
+      "door_latch_click",
+      "door_creak"
+    ]
+  },
+  {
+    "id": "fp_radio_tune",
+    "name": "Régler la radio",
+    "duration": 3.0,
+    "loop": false,
+    "priority": "high",
+    "purpose": "Moments narratifs de radio.",
+    "frames": [
+      {
+        "frame": 0,
+        "time": 0.0,
+        "pose": "main approche bouton"
+      },
+      {
+        "frame": 24,
+        "time": 0.4,
+        "pose": "saisie du bouton"
+      },
+      {
+        "frame": 60,
+        "time": 1.0,
+        "pose": "rotation gauche/droite"
+      },
+      {
+        "frame": 110,
+        "time": 1.83,
+        "pose": "pause écoute"
+      },
+      {
+        "frame": 150,
+        "time": 2.5,
+        "pose": "signal trouvé"
+      },
+      {
+        "frame": 180,
+        "time": 3.0,
+        "pose": "retrait main"
+      }
+    ],
+    "sync": [
+      "radio_static_rise",
+      "radio_signal_lock"
+    ]
+  },
+  {
+    "id": "fp_flashlight_toggle",
+    "name": "Allumer lampe",
+    "duration": 0.65,
+    "loop": false,
+    "priority": "high",
+    "purpose": "Lampe torche / zones sombres.",
+    "frames": [
+      {
+        "frame": 0,
+        "time": 0.0,
+        "pose": "lampe en bas"
+      },
+      {
+        "frame": 12,
+        "time": 0.2,
+        "pose": "pouce vers bouton"
+      },
+      {
+        "frame": 20,
+        "time": 0.33,
+        "pose": "clic"
+      },
+      {
+        "frame": 39,
+        "time": 0.65,
+        "pose": "retour position"
+      }
+    ],
+    "sync": [
+      "flashlight_click",
+      "light_on_event"
+    ]
+  },
+  {
+    "id": "fp_craft_workbench",
+    "name": "Craft établi",
+    "duration": 3.2,
+    "loop": false,
+    "priority": "medium",
+    "purpose": "Fabrication courte à l'abri.",
+    "frames": [
+      {
+        "frame": 0,
+        "time": 0.0,
+        "pose": "mains posent matériaux"
+      },
+      {
+        "frame": 30,
+        "time": 0.5,
+        "pose": "outil en main"
+      },
+      {
+        "frame": 72,
+        "time": 1.2,
+        "pose": "mouvement répétitif"
+      },
+      {
+        "frame": 130,
+        "time": 2.17,
+        "pose": "serrage/finalisation"
+      },
+      {
+        "frame": 192,
+        "time": 3.2,
+        "pose": "objet créé"
+      }
+    ],
+    "sync": [
+      "craft_tool_taps",
+      "craft_complete"
+    ]
+  },
+  {
+    "id": "fp_death_fall",
+    "name": "Mort FPS chute caméra",
+    "duration": 2.6,
+    "loop": false,
+    "priority": "high",
+    "purpose": "Transition vers écran de mort.",
+    "frames": [
+      {
+        "frame": 0,
+        "time": 0.0,
+        "pose": "caméra impact"
+      },
+      {
+        "frame": 24,
+        "time": 0.4,
+        "pose": "mains cherchent appui"
+      },
+      {
+        "frame": 60,
+        "time": 1.0,
+        "pose": "caméra tombe côté"
+      },
+      {
+        "frame": 105,
+        "time": 1.75,
+        "pose": "sol visible, vignette rouge"
+      },
+      {
+        "frame": 156,
+        "time": 2.6,
+        "pose": "fondu noir"
+      }
+    ],
+    "sync": [
+      "heartbeat_stop",
+      "death_stinger"
+    ]
+  }
+]

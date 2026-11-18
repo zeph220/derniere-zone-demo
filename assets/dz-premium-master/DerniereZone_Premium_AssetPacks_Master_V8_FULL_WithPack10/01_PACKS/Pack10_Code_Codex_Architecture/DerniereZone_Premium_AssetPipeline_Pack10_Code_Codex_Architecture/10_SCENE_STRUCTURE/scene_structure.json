@@ -1,0 +1,95 @@
+{
+  "MainMenu": {
+    "purpose": "menu principal",
+    "packs": [
+      "Pack05",
+      "Pack08"
+    ]
+  },
+  "Bootstrap": {
+    "purpose": "managers persistants",
+    "systems": [
+      "GameManager",
+      "DataRegistry",
+      "SaveManager",
+      "AudioManager"
+    ]
+  },
+  "Shelter": {
+    "purpose": "hub joueur",
+    "packs": [
+      "Pack01",
+      "Pack03",
+      "Pack05",
+      "Pack06",
+      "Pack08"
+    ]
+  },
+  "District01_Street": {
+    "purpose": "première rue",
+    "packs": [
+      "Pack02",
+      "Pack04",
+      "Pack05",
+      "Pack06",
+      "Pack08"
+    ]
+  },
+  "Interior_Supermarket": {
+    "purpose": "loot nourriture/eau",
+    "packs": [
+      "Pack02",
+      "Pack06"
+    ]
+  },
+  "Interior_Pharmacy": {
+    "purpose": "soins/dilemme",
+    "packs": [
+      "Pack02",
+      "Pack06",
+      "Pack05"
+    ]
+  },
+  "Interior_Garage": {
+    "purpose": "outils/câbles",
+    "packs": [
+      "Pack02",
+      "Pack06"
+    ]
+  },
+  "Hospital": {
+    "purpose": "zone avancée",
+    "packs": [
+      "Pack07",
+      "Pack04",
+      "Pack06",
+      "Pack08"
+    ]
+  },
+  "Metro": {
+    "purpose": "zone discrétion sonore",
+    "packs": [
+      "Pack07",
+      "Pack04",
+      "Pack06",
+      "Pack08"
+    ]
+  },
+  "Laboratory": {
+    "purpose": "révélation",
+    "packs": [
+      "Pack07",
+      "Pack04",
+      "Pack05",
+      "Pack08"
+    ]
+  },
+  "MilitaryZone": {
+    "purpose": "quarantaine/finale",
+    "packs": [
+      "Pack07",
+      "Pack05",
+      "Pack08"
+    ]
+  }
+}

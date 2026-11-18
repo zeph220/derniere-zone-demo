@@ -1,0 +1,159 @@
+[
+  {
+    "id": "MQ01",
+    "name": "Se réveiller",
+    "chapter": 1,
+    "objectives": [
+      "Trouver une lampe",
+      "Suivre les marques",
+      "Entrer dans l’abri"
+    ],
+    "rewards": [
+      "abri"
+    ],
+    "cinematic": "C01"
+  },
+  {
+    "id": "MQ02",
+    "name": "La radio morte",
+    "chapter": 2,
+    "objectives": [
+      "Trouver pile",
+      "Trouver câble",
+      "Trouver antenne",
+      "Réparer radio"
+    ],
+    "rewards": [
+      "signal hôpital"
+    ],
+    "cinematic": "C03"
+  },
+  {
+    "id": "MQ03",
+    "name": "Les médicaments de Clara",
+    "chapter": 3,
+    "objectives": [
+      "Rencontrer Clara",
+      "Fouiller pharmacie",
+      "Choisir donner/garder"
+    ],
+    "rewards": [
+      "Clara médecin ou ressources"
+    ],
+    "cinematic": null
+  },
+  {
+    "id": "MQ04",
+    "name": "L’hôpital Saint-Mary",
+    "chapter": 4,
+    "objectives": [
+      "Entrer hôpital",
+      "Trouver badge",
+      "Atteindre sous-sol",
+      "Fuir sujet"
+    ],
+    "rewards": [
+      "indice laboratoire"
+    ],
+    "cinematic": "C04"
+  },
+  {
+    "id": "MQ05",
+    "name": "Le garage et le pied-de-biche",
+    "chapter": 5,
+    "objectives": [
+      "Réparer générateur",
+      "Ouvrir réserve",
+      "Prendre outil"
+    ],
+    "rewards": [
+      "pied-de-biche",
+      "craft avancé"
+    ],
+    "cinematic": null
+  },
+  {
+    "id": "MQ06",
+    "name": "Le passage souterrain",
+    "chapter": 6,
+    "objectives": [
+      "Entrer métro",
+      "Éviter aveugle",
+      "Trouver carte réseau"
+    ],
+    "rewards": [
+      "raccourcis métro"
+    ],
+    "cinematic": "C05"
+  },
+  {
+    "id": "MQ07",
+    "name": "Les factions",
+    "chapter": 7,
+    "objectives": [
+      "Écouter signaux",
+      "Rencontrer factions",
+      "Choisir mission confiance"
+    ],
+    "rewards": [
+      "réputation"
+    ],
+    "cinematic": "C06"
+  },
+  {
+    "id": "MQ08",
+    "name": "Zone militaire",
+    "chapter": 8,
+    "objectives": [
+      "Approcher checkpoint",
+      "Infiltrer ou négocier",
+      "Récupérer clé B-02"
+    ],
+    "rewards": [
+      "accès laboratoire"
+    ],
+    "cinematic": "C06"
+  },
+  {
+    "id": "MQ09",
+    "name": "Laboratoire B-07",
+    "chapter": 9,
+    "objectives": [
+      "Passer sas",
+      "Lire terminaux",
+      "Traverser cellules",
+      "Obtenir données"
+    ],
+    "rewards": [
+      "vérité"
+    ],
+    "cinematic": "C07"
+  },
+  {
+    "id": "MQ10",
+    "name": "L’attaque de l’abri",
+    "chapter": 11,
+    "objectives": [
+      "Préparer défenses",
+      "Tenir l’assaut",
+      "Protéger survivants"
+    ],
+    "rewards": [
+      "survie abri"
+    ],
+    "cinematic": "C09"
+  },
+  {
+    "id": "MQ11",
+    "name": "Le dernier signal",
+    "chapter": 12,
+    "objectives": [
+      "Traverser zone finale",
+      "Faire choix final"
+    ],
+    "rewards": [
+      "fin"
+    ],
+    "cinematic": "C10"
+  }
+]

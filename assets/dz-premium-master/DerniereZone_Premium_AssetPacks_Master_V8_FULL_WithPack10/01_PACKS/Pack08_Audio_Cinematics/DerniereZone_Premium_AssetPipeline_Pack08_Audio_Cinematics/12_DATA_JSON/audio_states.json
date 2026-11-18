@@ -1,0 +1,48 @@
+{
+  "states": [
+    {
+      "id": "exploration",
+      "description": "État calme par zone, musique basse, ambiance dominante.",
+      "music_layer": "dynamic_exploration_base_loop_12s"
+    },
+    {
+      "id": "suspicion",
+      "description": "Un ennemi a entendu/vu quelque chose, mais pas confirmé.",
+      "music_layer": "dynamic_suspicion_layer_loop_10s"
+    },
+    {
+      "id": "danger",
+      "description": "Danger proche, tension forte, stinger possible.",
+      "stinger": "stinger_danger_rise"
+    },
+    {
+      "id": "chase",
+      "description": "Poursuite active, pression rythmique.",
+      "music_layer": "dynamic_chase_pressure_loop_8s"
+    },
+    {
+      "id": "safe_shelter",
+      "description": "Abri, calme fragile.",
+      "music_layer": "shelter_safe_warm_loop_12s"
+    },
+    {
+      "id": "story_reveal",
+      "description": "Révélation narrative majeure.",
+      "music_layer": "lab_reveal_cold_loop_12s"
+    },
+    {
+      "id": "death",
+      "description": "Mort du joueur, arrêt gameplay.",
+      "stinger": "stinger_death_impact"
+    }
+  ],
+  "mix_rules": [
+    "Enemy audio has priority over music during danger/chase.",
+    "Dialogue ducks music by 8 dB.",
+    "Low health adds heartbeat and lowpass filter.",
+    "Infection adds cough/breath events that can create noise.",
+    "Rain reduces enemy hearing slightly but adds ambient mask.",
+    "Metro adds reverb and low rumble.",
+    "Laboratory has sudden silence before Subject Omega moments."
+  ]
+}

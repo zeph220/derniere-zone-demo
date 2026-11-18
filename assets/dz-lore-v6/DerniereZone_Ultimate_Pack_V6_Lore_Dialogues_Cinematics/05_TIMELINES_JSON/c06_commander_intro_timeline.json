@@ -1,0 +1,22 @@
+[
+  {
+    "time": 0.0,
+    "beat": "silence radio",
+    "event": "c06_commander_intro_beat_1"
+  },
+  {
+    "time": 11.25,
+    "beat": "porte blindée",
+    "event": "c06_commander_intro_beat_2"
+  },
+  {
+    "time": 22.5,
+    "beat": "boss marche dans la pluie",
+    "event": "c06_commander_intro_beat_3"
+  },
+  {
+    "time": 33.75,
+    "beat": "charge",
+    "event": "c06_commander_intro_beat_4"
+  }
+]

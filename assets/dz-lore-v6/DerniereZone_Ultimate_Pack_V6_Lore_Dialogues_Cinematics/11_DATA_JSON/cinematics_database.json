@@ -1,0 +1,184 @@
+[
+  {
+    "chapter": "Chapter_01",
+    "id": "c01_intro_rain",
+    "title": "Ouverture sous la pluie",
+    "purpose": "Installer la ville morte et le danger extérieur.",
+    "duration_sec": 45,
+    "beats": [
+      "plan rue inondée",
+      "radio lointaine",
+      "premier objectif",
+      "contrôle joueur"
+    ]
+  },
+  {
+    "chapter": "Chapter_01",
+    "id": "c01_first_random_event",
+    "title": "Homme en fuite",
+    "purpose": "Montrer que le monde vit et fuit sans le joueur.",
+    "duration_sec": 18,
+    "beats": [
+      "porte s'ouvre",
+      "homme traverse la rue",
+      "cri derrière lui",
+      "disparition dans un immeuble"
+    ]
+  },
+  {
+    "chapter": "Chapter_02",
+    "id": "c02_shelter_first_night",
+    "title": "Première nuit à l'abri",
+    "purpose": "Donner un sentiment de sécurité fragile.",
+    "duration_sec": 50,
+    "beats": [
+      "lampe tremble",
+      "Mila compte les rations",
+      "bruit dehors",
+      "sauvegarde débloquée"
+    ]
+  },
+  {
+    "chapter": "Chapter_02",
+    "id": "c02_radio_signal",
+    "title": "Premier signal radio",
+    "purpose": "Débloquer l'hôpital.",
+    "duration_sec": 32,
+    "beats": [
+      "main tourne radio",
+      "parasites",
+      "voix Saint-Mary",
+      "objectif apparaît"
+    ]
+  },
+  {
+    "chapter": "Chapter_03",
+    "id": "c03_hospital_arrival",
+    "title": "Arrivée à Saint-Mary",
+    "purpose": "Présenter l'hôpital comme tombeau médical.",
+    "duration_sec": 38,
+    "beats": [
+      "façade sous pluie",
+      "néons urgences",
+      "registre au sol",
+      "silhouette au fond"
+    ]
+  },
+  {
+    "chapter": "Chapter_03",
+    "id": "c03_doctoresse_intro",
+    "title": "La Doctoresse du Tri",
+    "purpose": "Introduire le boss hôpital.",
+    "duration_sec": 42,
+    "beats": [
+      "rideau qui bouge",
+      "bruit d'instruments",
+      "boss apparaît",
+      "verrouillage service"
+    ]
+  },
+  {
+    "chapter": "Chapter_04",
+    "id": "c04_metro_descent",
+    "title": "Descente métro",
+    "purpose": "Basculer dans un gameplay sonore.",
+    "duration_sec": 35,
+    "beats": [
+      "escaliers noirs",
+      "gouttes",
+      "lampes qui sautent",
+      "premier écho de l'Oracle"
+    ]
+  },
+  {
+    "chapter": "Chapter_04",
+    "id": "c04_oracle_intro",
+    "title": "L'Oracle écoute",
+    "purpose": "Introduire boss métro.",
+    "duration_sec": 36,
+    "beats": [
+      "silence total",
+      "pièce tombe",
+      "Oracle pivote",
+      "combat commence"
+    ]
+  },
+  {
+    "chapter": "Chapter_05",
+    "id": "c05_lab_discovery",
+    "title": "Découverte du laboratoire",
+    "purpose": "Révéler la science cachée.",
+    "duration_sec": 48,
+    "beats": [
+      "porte sas",
+      "lumière bleue",
+      "cuves",
+      "documents Hélios"
+    ]
+  },
+  {
+    "chapter": "Chapter_05",
+    "id": "c05_matriarch_intro",
+    "title": "La Matriarche des Cuves",
+    "purpose": "Introduire boss laboratoire.",
+    "duration_sec": 50,
+    "beats": [
+      "cuve se fissure",
+      "alarme",
+      "masse bouge",
+      "gaz au sol"
+    ]
+  },
+  {
+    "chapter": "Chapter_06",
+    "id": "c06_military_entry",
+    "title": "Entrée zone militaire",
+    "purpose": "Mettre la pression de l'ordre armé.",
+    "duration_sec": 42,
+    "beats": [
+      "projecteurs",
+      "haut-parleur",
+      "checkpoint",
+      "choix infiltration ou force"
+    ]
+  },
+  {
+    "chapter": "Chapter_06",
+    "id": "c06_commander_intro",
+    "title": "La Commandante du Bastion",
+    "purpose": "Introduire boss militaire.",
+    "duration_sec": 45,
+    "beats": [
+      "silence radio",
+      "porte blindée",
+      "boss marche dans la pluie",
+      "charge"
+    ]
+  },
+  {
+    "chapter": "Chapter_07",
+    "id": "c07_final_core",
+    "title": "Le cœur de la Zone",
+    "purpose": "Préparer la confrontation finale.",
+    "duration_sec": 60,
+    "beats": [
+      "ascenseur descend",
+      "murs organiques",
+      "voix connues",
+      "Hôte Zéro apparaît"
+    ]
+  },
+  {
+    "chapter": "Chapter_07",
+    "id": "c07_final_choice",
+    "title": "Le choix final",
+    "purpose": "Donner la décision de fin.",
+    "duration_sec": 75,
+    "beats": [
+      "noyau exposé",
+      "options apparaissent",
+      "alliés ou souvenirs réagissent",
+      "choix validé"
+    ]
+  }
+]

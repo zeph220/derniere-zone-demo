@@ -1,0 +1,50 @@
+## architecture
+- [ ] Game launches
+- [ ] Managers exist once
+- [ ] No duplicate singletons
+- [ ] Data loads
+- [ ] Events work
+
+## inventory
+- [ ] Pick up item
+- [ ] Stack item
+- [ ] Use item
+- [ ] Inventory full
+- [ ] Save/load inventory
+
+## quests
+- [ ] Start quest
+- [ ] Advance objective
+- [ ] Complete quest
+- [ ] Save/load quest
+- [ ] Quest UI updates
+
+## enemy_ai
+- [ ] Patrol
+- [ ] Vision detection
+- [ ] Noise detection
+- [ ] Chase
+- [ ] Attack
+- [ ] Search
+- [ ] Return
+
+## save
+- [ ] Save file written
+- [ ] Backup works
+- [ ] Load missing file safe
+- [ ] Version stored
+- [ ] Corrupt save handled
+
+## ui
+- [ ] HUD updates
+- [ ] Prompt updates
+- [ ] Death screen shows cause
+- [ ] Save screen confirms
+- [ ] Inventory screen opens
+
+## audio
+- [ ] Stinger plays
+- [ ] Danger state changes
+- [ ] Dialogue ducking
+- [ ] Low health filter
+- [ ] Zone ambience

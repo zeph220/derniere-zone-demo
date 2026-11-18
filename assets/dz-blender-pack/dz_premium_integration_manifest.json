@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "generatedFor": "Derniere Zone premium Blender pass",
+  "assetRoot": "/assets/dz-blender-pack/",
+  "status": {
+    "blenderAvailable": false,
+    "runtimeFilesTouched": false,
+    "glbAudit": {
+      "totalGlb": 81,
+      "animatedGlb": 0,
+      "skinnedGlb": 0,
+      "note": "Boss and enemy files are static GLB meshes today. Use procedural runtime motion now, or re-export with armatures and clips in Blender later."
+    }
+  },
+  "bosses": [
+    {
+      "id": "street_alpha_stalker",
+      "file": "dz_boss_street_alpha_stalker.glb",
+      "role": "chapter_1_street_boss",
+      "recommendedScale": 1.35,
+      "bboxMeters": [1.68, 1.52, 2.67],
+      "collisionProxy": { "type": "capsule", "radius": 0.85, "height": 2.25, "offset": [0, 1.1, -0.45] },
+      "proceduralAnimation": ["heavy_breath_idle", "shoulder_sway", "lunge_tell", "hit_recoil"],
+      "materialPass": ["skin_wet_rough", "cloth_torn", "blood_dark_decals"],
+      "audioNeeds": ["boss_breath_low_loop", "stalker_lunge_whoosh", "wet_footstep_heavy"]
+    },
+    {
+      "id": "gas_station_igniter",
+      "file": "dz_boss_gas_station_igniter.glb",
+      "role": "gas_station_boss",
+      "recommendedScale": 1.45,
+      "bboxMeters": [1.68, 1.59, 2.05],
+      "collisionProxy": { "type": "capsule", "radius": 0.8, "height": 2.15, "offset": [0, 1.05, -0.25] },
+      "proceduralAnimation": ["idle_fume_sway", "throw_tell", "burn_stagger"],
+      "materialPass": ["charred_skin", "rusted_canister", "emissive_flame_bits"],
+      "audioNeeds": ["gas_hiss_loop", "igniter_spark", "flame_burst_short"]
+    },
+    {
+      "id": "hospital_surgeon",
+      "file": "dz_boss_hospital_surgeon.glb",
+      "role": "hospital_boss",
+      "recommendedScale": 1.15,
+      "bboxMeters": [1.65, 3.21, 2.28],
+      "collisionProxy": { "type": "capsule", "radius": 0.75, "height": 3.05, "offset": [0, 1.55, -0.35] },
+      "proceduralAnimation": ["knife_hand_tremor", "overhead_chop_tell", "head_snap"],
+      "materialPass": ["rubber_glove", "surgical_metal", "apron_stained"],
+      "audioNeeds": ["scalpel_scrape", "surgical_breath_mask", "blade_swing_light"]
+    },
+    {
+      "id": "lab_matriarch",
+      "file": "dz_boss_lab_matriarch.glb",
+      "role": "lab_boss",
+      "recommendedScale": 1.25,
+      "bboxMeters": [1.96, 2.52, 2.42],
+      "collisionProxy": { "type": "capsule", "radius": 0.95, "height": 2.65, "offset": [0, 1.25, -0.45] },
+      "proceduralAnimation": ["spine_pulse_idle", "acid_spit_tell", "stagger_back"],
+      "materialPass": ["translucent_wet_skin", "lab_cloth", "specimen_gloss"],
+      "audioNeeds": ["lab_boss_gurgle", "acid_charge", "wet_impact"]
+    },
+    {
+      "id": "military_commander",
+      "file": "dz_boss_military_commander.glb",
+      "role": "military_checkpoint_boss",
+      "recommendedScale": 1.15,
+      "bboxMeters": [1.85, 3.35, 2.16],
+      "collisionProxy": { "type": "capsule", "radius": 0.85, "height": 3.1, "offset": [0, 1.55, -0.3] },
+      "proceduralAnimation": ["radio_command_idle", "shield_brace", "charge_tell"],
+      "materialPass": ["dirty_fabric", "matte_armor", "scratched_metal"],
+      "audioNeeds": ["radio_static_bark", "armor_step_heavy", "shield_hit_metal"]
+    },
+    {
+      "id": "market_bloated_hoarder",
+      "file": "dz_boss_market_bloated_hoarder.glb",
+      "role": "market_boss",
+      "recommendedScale": 1.35,
+      "bboxMeters": [2.12, 1.87, 1.97],
+      "collisionProxy": { "type": "capsule", "radius": 1.05, "height": 2.35, "offset": [0, 1.05, -0.2] },
+      "proceduralAnimation": ["belly_swell_idle", "slam_tell", "vomit_tell"],
+      "materialPass": ["stretched_skin", "food_stain", "plastic_bag_bits"],
+      "audioNeeds": ["bloated_breath_loop", "body_slam_low", "vomit_charge"]
+    },
+    {
+      "id": "final_host_zero",
+      "file": "dz_boss_final_host_zero.glb",
+      "role": "final_boss",
+      "recommendedScale": 1.2,
+      "bboxMeters": [3.2, 2.76, 3.83],
+      "collisionProxy": { "type": "compound", "parts": [
+        { "type": "capsule", "radius": 1.05, "height": 2.8, "offset": [0, 1.35, -0.25] },
+        { "type": "sphere", "radius": 0.75, "offset": [1.2, 1.25, -0.65] },
+        { "type": "sphere", "radius": 0.75, "offset": [-1.2, 1.25, -0.65] }
+      ] },
+      "proceduralAnimation": ["asymmetric_idle", "multi_limb_slam_tell", "core_pulse", "phase_shift"],
+      "materialPass": ["host_core_emissive", "wet_membrane", "black_vein_decals"],
+      "audioNeeds": ["host_core_pulse_loop", "multi_limb_slam", "phase_shift_scream"]
+    }
+  ],
+  "enemyVariantSets": {
+    "walker": ["dz_enemy_walker_male_A.glb", "dz_enemy_walker_male_B.glb", "dz_enemy_walker_female_A.glb", "dz_enemy_walker_female_B.glb"],
+    "runner": ["dz_enemy_runner_male_A.glb", "dz_enemy_runner_male_B.glb", "dz_enemy_runner_female_A.glb", "dz_enemy_runner_female_B.glb"],
+    "brute": ["dz_enemy_brute_male_A.glb", "dz_enemy_brute_male_B.glb", "dz_enemy_brute_female_A.glb", "dz_enemy_brute_female_B.glb"],
+    "blind": ["dz_enemy_blind_male_A.glb", "dz_enemy_blind_male_B.glb", "dz_enemy_blind_female_A.glb", "dz_enemy_blind_female_B.glb"],
+    "lab": ["dz_enemy_lab_male_A.glb", "dz_enemy_lab_male_B.glb", "dz_enemy_lab_female_A.glb", "dz_enemy_lab_female_B.glb"]
+  },
+  "heroPropsReadableFromDistance": [
+    { "file": "dz_urban_pharmacy_neon_cross_premium.glb", "scale": 1.25, "proxy": { "type": "box", "size": [1.9, 2.15, 1.25] }, "needs": ["emissive_green_cross", "buzzing_neon_loop"] },
+    { "file": "dz_lab_tank_specimen_premium.glb", "scale": 1.2, "proxy": { "type": "cylinder", "radius": 0.85, "height": 2.6 }, "needs": ["glass_dirty_pbr", "fluid_bubble_loop"] },
+    { "file": "dz_military_checkpoint_gate.glb", "scale": 1.25, "proxy": { "type": "box", "size": [3.83, 3.0, 0.66] }, "needs": ["warning_stripes", "gate_metal_creak"] },
+    { "file": "dz_shop_front_filled_window_A.glb", "scale": 1.15, "proxy": { "type": "box", "size": [3.8, 3.3, 0.6] }, "needs": ["glass_grime", "window_rattle"] },
+    { "file": "dz_vehicle_ambulance_rusted_premium.glb", "scale": 1.1, "proxy": { "type": "box", "size": [5.0, 2.85, 3.02] }, "needs": ["rusted_paint", "distant_siren_memory"] }
+  ],
+  "pbrTextureInventory": {
+    "availableLocal": [
+      "asphalte_mouille",
+      "beton_fissure",
+      "mur_sale",
+      "metal_rouille",
+      "bois_use",
+      "tissu_use",
+      "verre_sale",
+      "polyhaven/asphalt_02",
+      "polyhaven/concrete_wall_005",
+      "polyhaven/cracked_concrete"
+    ],
+    "gapsToSource": [
+      "skin_wet_infected: basecolor/normal/roughness/AO",
+      "medical_rubber_latex: basecolor/normal/roughness",
+      "burned_fabric_and_char: basecolor/normal/roughness/AO",
+      "fresh_and_dried_blood_decals: transparent PNG or atlased decals",
+      "emissive_neon_green_cross and red_warning_light masks",
+      "lab_glass_fluid_bubbles: normal/roughness/emissive mask"
+    ],
+    "localTextureIssues": [
+      "asphalte_mouille is missing a normal map.",
+      "bois_use is missing a normal map.",
+      "tissu_use is missing albedo/basecolor maps."
+    ]
+  },
+  "runtimeIntegrationPlan": [
+    "Keep src/assetManifest.js as the current stable manifest for props and FPS weapons.",
+    "Add a future loader that reads this JSON manifest for boss/enemy selection and collision proxy metadata.",
+    "For the current static GLBs, animate bosses procedurally by moving root groups, child mesh clusters, material emissive intensity, and hitbox timing.",
+    "When Blender is available, create armatures and export clips named idle, walk, attack_tell, attack, hit, death for each boss GLB.",
+    "Use simple capsule/box/cylinder proxies from this manifest for physics and interaction; do not derive collision from render meshes at runtime."
+  ]
+}

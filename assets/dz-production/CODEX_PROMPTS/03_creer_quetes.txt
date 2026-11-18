@@ -1,0 +1,8 @@
+Utilise le rôle Quest/Narrative Designer + Gameplay Programmer. Crée un système de quêtes simple basé sur DATA/quests.json :
+- quête active
+- objectifs
+- validation d’étape
+- message objectif mis à jour
+- sauvegarde possible plus tard
+Commence par MQ02 La radio morte.
+Ne code pas tout le jeu.

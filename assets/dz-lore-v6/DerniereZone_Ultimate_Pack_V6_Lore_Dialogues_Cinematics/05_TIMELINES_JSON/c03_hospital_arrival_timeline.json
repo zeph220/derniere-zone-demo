@@ -1,0 +1,22 @@
+[
+  {
+    "time": 0.0,
+    "beat": "façade sous pluie",
+    "event": "c03_hospital_arrival_beat_1"
+  },
+  {
+    "time": 9.5,
+    "beat": "néons urgences",
+    "event": "c03_hospital_arrival_beat_2"
+  },
+  {
+    "time": 19.0,
+    "beat": "registre au sol",
+    "event": "c03_hospital_arrival_beat_3"
+  },
+  {
+    "time": 28.5,
+    "beat": "silhouette au fond",
+    "event": "c03_hospital_arrival_beat_4"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "name": "radio_tuning",
+  "duration": 2.0,
+  "tags": [
+    "prop",
+    "radio"
+  ],
+  "keyframes": [
+    {
+      "time": 0,
+      "knob": 0
+    },
+    {
+      "time": 1.0,
+      "knob": 35,
+      "sfx": "static"
+    },
+    {
+      "time": 2.0,
+      "signal": "found"
+    }
+  ],
+  "notes": ""
+}

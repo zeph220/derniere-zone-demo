@@ -1,0 +1,22 @@
+[
+  {
+    "time": 0.0,
+    "beat": "main tourne radio",
+    "event": "c02_radio_signal_beat_1"
+  },
+  {
+    "time": 8.0,
+    "beat": "parasites",
+    "event": "c02_radio_signal_beat_2"
+  },
+  {
+    "time": 16.0,
+    "beat": "voix Saint-Mary",
+    "event": "c02_radio_signal_beat_3"
+  },
+  {
+    "time": 24.0,
+    "beat": "objectif apparaît",
+    "event": "c02_radio_signal_beat_4"
+  }
+]

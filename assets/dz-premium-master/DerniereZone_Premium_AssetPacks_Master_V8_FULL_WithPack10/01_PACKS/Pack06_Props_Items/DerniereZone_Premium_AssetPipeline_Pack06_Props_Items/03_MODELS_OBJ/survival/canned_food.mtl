@@ -1,0 +1,12 @@
+newmtl canned_metal
+Kd 0.45 0.42 0.35
+Ka 0.05 0.05 0.05
+Ks 0.12 0.12 0.12
+Ns 24
+
+newmtl paper_old
+Kd 0.58 0.45 0.25
+Ka 0.05 0.05 0.05
+Ks 0.12 0.12 0.12
+Ns 24
+

@@ -1,0 +1,12 @@
+newmtl warning_decals
+Kd 0.7 0.45 0.12
+Ka 0.05 0.05 0.05
+Ks 0.12 0.12 0.12
+Ns 24
+
+newmtl metal
+Kd 0.12 0.12 0.11
+Ka 0.05 0.05 0.05
+Ks 0.12 0.12 0.12
+Ns 24
+

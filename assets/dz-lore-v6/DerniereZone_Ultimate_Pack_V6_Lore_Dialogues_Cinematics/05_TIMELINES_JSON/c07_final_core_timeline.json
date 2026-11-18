@@ -1,0 +1,22 @@
+[
+  {
+    "time": 0.0,
+    "beat": "ascenseur descend",
+    "event": "c07_final_core_beat_1"
+  },
+  {
+    "time": 15.0,
+    "beat": "murs organiques",
+    "event": "c07_final_core_beat_2"
+  },
+  {
+    "time": 30.0,
+    "beat": "voix connues",
+    "event": "c07_final_core_beat_3"
+  },
+  {
+    "time": 45.0,
+    "beat": "Hôte Zéro apparaît",
+    "event": "c07_final_core_beat_4"
+  }
+]

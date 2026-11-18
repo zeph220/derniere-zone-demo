@@ -1,0 +1,68 @@
+{
+  "root": [
+    "pelvis"
+  ],
+  "pelvis": [
+    "spine_01",
+    "upper_leg_l",
+    "upper_leg_r"
+  ],
+  "spine_01": [
+    "spine_02"
+  ],
+  "spine_02": [
+    "chest"
+  ],
+  "chest": [
+    "neck",
+    "clavicle_l",
+    "clavicle_r"
+  ],
+  "neck": [
+    "head"
+  ],
+  "clavicle_l": [
+    "upper_arm_l"
+  ],
+  "upper_arm_l": [
+    "lower_arm_l"
+  ],
+  "lower_arm_l": [
+    "hand_l"
+  ],
+  "hand_l": [
+    "thumb_l_01",
+    "index_l_01",
+    "middle_l_01",
+    "ring_l_01",
+    "pinky_l_01"
+  ],
+  "clavicle_r": [
+    "upper_arm_r"
+  ],
+  "upper_arm_r": [
+    "lower_arm_r"
+  ],
+  "lower_arm_r": [
+    "hand_r"
+  ],
+  "hand_r": [
+    "thumb_r_01",
+    "index_r_01",
+    "middle_r_01",
+    "ring_r_01",
+    "pinky_r_01"
+  ],
+  "upper_leg_l": [
+    "lower_leg_l"
+  ],
+  "lower_leg_l": [
+    "foot_l"
+  ],
+  "upper_leg_r": [
+    "lower_leg_r"
+  ],
+  "lower_leg_r": [
+    "foot_r"
+  ]
+}

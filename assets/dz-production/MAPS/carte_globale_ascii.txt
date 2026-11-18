@@ -1,0 +1,17 @@
+[Z] Zone militaire
+                          |
+                   X------|------X
+                          |
+        [Quartier Nord]---M---[H] Hôpital
+              |           |        |
+              |         Métro      |
+              |           |        |
+[R]---[G] Garage---[A] Abri---[S] Supérette
+              |           |
+              |        [P] Pharmacie
+              |
+          [Zone industrielle]
+              |
+              M
+              |
+          [L] Laboratoire B-07

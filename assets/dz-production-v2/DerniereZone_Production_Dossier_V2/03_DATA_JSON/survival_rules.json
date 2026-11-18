@@ -1,0 +1,78 @@
+{
+  "core_stats": {
+    "health": {
+      "max": 100,
+      "death_at": 0,
+      "regen": "repos/soins uniquement",
+      "warnings": [
+        30,
+        15
+      ]
+    },
+    "hunger": {
+      "max": 100,
+      "decrease_per_game_hour": 6,
+      "penalty_below_25": "stamina regen -25%",
+      "penalty_at_0": "health -4/hour"
+    },
+    "thirst": {
+      "max": 100,
+      "decrease_per_game_hour": 8,
+      "penalty_below_25": "vignette, stamina max -20%",
+      "penalty_at_0": "health -7/hour"
+    },
+    "stamina": {
+      "max": 100,
+      "used_by": [
+        "sprint",
+        "combat",
+        "charge lourde"
+      ],
+      "regen": "meilleure si faim/soif > 40"
+    },
+    "fatigue": {
+      "max": 100,
+      "increase_per_game_hour": 3,
+      "penalty_above_70": "interactions plus lentes",
+      "reduced_by": "sommeil"
+    },
+    "infection": {
+      "max": 100,
+      "increase_when": "morsure, zone toxique, plaie non traitée",
+      "penalty_above_50": "toux/bruit, health drain",
+      "treatments": [
+        "antibiotics",
+        "repos",
+        "médecin"
+      ]
+    },
+    "bleeding": {
+      "states": [
+        "none",
+        "light",
+        "heavy"
+      ],
+      "effects": {
+        "light": "health -1/min",
+        "heavy": "health -3/min"
+      },
+      "treatment": "bandage/medkit"
+    }
+  },
+  "time_scale": "1 minute réelle = 12 minutes jeu",
+  "death_rules": {
+    "causes": [
+      "health_zero",
+      "starvation",
+      "dehydration",
+      "infection",
+      "enemy_attack",
+      "toxic_zone",
+      "fall",
+      "story_choice"
+    ],
+    "normal_mode": "reload checkpoint",
+    "survival_mode": "reload shelter save",
+    "extreme_mode": "saves limitées, perte inventaire expédition"
+  }
+}

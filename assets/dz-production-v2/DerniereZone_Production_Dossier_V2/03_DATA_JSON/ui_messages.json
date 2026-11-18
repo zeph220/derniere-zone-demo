@@ -1,0 +1,11 @@
+{
+  "pickup": "{item_name} ramassé x{amount}",
+  "inventory_full": "Inventaire plein.",
+  "door_locked_key": "Clé nécessaire.",
+  "door_locked_tool": "Il faut un outil.",
+  "quest_update": "Objectif mis à jour.",
+  "save_complete": "Progression sauvegardée.",
+  "hunger_low": "Vous avez faim.",
+  "thirst_low": "Vous avez soif.",
+  "infection_warning": "Votre infection empire."
+}

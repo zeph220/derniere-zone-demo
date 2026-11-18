@@ -1,0 +1,37 @@
+[
+  {
+    "id": "death_screen_anim",
+    "frames": 6,
+    "duration": 2.0,
+    "folder": "death_screen_frames",
+    "description": "Vignette rouge, texte qui apparaît, heartbeat stop."
+  },
+  {
+    "id": "save_screen_anim",
+    "frames": 6,
+    "duration": 1.4,
+    "folder": "save_screen_frames",
+    "description": "Icône sauvegarde pulse, slot flash subtil."
+  },
+  {
+    "id": "main_menu_anim",
+    "frames": 6,
+    "duration": 3.0,
+    "folder": "main_menu_frames",
+    "description": "Pluie, titre fade, radio static."
+  },
+  {
+    "id": "radio_transmission_anim",
+    "frames": 6,
+    "duration": 2.8,
+    "folder": "radio_transmission_frames",
+    "description": "Onde radio, texte signal, parasite."
+  },
+  {
+    "id": "chapter_end_anim",
+    "frames": 6,
+    "duration": 2.5,
+    "folder": "chapter_end_frames",
+    "description": "Résumé typé radio/rapport avec lignes qui s'écrivent."
+  }
+]

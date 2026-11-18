@@ -1,0 +1,53 @@
+{
+  "project": "Dernière Zone",
+  "master_version": "8.0-full-with-pack10",
+  "packs": [
+    {
+      "id": "Pack01_Shelter",
+      "status": "started",
+      "path": "01_PACKS/Pack01_Shelter"
+    },
+    {
+      "id": "Pack02_ModularStreet",
+      "status": "started",
+      "path": "01_PACKS/Pack02_ModularStreet"
+    },
+    {
+      "id": "Pack03_FPS_Hands_Animations",
+      "status": "started",
+      "path": "01_PACKS/Pack03_FPS_Hands_Animations"
+    },
+    {
+      "id": "Pack04_Enemies",
+      "status": "started",
+      "path": "01_PACKS/Pack04_Enemies"
+    },
+    {
+      "id": "Pack05_UI_HUD",
+      "status": "started",
+      "path": "01_PACKS/Pack05_UI_HUD"
+    },
+    {
+      "id": "Pack06_Props_Items",
+      "status": "started",
+      "path": "01_PACKS/Pack06_Props_Items"
+    },
+    {
+      "id": "Pack07_AdvancedZones",
+      "status": "started",
+      "path": "01_PACKS/Pack07_AdvancedZones"
+    },
+    {
+      "id": "Pack08_Audio_Cinematics",
+      "status": "started",
+      "path": "01_PACKS/Pack08_Audio_Cinematics"
+    },
+    {
+      "id": "Pack10_Code_Codex_Architecture",
+      "status": "started",
+      "path": "01_PACKS/Pack10_Code_Codex_Architecture"
+    }
+  ],
+  "note": "Master complet avec Pack10 ajouté. Pack09 sera fait séparément ensuite.",
+  "recommended_next": "Nouveau master avec Pack09 Vertical Slice Integration"
+}

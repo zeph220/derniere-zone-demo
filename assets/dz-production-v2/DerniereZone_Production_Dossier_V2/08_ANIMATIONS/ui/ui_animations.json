@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ui_inventory_open",
+    "duration": 0.25,
+    "effect": "slide+fade"
+  },
+  {
+    "id": "ui_save_pulse",
+    "duration": 1.6,
+    "effect": "icon pulse"
+  },
+  {
+    "id": "ui_quest_popup",
+    "duration": 2.8,
+    "effect": "slide in, stay, fade"
+  },
+  {
+    "id": "ui_death_screen",
+    "duration": 1.4,
+    "effect": "red vignette + text fade"
+  },
+  {
+    "id": "ui_choice_highlight",
+    "duration": 0.75,
+    "effect": "selection glow move"
+  }
+]

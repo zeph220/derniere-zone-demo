@@ -1,0 +1,27 @@
+{
+  "buses": [
+    "Master",
+    "Music",
+    "Ambience",
+    "SFX",
+    "UI",
+    "Dialogue",
+    "Enemies",
+    "VFX"
+  ],
+  "interactive_layers": {
+    "enemy_close": "raises Enemies bus, ducks Music",
+    "low_health": "heartbeat + lowpass",
+    "lab_reveal": "ambience mute + cold drone",
+    "metro_blind_enemy": "amplify footstep/noise cues",
+    "heavy_slam": "trigger dust VFX and low frequency impact"
+  },
+  "events": [
+    "OnEnemyClose",
+    "OnHeavySlam",
+    "OnSave",
+    "OnDeath",
+    "OnLabReveal",
+    "OnMetroSilence"
+  ]
+}

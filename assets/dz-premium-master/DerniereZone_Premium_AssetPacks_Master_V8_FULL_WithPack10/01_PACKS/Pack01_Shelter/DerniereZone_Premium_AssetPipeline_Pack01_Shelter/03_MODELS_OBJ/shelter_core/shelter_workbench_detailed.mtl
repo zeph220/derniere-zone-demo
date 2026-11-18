@@ -1,0 +1,36 @@
+newmtl aged_wood
+Kd 0.34 0.23 0.14
+Ka 0.05 0.05 0.05
+Ks 0.15 0.15 0.15
+Ns 32
+
+newmtl back_panel_wood
+Kd 0.26 0.18 0.12
+Ka 0.05 0.05 0.05
+Ks 0.15 0.15 0.15
+Ns 32
+
+newmtl rusty_metal
+Kd 0.1 0.1 0.09
+Ka 0.05 0.05 0.05
+Ks 0.15 0.15 0.15
+Ns 32
+
+newmtl tool_box_red_dirty
+Kd 0.36 0.08 0.06
+Ka 0.05 0.05 0.05
+Ks 0.15 0.15 0.15
+Ns 32
+
+newmtl screwdriver
+Kd 0.08 0.08 0.07
+Ka 0.05 0.05 0.05
+Ks 0.15 0.15 0.15
+Ns 32
+
+newmtl folded_cloth
+Kd 0.35 0.33 0.26
+Ka 0.05 0.05 0.05
+Ks 0.15 0.15 0.15
+Ns 32
+

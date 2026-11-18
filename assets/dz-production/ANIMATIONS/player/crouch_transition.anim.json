@@ -1,0 +1,20 @@
+{
+  "name": "crouch_transition",
+  "duration": 0.35,
+  "tags": [
+    "player",
+    "stealth"
+  ],
+  "keyframes": [
+    {
+      "time": 0.0,
+      "camera_height": "standing"
+    },
+    {
+      "time": 0.35,
+      "camera_height": "crouched",
+      "noise_multiplier": 0.45
+    }
+  ],
+  "notes": ""
+}

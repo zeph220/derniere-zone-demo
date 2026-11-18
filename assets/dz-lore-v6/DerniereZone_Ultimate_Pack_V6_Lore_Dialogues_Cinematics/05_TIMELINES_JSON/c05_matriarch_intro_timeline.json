@@ -1,0 +1,22 @@
+[
+  {
+    "time": 0.0,
+    "beat": "cuve se fissure",
+    "event": "c05_matriarch_intro_beat_1"
+  },
+  {
+    "time": 12.5,
+    "beat": "alarme",
+    "event": "c05_matriarch_intro_beat_2"
+  },
+  {
+    "time": 25.0,
+    "beat": "masse bouge",
+    "event": "c05_matriarch_intro_beat_3"
+  },
+  {
+    "time": 37.5,
+    "beat": "gaz au sol",
+    "event": "c05_matriarch_intro_beat_4"
+  }
+]

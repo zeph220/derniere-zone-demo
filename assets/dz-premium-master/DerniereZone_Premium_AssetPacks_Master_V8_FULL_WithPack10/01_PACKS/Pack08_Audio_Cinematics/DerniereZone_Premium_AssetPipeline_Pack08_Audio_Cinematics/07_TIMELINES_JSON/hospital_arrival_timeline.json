@@ -1,0 +1,27 @@
+[
+  {
+    "time": 0.0,
+    "beat": "pluie dehors",
+    "event": "hospital_arrival_beat_1"
+  },
+  {
+    "time": 5.0,
+    "beat": "façade Saint-Mary",
+    "event": "hospital_arrival_beat_2"
+  },
+  {
+    "time": 10.0,
+    "beat": "néons rouges",
+    "event": "hospital_arrival_beat_3"
+  },
+  {
+    "time": 15.0,
+    "beat": "porte automatique bloquée",
+    "event": "hospital_arrival_beat_4"
+  },
+  {
+    "time": 20.0,
+    "beat": "cri étouffé loin",
+    "event": "hospital_arrival_beat_5"
+  }
+]

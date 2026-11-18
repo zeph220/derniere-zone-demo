@@ -1,0 +1,15 @@
+id,name,priority,purpose,states,animation
+main_menu,Menu principal,critical,Première impression du jeu.,new_game;continue;load;options;credits;quit,rain_loop + radio_static + title_fade
+hud_exploration,HUD exploration,critical,Afficher stats sans gêner l'immersion.,normal;low_hunger;low_thirst;low_health;enemy_near,"subtle fade, danger pulse"
+inventory,Inventaire,critical,"Gérer objets, poids, raccourcis, description.",category_select;item_detail;use_item;transfer;drop_confirm,panel slide + item hover
+map,Carte,critical,"Orientation, objectifs, zones découvertes, annotations.",district;building;objective_focus;custom_marker,paper unfold + marker pulse
+quest_journal,Journal de quêtes,critical,"Suivre principale, secondaires, factions, abri.",main;side;shelter;faction;completed,tabs slide
+dialogue_choice,Dialogue / choix,critical,"Discussions PNJ, dilemmes, conséquences.",neutral;trust_gain;trust_loss;lie;skill_choice,choice highlight + consequence tag
+save_load,Sauvegarde / chargement,critical,"Slots, chapitre, lieu, temps de jeu, avertissement.",manual_save;autosave;overwrite_confirm;load_confirm,cassette/card pulse
+death_screen,Écran de mort,critical,"Cause, astuce, reprise, ambiance.",enemy;hunger;thirst;infection;bleeding;toxic,red vignette + heartbeat stop
+options,Options,high,"Audio, vidéo, contrôles, accessibilité, gameplay.",audio;video;controls;accessibility;gameplay,clean tab switch
+craft,Craft,high,"Recettes, ingrédients, temps, station, résultat.",available;missing_ingredients;crafting;complete,progress bar + tool ticks
+reputation,Réputation factions,medium,"Relations, récompenses, hostilité, alliances.",neutral;friendly;ally;hostile,faction card reveal
+shelter_panel,Panneau abri,high,"Améliorations, eau, énergie, défense, survivants.",upgrades;storage;defense;survivors;power,blueprint overlay
+pause_menu,Pause,high,"Reprendre, sauvegarder, options, quitter.",pause;confirm_quit,background blur + fade
+chapter_end,Fin de chapitre,medium,"Résumé conséquences, choix, relations, zones débloquées.",summary;consequence;next_chapter,radio report + typed text

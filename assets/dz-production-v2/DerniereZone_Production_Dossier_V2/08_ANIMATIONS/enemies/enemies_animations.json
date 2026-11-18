@@ -1,0 +1,52 @@
+[
+  {
+    "id": "enemy_idle_sway",
+    "duration": 2.4,
+    "loop": true
+  },
+  {
+    "id": "enemy_walk_limp",
+    "duration": 1.2,
+    "loop": true
+  },
+  {
+    "id": "enemy_alert_snap",
+    "duration": 0.5,
+    "loop": false
+  },
+  {
+    "id": "enemy_chase_run",
+    "duration": 0.8,
+    "loop": true
+  },
+  {
+    "id": "enemy_attack_swipe",
+    "duration": 0.9,
+    "loop": false
+  },
+  {
+    "id": "enemy_fast_lunge",
+    "duration": 0.6,
+    "loop": false
+  },
+  {
+    "id": "enemy_blind_listen",
+    "duration": 1.8,
+    "loop": true
+  },
+  {
+    "id": "enemy_heavy_slam",
+    "duration": 1.4,
+    "loop": false
+  },
+  {
+    "id": "enemy_lab_twitch",
+    "duration": 1.0,
+    "loop": true
+  },
+  {
+    "id": "enemy_death_collapse",
+    "duration": 1.6,
+    "loop": false
+  }
+]

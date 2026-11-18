@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Derniere Zone</title>
+    <link rel="stylesheet" href="./src/style.css?v=dz-metro-transition-20260608" />
+    <script type="module" src="/src/main.js?v=dz-player-qa-20260601a"></script>
+    <script type="module" src="/src/metroTransitionPatch.js?v=dz-metro-transition-20260608"></script>
+    <script type="module" src="/src/premiumInventoryPatch.js?v=dz-inventory-cursor-20260608"></script>
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="world"></canvas>
+      <section id="screenLayer" aria-live="polite">
+        <section id="mainMenuScreen" class="gameScreen active cinematicScreen" data-screen="menu" data-art-kind="menu" aria-label="Menu principal">
+          <div class="menuFilm"></div>
+          <div class="dzLaunchAtmosphere" aria-hidden="true">
+            <span class="rainLayer rainFar"></span>
+            <span class="rainLayer rainNear"></span>
+            <span class="smokeLayer smokeA"></span>
+            <span class="smokeLayer smokeB"></span>
+            <span class="birdDrift"></span>
+          </div>
+          <div class="screenSafe menuLayout">
+            <div class="titleBlock">
+              <p>Survivre. Comprendre. Choisir.</p>
+              <h1>Derniere<br />Zone</h1>
+            </div>
+            <aside class="launchSceneSign" aria-hidden="true">
+              <span>Zone de quarantaine</span>
+              <b>Acces interdit</b>
+              <i>Sous peine de mort</i>
+            </aside>
+            <nav class="menuList" aria-label="Menu principal">
+              <button data-ui-action="continue">Continuer</button>
+              <button data-ui-action="new-game">Nouvelle partie</button>
+              <button data-ui-action="open-load">Charger</button>
+              <button data-ui-action="open-chapters">Chapitres</button>
+              <button data-ui-action="open-repertoire">Repertoire</button>
+              <button data-ui-action="open-options">Options</button>
+              <button data-ui-action="open-credits">Credits</button>
+            </nav>
+            <div class="launchStatusRail" aria-hidden="true">
+              <span>v0.9.0</span>
+              <span>Pluie fine continue</span>
+              <span>Signal radio faible</span>
+            </div>
+            <div class="screenFooter">A / Entree confirmer · B retour · Stick / fleches naviguer</div>
+          </div>
+        </section>
+        <section id="loadingScreen" class="gameScreen loadingScreen" data-screen="loading" data-art-kind="loading" aria-label="Chargement">
+          <div class="screenArt loadingArt" aria-hidden="true"></div>
+          <div class="dzLaunchAtmosphere" aria-hidden="true">
+            <span class="rainLayer rainFar"></span>
+            <span class="smokeLayer smokeA"></span>
+          </div>
+          <div class="screenSafe loadingLayout">
+            <div class="loadingPoster">
+              <h2>Derniere<br />Zone</h2>
+              <p>Chargement</p>
+            </div>
+            <div class="loadingDossier">
+              <p class="loadingLabel">Astuce</p>
+              <p id="loadingTip">Le bruit attire l'attention. Avance lentement quand tu peux.</p>
+              <div class="loadingBar"><span id="loadingProgress"></span></div>
+              <div class="loadingMeta"><span id="loadingPercent">0%</span><i id="loadingStage">Initialisation</i></div>
+            </div>
+          </div>
+        </section>
+        <section id="pressStartScreen" class="gameScreen cinematicScreen pressStartScreen" data-screen="pressStart" data-art-kind="pressStart" aria-label="Appuyer sur une touche">
+          <div class="screenArt pressStartArt" aria-hidden="true"></div>
+          <div class="menuFilm"></div>
+          <div class="dzLaunchAtmosphere" aria-hidden="true">
+            <span class="rainLayer rainFar"></span>
+            <span class="rainLayer rainNear"></span>
+            <span class="smokeLayer smokeA"></span>
+          </div>
+          <div class="screenSafe pressStartLayout">
+            <h2>Derniere<br />Zone</h2>
+            <p>Appuyez sur une touche</p>
+            <button data-ui-action="new-game">Entrer dans la Zone</button>
+          </div>
+        </section>
+        <section id="pauseScreen" class="gameScreen overlayScreen" data-screen="pause" data-art-kind="pause" aria-label="Pause">
+          <div class="screenArt pauseArt" aria-hidden="true"></div>
+          <div class="screenCard menuCard">
+            <p>Partie en pause</p>
+            <h2>Rue principale</h2>
+            <button data-ui-action="resume">Reprendre</button>
+            <button data-ui-action="open-journal">Journal</button>
+            <button data-ui-action="open-chapters">Chapitres</button>
+            <button data-ui-action="open-repertoire">Repertoire</button>
+            <button data-ui-action="open-save">Sauvegarder / charger</button>
+            <button data-ui-action="open-shelter">Abri</button>
+            <button data-ui-action="open-reputation">Relations</button>
+            <button data-ui-action="open-options">Options</button>
+            <button data-ui-action="return-menu">Retour au menu</button>
+          </div>
+        </section>
+        <section id="journalScreen" class="gameScreen overlayScreen wideScreen" data-screen="journal" data-art-kind="journal" aria-label="Journal">
+          <div class="screenArt journalArt" aria-hidden="true"></div>
+          <div class="screenCard dossierCard journalProduction">
+            <header><p>Journal</p><h2>Objectifs et notes</h2></header>
+            <div id="journalEntries" class="journalGrid"></div>
+            <footer><button data-ui-action="back">Retour</button></footer>
+          </div>
+        </section>
+        <section id="repertoireScreen" class="gameScreen overlayScreen wideScreen" data-screen="repertoire" data-art-kind="repertoire" aria-label="Repertoire">
+          <div class="screenArt repertoireArt" aria-hidden="true"></div>
+          <div class="screenCard dossierCard repertoireProduction">
+            <header><p>Repertoire</p><h2>Zones, menaces, ressources</h2></header>
+            <div id="repertoireEntries" class="repertoireGrid"></div>
+            <footer><button data-ui-action="back">Retour</button></footer>
+          </div>
+        </section>
+        <section id="chapterSelectScreen" class="gameScreen overlayScreen wideScreen" data-screen="chapterSelect" data-art-kind="chapterSelect" aria-label="Selection des chapitres">
+          <div class="screenArt chapterSelectArt" aria-hidden="true"></div>
+          <div class="screenCard dossierCard chapterProduction">
+            <header><p>Progression</p><h2>Chapitres</h2></header>
+            <div id="chapterEntries" class="chapterGrid"></div>
+            <footer><button data-ui-action="back">Retour</button></footer>
+          </div>
+        </section>
+        <section id="saveScreen" class="gameScreen overlayScreen wideScreen" data-screen="save" data-art-kind="save" aria-label="Sauvegarde">
+          <div class="screenArt saveArt" aria-hidden="true"></div>
+          <div class="screenCard dossierCard saveProduction">
+            <header><p>Sauvegarde</p><h2>Emplacements</h2></header>
+            <div id="saveSlots" class="saveSlots"></div>
+            <footer>
+              <button data-ui-action="save-now">Sauvegarder</button>
+              <button data-ui-action="load-now">Charger</button>
+              <button data-ui-action="back">Retour</button>
+            </footer>
+          </div>
+        </section>
+        <section id="optionsScreen" class="gameScreen overlayScreen wideScreen" data-screen="options" data-art-kind="options" aria-label="Options">
+          <div class="screenArt optionsArt" aria-hidden="true"></div>
+          <div class="screenCard dossierCard optionsProduction">
+            <header><p>Options</p><h2>Parametres</h2></header>
+            <div class="optionsGrid">
+              <div class="optionTabs" role="tablist" aria-label="Categories options">
+                <button type="button" class="active" data-ui-action="options-tab" data-options-tab="audio">Audio</button>
+                <button type="button" data-ui-action="options-tab" data-options-tab="controls">Commandes</button>
+                <button type="button" data-ui-action="options-tab" data-options-tab="display">Affichage</button>
+                <button type="button" data-ui-action="options-tab" data-options-tab="interface">Interface</button>
+                <button type="button" data-ui-action="options-tab" data-options-tab="accessibility">Accessibilite</button>
+              </div>
+              <div class="optionMatrix">
+                <h3>Audio</h3>
+                <label>Volume principal <input id="masterVolume" type="range" min="0" max="100" value="80" /></label>
+                <label>Musique <input id="musicVolume" type="range" min="0" max="100" value="40" /></label>
+                <label>Ambiance pluie et ville <input id="ambienceVolume" type="range" min="0" max="100" value="70" /></label>
+                <label>Effets et armes <input id="sfxVolume" type="range" min="0" max="100" value="86" /></label>
+                <label>Dialogues et radio <input id="dialogueVolume" type="range" min="0" max="100" value="90" /></label>
+              </div>
+              <div class="optionNotes commandMatrix" hidden></div>
+            </div>
+            <div class="controlsLegend compactControlsLegend">
+              <span>Commandes detaillees dans l'onglet Commandes.</span>
+            </div>
+            <footer><button data-ui-action="back">Retour</button></footer>
+          </div>
+        </section>
+        <section id="dialogueScreen" class="gameScreen overlayScreen wideScreen" data-screen="dialogue" data-art-kind="dialogue" aria-label="Dialogue">
+          <div class="screenArt dialogueArt" aria-hidden="true"></div>
+          <div class="screenCard dialogueCard dialogueProduction">
+            <header><p>Presentation des dialogues & choix</p><h2>Lea</h2><span class="trustBadge">Confiance neutre</span></header>
+            <div class="dialogueStage">
+              <figure class="dialoguePortrait"><span>Lea</span></figure>
+              <div class="dialogueBox">
+                <strong>LEA</strong>
+                <p class="dialogueLine">On n'est plus beaucoup a rester par ici. Si tu cherches un abri, tu peux aider.</p>
+              </div>
+              <aside class="dialogueConsequences">
+                <strong>Feedbacks & consequences</strong>
+                <span class="positive">Confiance augmentee</span>
+                <span class="neutral">Relation stable</span>
+                <span class="negative">Confiance diminuee</span>
+              </aside>
+            </div>
+            <div class="choiceList consequenceChoices">
+              <button data-ui-action="dialogue-choice">1. Dites-moi ce dont vous avez besoin.</button>
+              <button data-ui-action="dialogue-choice">2. Pourquoi devrais-je vous faire confiance ?</button>
+              <button data-ui-action="dialogue-choice">3. Je n'ai pas le temps pour ca.</button>
+              <button data-ui-action="dialogue-choice" class="hostileChoice">4. Donnez-moi ce que vous avez, vite.</button>
+            </div>
+            <footer><span>A/Croix confirmer</span><span>B/Echap retour</span><span>Stick/D-pad selection</span></footer>
+          </div>
+        </section>
+        <section id="reputationScreen" class="gameScreen overlayScreen wideScreen" data-screen="reputation" data-art-kind="reputation" aria-label="Reputation">
+          <div class="screenArt reputationArt" aria-hidden="true"></div>
+          <div class="screenCard dossierCard reputationProduction">
+            <header><p>Relations</p><h2>Reputation</h2></header>
+            <div class="reputationList">
+              <article><strong>Habitants caches</strong><span>Neutre</span></article>
+              <article><strong>Secouristes</strong><span>Inconnue</span></article>
+              <article><strong>Sentinelles</strong><span>Mefiance</span></article>
+              <article><strong>Pillards</strong><span>Hostile</span></article>
+            </div>
+            <footer><button data-ui-action="back">Retour</button></footer>
+          </div>
+        </section>
+        <section id="shelterScreen" class="gameScreen overlayScreen wideScreen" data-screen="shelter" data-art-kind="shelter" aria-label="Abri">
+          <div class="screenArt shelterArt" aria-hidden="true"></div>
+          <div class="screenCard dossierCard shelterProduction">
+            <header><p>Abri</p><h2>Base de survie</h2></header>
+            <div id="shelterSummary" class="shelterGrid"></div>
+            <footer><button data-ui-action="back">Retour</button></footer>
+          </div>
+        </section>
+        <section id="chapterScreen" class="gameScreen cinematicScreen chapterScreen" data-screen="chapter" data-art-kind="chapter" aria-label="Chapitre">
+          <div class="screenArt chapterArt" aria-hidden="true"></div>
+          <div class="dzLaunchAtmosphere" aria-hidden="true">
+            <span class="rainLayer rainFar"></span>
+            <span class="smokeLayer smokeA"></span>
+            <span class="birdDrift"></span>
+          </div>
+          <div class="screenSafe chapterLayout">
+            <p id="chapterKicker">Chapitre 01</p>
+            <h2 id="chapterTitle">Les rues vides</h2>
+            <span id="chapterSubtitle" class="chapterSubtitle">La radio a prononce ton nom, puis quelqu'un a respire derriere le signal.</span>
+            <blockquote id="chapterRadioLine" class="chapterRadioLine">"Ne promets pas de revenir. Reviens."</blockquote>
+            <button data-ui-action="start-after-intro" class="chapterSkip">Passer</button>
+          </div>
+        </section>
+        <section id="creditsScreen" class="gameScreen overlayScreen wideScreen" data-screen="credits" data-art-kind="credits" aria-label="Credits">
+          <div class="screenArt creditsArt" aria-hidden="true"></div>
+          <div class="screenCard dossierCard creditsProduction">
+            <header><p>Derniere Zone</p><h2>Credits</h2></header>
+            <div class="creditsGrid creditsHumanGrid">
+              <article><strong>Createur et direction creative</strong><span>Alexandre Logachev</span><small>Concept original, intentions visuelles, ton du monde et validation artistique.</small></article>
+              <article><strong>Codeur et developpeur</strong><span>Alexandre Logachev</span><small>Direction du code, gameplay attendu, validation joueur et decisions finales du projet.</small></article>
+              <article><strong>Univers et references</strong><span>Derniere Zone</span><small>Images, ecrans, ambiance post-apocalyptique et demandes de gameplay fournies par Alexandre Logachev.</small></article>
+              <article><strong>Prototype jouable</strong><span>Codex</span><small>Integration du prototype navigateur : UI, controles, scene 3D, gameplay, build et corrections techniques.</small></article>
+              <article><strong>Tests et iteration</strong><span>Alexandre Logachev + Codex</span><small>Retours joueur, lisibilite, collisions, clavier, souris, manette et parcours jusqu'aux boss.</small></article>
+            </div>
+            <footer><button data-ui-action="back">Retour</button></footer>
+          </div>
+        </section>
+        <section id="deathScreen" class="gameScreen cinematicScreen deathScreen" data-screen="death" data-art-kind="death" aria-label="Mort">
+          <div class="screenArt deathArt" aria-hidden="true"></div>
+          <div class="deathRedPulse" aria-hidden="true"></div>
+          <div class="screenSafe deathLayout">
+            <div class="deathSkull" aria-hidden="true"><span></span></div>
+            <p>Vous avez succombe</p>
+            <h2 id="deathCause">Trop longtemps dehors</h2>
+            <dl>
+              <div><dt>Dernier lieu</dt><dd id="deathPlace">Rue principale</dd></div>
+              <div><dt>Temps survecu</dt><dd id="deathTime">Jour 1</dd></div>
+            </dl>
+            <nav class="menuList">
+              <button data-ui-action="retry">Respawn a l'abri</button>
+              <button data-ui-action="restart-shelter">Recuperer ton corps</button>
+              <button data-ui-action="return-menu">Retour au menu</button>
+            </nav>
+          </div>
+        </section>
+      </section>
+      <section id="hud" aria-label="Interface de survie">
+        <div class="brand">
+          <span class="zone">Derniere Zone</span>
+          <span id="objective">Rejoindre l'abri</span>
+        </div>
+        <div class="meters">
+          <label>Vie <span id="healthText">100</span></label>
+          <div class="bar"><span id="healthBar"></span></div>
+          <label>Faim <span id="hungerText">100</span></label>
+          <div class="bar"><span id="hungerBar"></span></div>
+          <label>Soif <span id="thirstText">100</span></label>
+          <div class="bar"><span id="thirstBar"></span></div>
+          <label>Energie <span id="staminaText">100</span></label>
+          <div class="bar"><span id="staminaBar"></span></div>
+        </div>
+        <div class="inventory">
+          <span>Sac <b id="carryCount">0</b>/<b id="carryMax">10</b></span>
+          <span>Eau <b id="waterCount">0</b></span>
+          <span>Nourriture <b id="foodCount">0</b></span>
+          <span>Important <b id="questCount">0</b></span>
+        </div>
+        <div class="threat">
+          <span>Discretion <b id="stealthText">Debout</b></span>
+          <span>Ennemi <b id="enemyStateText">Calme</b></span>
+          <div class="bar"><span id="enemyHealthBar"></span></div>
+        </div>
+        <div class="worldState">
+          <span>Jour <b id="dayText">1</b></span>
+          <span>Heure <b id="timeText">07:15</b></span>
+          <span>Meteo <b id="weatherText">Clair</b></span>
+          <span>Lampe <b id="flashlightText">Off</b></span>
+        </div>
+        <div class="equipmentState">
+          <span>Arme <b id="weaponText">Couteau</b></span>
+          <span>Munitions <b id="ammoText">-</b></span>
+          <span>Etat <b id="conditionText">100%</b></span>
+        </div>
+      </section>
+      <section id="inventoryPanel" class="collapsed premiumPanel" aria-label="Inventaire">
+        <div class="inventoryHeader">
+          <h2>Inventaire</h2>
+          <span id="inventoryStatus">Dans l'abri</span>
+        </div>
+        <div class="inventoryColumns">
+          <div>
+            <h3>Sac</h3>
+            <div id="carriedList" class="itemList"></div>
+          </div>
+          <div>
+            <h3>Stock</h3>
+            <div id="storageList" class="itemList"></div>
+          </div>
+        </div>
+        <div id="craftingSection">
+          <h3>Fabrication</h3>
+          <div id="recipeList" class="itemList"></div>
+        </div>
+      </section>
+      <section id="objectivesPanel" class="collapsed premiumPanel" aria-label="Objectifs">
+        <div class="panelHeader">
+          <h2>Objectifs</h2>
+          <span>O</span>
+        </div>
+        <div id="objectiveList" class="compactList"></div>
+      </section>
+      <section id="mapPanel" class="collapsed premiumPanel" aria-label="Carte">
+        <div class="panelHeader">
+          <h2>Carte</h2>
+          <span>M</span>
+        </div>
+        <div id="cityMap"></div>
+        <div id="mapLegend">
+          <span>A abri</span>
+          <span>R ressource</span>
+          <span>! danger</span>
+          <span>? objectif</span>
+          <span>X bloque</span>
+        </div>
+      </section>
+      <aside id="panel" class="hidden">
+        <h1>Derniere Zone</h1>
+        <p id="message">Tu te reveilles dans ton abri. Ouvre ton inventaire avec E, utilise F pour les objets du monde, puis sors trouver de quoi reparer ce lieu.</p>
+        <button id="startButton" type="button">Commencer</button>
+        <div id="controls">
+          <span>WASD par defaut : se deplacer, configurable dans Options</span>
+          <span>Souris : clic pour capturer, bouger pour regarder</span>
+          <span>Fleches : regarder sans souris</span>
+          <span>Shift : s'accroupir</span>
+          <span>Option/Alt / L3 : sprinter</span>
+          <span>L : lampe torche</span>
+          <span>Clic gauche / Espace / X : attaquer</span>
+          <span>R : changer d'arme</span>
+          <span>G : boire eau rapide</span>
+          <span>Clic droit / F / Entree : interagir</span>
+          <span>E : inventaire</span>
+          <span>Tab : journal, configurable dans Options</span>
+          <span>O : objectifs</span>
+          <span>M : carte</span>
+          <span>Manette : stick G marcher, stick D regarder, A interagir</span>
+          <span>A/Croix interagir · RT/R2 attaquer · LT/L2 viser · Start pause</span>
+        </div>
+      </aside>
+      <aside id="actionHelp" class="collapsed" aria-label="Actions disponibles">
+        <h2>Actions</h2>
+        <div class="actionGrid">
+          <span><b>WASD</b> marcher, configurable</span>
+          <span><b>Clic droit/F</b> interagir</span>
+          <span><b>E</b> inventaire</span>
+          <span><b>Clic gauche/X</b> attaquer</span>
+          <span><b>R</b> changer d'arme</span>
+          <span><b>Shift</b> s'accroupir</span>
+          <span><b>Option/Alt/L3</b> sprinter</span>
+          <span><b>T</b> lampe</span>
+          <span><b>G</b> eau rapide</span>
+          <span><b>O</b> objectifs</span>
+          <span><b>M</b> carte</span>
+          <span><b>Souris</b> regarder / molette arme</span>
+          <span><b>Manette</b> stick G/D</span>
+          <span><b>RT/LT</b> attaquer / viser</span>
+          <span><b>A/Croix</b> interagir</span>
+          <span><b>Start</b> pause</span>
+        </div>
+      </aside>
+      <section id="feedbackStack" aria-live="polite" aria-label="Notifications de jeu"></section>
+      <div id="screamerFlash" class="screamerFlash" aria-hidden="true"><span>Ne cours pas.</span></div>
+      <div id="savePulse" class="savePulse" aria-hidden="true">
+        <span></span>
+      </div>
+      <div id="crosshair"></div>
+      <div id="prompt"></div>
+    </div>
+  </body>
+</html>

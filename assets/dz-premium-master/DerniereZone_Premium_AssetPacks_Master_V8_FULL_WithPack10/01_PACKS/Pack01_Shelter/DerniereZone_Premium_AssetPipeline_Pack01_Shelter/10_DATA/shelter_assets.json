@@ -1,0 +1,151 @@
+[
+  {
+    "id": "shelter_bed_messy",
+    "name": "Lit de fortune",
+    "category": "shelter_core",
+    "priority": "hero",
+    "scale": "2.05 x 0.9 x 0.65 m",
+    "materials": [
+      "dirty_fabric",
+      "aged_wood",
+      "rusty_metal"
+    ],
+    "animations": [
+      "sleep_interact",
+      "bed_upgrade_visual"
+    ],
+    "gameplay": "Repos, sauvegarde, réduction fatigue."
+  },
+  {
+    "id": "shelter_radio_old",
+    "name": "Radio ancienne réparée",
+    "category": "shelter_core",
+    "priority": "hero",
+    "scale": "0.75 x 0.32 x 0.38 m",
+    "materials": [
+      "rusty_black_metal",
+      "old_plastic",
+      "dirty_glass"
+    ],
+    "animations": [
+      "radio_tune",
+      "radio_repair",
+      "radio_signal_success"
+    ],
+    "gameplay": "Quêtes principales, transmissions, choix narratifs."
+  },
+  {
+    "id": "shelter_workbench",
+    "name": "Établi de craft",
+    "category": "shelter_core",
+    "priority": "hero",
+    "scale": "2.0 x 0.75 x 1.2 m",
+    "materials": [
+      "aged_wood",
+      "rusty_black_metal"
+    ],
+    "animations": [
+      "craft_small",
+      "craft_heavy",
+      "repair_tool"
+    ],
+    "gameplay": "Craft, réparations, améliorations."
+  },
+  {
+    "id": "shelter_storage_chest",
+    "name": "Coffre de stockage",
+    "category": "shelter_core",
+    "priority": "hero",
+    "scale": "1.25 x 0.65 x 0.65 m",
+    "materials": [
+      "aged_wood",
+      "rusty_black_metal"
+    ],
+    "animations": [
+      "chest_open",
+      "chest_close"
+    ],
+    "gameplay": "Stockage inventaire."
+  },
+  {
+    "id": "shelter_generator",
+    "name": "Générateur bricolé",
+    "category": "shelter_core",
+    "priority": "hero",
+    "scale": "1.2 x 0.65 x 0.8 m",
+    "materials": [
+      "rusty_black_metal",
+      "rubber",
+      "wire"
+    ],
+    "animations": [
+      "generator_repair",
+      "generator_start",
+      "generator_idle_shake"
+    ],
+    "gameplay": "Électricité, bruit, risque d'attaque."
+  },
+  {
+    "id": "shelter_map_wall",
+    "name": "Mur de carte annotée",
+    "category": "shelter_core",
+    "priority": "hero",
+    "scale": "2.4 x 0.15 x 1.6 m",
+    "materials": [
+      "old_paper",
+      "dirty_concrete_wall",
+      "tape"
+    ],
+    "animations": [
+      "map_open",
+      "pin_add"
+    ],
+    "gameplay": "Carte, objectifs, planification."
+  },
+  {
+    "id": "shelter_oil_lamp",
+    "name": "Lampe d'abri",
+    "category": "props_detail",
+    "priority": "medium",
+    "scale": "0.25 x 0.25 x 0.45 m",
+    "materials": [
+      "dirty_glass",
+      "rusty_black_metal"
+    ],
+    "animations": [
+      "lamp_toggle",
+      "lamp_flicker"
+    ],
+    "gameplay": "Ambiance, lumière, tutoriel abri."
+  },
+  {
+    "id": "shelter_barricaded_door",
+    "name": "Porte barricadée",
+    "category": "shelter_core",
+    "priority": "hero",
+    "scale": "1.25 x 0.25 x 2.2 m",
+    "materials": [
+      "aged_wood",
+      "rusty_black_metal"
+    ],
+    "animations": [
+      "door_heavy_open",
+      "barricade_upgrade"
+    ],
+    "gameplay": "Entrée abri, défense."
+  },
+  {
+    "id": "shelter_personal_props",
+    "name": "Props personnels",
+    "category": "props_detail",
+    "priority": "medium",
+    "scale": "various",
+    "materials": [
+      "old_paper",
+      "dirty_fabric",
+      "rusty_black_metal"
+    ],
+    "animations": [],
+    "gameplay": "Narration environnementale."
+  }
+]

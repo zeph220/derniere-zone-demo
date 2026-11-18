@@ -1,0 +1,486 @@
+[
+  {
+    "id": "water_bottle",
+    "name": "Bouteille d'eau",
+    "category": "survival",
+    "rarity": "common",
+    "weight": 0.5,
+    "stack": 4,
+    "use": "Boire pour restaurer la soif.",
+    "effect": {
+      "thirst": 35
+    },
+    "found": [
+      "supérette",
+      "abri abandonné",
+      "coffres civils"
+    ],
+    "model": "water_bottle.obj",
+    "icon": "water_bottle.png",
+    "animation": "fp_drink_water",
+    "sound": "drink_water"
+  },
+  {
+    "id": "canned_food",
+    "name": "Conserve",
+    "category": "survival",
+    "rarity": "common",
+    "weight": 0.4,
+    "stack": 6,
+    "use": "Manger pour restaurer la faim.",
+    "effect": {
+      "hunger": 28
+    },
+    "found": [
+      "supérette",
+      "cuisine",
+      "dépôt"
+    ],
+    "model": "canned_food.obj",
+    "icon": "canned_food.png",
+    "animation": "fp_eat_food",
+    "sound": "eat_food"
+  },
+  {
+    "id": "energy_bar",
+    "name": "Barre énergétique",
+    "category": "survival",
+    "rarity": "common",
+    "weight": 0.1,
+    "stack": 8,
+    "use": "Restaure un peu de faim et d'endurance.",
+    "effect": {
+      "hunger": 12,
+      "stamina": 8
+    },
+    "found": [
+      "sacs",
+      "pharmacie",
+      "bureaux"
+    ],
+    "model": "energy_bar.obj",
+    "icon": "energy_bar.png",
+    "animation": "fp_eat_food",
+    "sound": "eat_food"
+  },
+  {
+    "id": "bandage",
+    "name": "Bandage",
+    "category": "medical",
+    "rarity": "common",
+    "weight": 0.15,
+    "stack": 5,
+    "use": "Arrête le saignement et rend un peu de vie.",
+    "effect": {
+      "health": 15,
+      "bleeding": "stop"
+    },
+    "found": [
+      "pharmacie",
+      "hôpital",
+      "craft"
+    ],
+    "model": "bandage_roll.obj",
+    "icon": "bandage.png",
+    "animation": "fp_apply_bandage",
+    "sound": "bandage_wrap"
+  },
+  {
+    "id": "antibiotics",
+    "name": "Antibiotiques",
+    "category": "medical",
+    "rarity": "rare",
+    "weight": 0.1,
+    "stack": 3,
+    "use": "Réduit l'infection.",
+    "effect": {
+      "infection": -45
+    },
+    "found": [
+      "hôpital",
+      "pharmacie verrouillée"
+    ],
+    "model": "antibiotics_bottle.obj",
+    "icon": "antibiotics.png",
+    "animation": "fp_use_pills",
+    "sound": "pill_bottle"
+  },
+  {
+    "id": "painkillers",
+    "name": "Antidouleurs",
+    "category": "medical",
+    "rarity": "uncommon",
+    "weight": 0.1,
+    "stack": 4,
+    "use": "Réduit temporairement les malus de blessure.",
+    "effect": {
+      "pain": -35
+    },
+    "found": [
+      "pharmacie",
+      "hôpital"
+    ],
+    "model": "painkillers_pack.obj",
+    "icon": "painkillers.png",
+    "animation": "fp_use_pills",
+    "sound": "pill_pack"
+  },
+  {
+    "id": "medkit",
+    "name": "Trousse médicale",
+    "category": "medical",
+    "rarity": "rare",
+    "weight": 0.8,
+    "stack": 1,
+    "use": "Soin important, stoppe saignement et réduit infection légère.",
+    "effect": {
+      "health": 45,
+      "bleeding": "stop",
+      "infection": -10
+    },
+    "found": [
+      "hôpital",
+      "zone militaire"
+    ],
+    "model": "medkit.obj",
+    "icon": "medkit.png",
+    "animation": "fp_use_medkit",
+    "sound": "medkit_open"
+  },
+  {
+    "id": "battery",
+    "name": "Pile",
+    "category": "craft",
+    "rarity": "uncommon",
+    "weight": 0.2,
+    "stack": 6,
+    "use": "Alimente lampe, radio ou dispositifs.",
+    "effect": {},
+    "found": [
+      "supérette",
+      "bureaux",
+      "pharmacie"
+    ],
+    "model": "battery_pack.obj",
+    "icon": "battery.png",
+    "animation": "fp_pickup_small_item",
+    "sound": "pickup_battery"
+  },
+  {
+    "id": "wire",
+    "name": "Câble électrique",
+    "category": "craft",
+    "rarity": "uncommon",
+    "weight": 0.2,
+    "stack": 6,
+    "use": "Réparation radio, générateur, pièges.",
+    "effect": {},
+    "found": [
+      "garage",
+      "boîtiers électriques"
+    ],
+    "model": "wire_spool.obj",
+    "icon": "wire.png",
+    "animation": "fp_pickup_small_item",
+    "sound": "pickup_wire"
+  },
+  {
+    "id": "wood_plank",
+    "name": "Planche",
+    "category": "craft",
+    "rarity": "common",
+    "weight": 0.6,
+    "stack": 8,
+    "use": "Barricades, améliorations, pièges.",
+    "effect": {},
+    "found": [
+      "rues",
+      "meubles cassés"
+    ],
+    "model": "wood_plank.obj",
+    "icon": "wood_plank.png",
+    "animation": "fp_pickup_heavy_item",
+    "sound": "pickup_wood"
+  },
+  {
+    "id": "scrap_metal",
+    "name": "Métal de récupération",
+    "category": "craft",
+    "rarity": "common",
+    "weight": 0.4,
+    "stack": 10,
+    "use": "Craft et réparations.",
+    "effect": {},
+    "found": [
+      "garage",
+      "voitures",
+      "zone industrielle"
+    ],
+    "model": "scrap_metal.obj",
+    "icon": "scrap_metal.png",
+    "animation": "fp_pickup_small_item",
+    "sound": "pickup_metal"
+  },
+  {
+    "id": "cloth",
+    "name": "Tissu",
+    "category": "craft",
+    "rarity": "common",
+    "weight": 0.1,
+    "stack": 12,
+    "use": "Bandages, filtres, sacs.",
+    "effect": {},
+    "found": [
+      "appartements",
+      "lits",
+      "vêtements"
+    ],
+    "model": "cloth_bundle.obj",
+    "icon": "cloth.png",
+    "animation": "fp_pickup_small_item",
+    "sound": "pickup_cloth"
+  },
+  {
+    "id": "fuse",
+    "name": "Fusible",
+    "category": "craft",
+    "rarity": "uncommon",
+    "weight": 0.1,
+    "stack": 4,
+    "use": "Remettre le courant dans certaines zones.",
+    "effect": {},
+    "found": [
+      "garage",
+      "métro",
+      "labo"
+    ],
+    "model": "fuse.obj",
+    "icon": "fuse.png",
+    "animation": "fp_pickup_small_item",
+    "sound": "pickup_fuse"
+  },
+  {
+    "id": "fuel_can",
+    "name": "Jerrican d'essence",
+    "category": "resource",
+    "rarity": "rare",
+    "weight": 3.0,
+    "stack": 1,
+    "use": "Générateur ou véhicule.",
+    "effect": {},
+    "found": [
+      "garage",
+      "zone militaire"
+    ],
+    "model": "fuel_can.obj",
+    "icon": "fuel_can.png",
+    "animation": "fp_pickup_heavy_item",
+    "sound": "pickup_fuel"
+  },
+  {
+    "id": "water_filter",
+    "name": "Filtre à eau",
+    "category": "tool",
+    "rarity": "uncommon",
+    "weight": 0.3,
+    "stack": 2,
+    "use": "Purifie l'eau sale à l'abri.",
+    "effect": {},
+    "found": [
+      "craft",
+      "pharmacie"
+    ],
+    "model": "water_filter.obj",
+    "icon": "water_filter.png",
+    "animation": "fp_pickup_small_item",
+    "sound": "pickup_filter"
+  },
+  {
+    "id": "flashlight",
+    "name": "Lampe torche",
+    "category": "tool",
+    "rarity": "common",
+    "weight": 0.4,
+    "stack": 1,
+    "use": "Éclaire les zones sombres, consomme des piles.",
+    "effect": {},
+    "found": [
+      "abri",
+      "garage",
+      "métro"
+    ],
+    "model": "flashlight.obj",
+    "icon": "flashlight.png",
+    "animation": "fp_flashlight_toggle",
+    "sound": "flashlight_click"
+  },
+  {
+    "id": "crowbar",
+    "name": "Pied-de-biche",
+    "category": "tool",
+    "rarity": "uncommon",
+    "weight": 1.5,
+    "stack": 1,
+    "use": "Ouvre portes bloquées et caisses.",
+    "effect": {},
+    "found": [
+      "garage",
+      "chantier"
+    ],
+    "model": "crowbar.obj",
+    "icon": "crowbar.png",
+    "animation": "fp_use_tool",
+    "sound": "crowbar_metal"
+  },
+  {
+    "id": "backpack",
+    "name": "Sac amélioré",
+    "category": "equipment",
+    "rarity": "rare",
+    "weight": 1.2,
+    "stack": 1,
+    "use": "Augmente la capacité d'inventaire.",
+    "effect": {
+      "carry_capacity": 8
+    },
+    "found": [
+      "craft",
+      "camp survivant"
+    ],
+    "model": "backpack.obj",
+    "icon": "backpack.png",
+    "animation": "fp_equip_backpack",
+    "sound": "cloth_equip"
+  },
+  {
+    "id": "pharmacy_key",
+    "name": "Clé pharmacie",
+    "category": "quest",
+    "rarity": "unique",
+    "weight": 0.0,
+    "stack": 1,
+    "use": "Ouvre l'arrière-boutique de la pharmacie.",
+    "effect": {},
+    "found": [
+      "bureau gérant",
+      "ruelle"
+    ],
+    "model": "key_pharmacy.obj",
+    "icon": "key.png",
+    "animation": "fp_pickup_small_item",
+    "sound": "pickup_key"
+  },
+  {
+    "id": "lab_keycard",
+    "name": "Carte d'accès laboratoire",
+    "category": "quest",
+    "rarity": "unique",
+    "weight": 0.0,
+    "stack": 1,
+    "use": "Débloque l'accès au laboratoire.",
+    "effect": {},
+    "found": [
+      "hôpital sous-sol",
+      "Eva"
+    ],
+    "model": "lab_keycard.obj",
+    "icon": "keycard.png",
+    "animation": "fp_pickup_small_item",
+    "sound": "pickup_keycard"
+  },
+  {
+    "id": "radio_part",
+    "name": "Module radio",
+    "category": "quest",
+    "rarity": "rare",
+    "weight": 0.5,
+    "stack": 1,
+    "use": "Réparer la radio de l'abri.",
+    "effect": {},
+    "found": [
+      "antenne immeuble",
+      "boutique électronique"
+    ],
+    "model": "radio_part.obj",
+    "icon": "radio_part.png",
+    "animation": "fp_pickup_small_item",
+    "sound": "pickup_electronic"
+  },
+  {
+    "id": "journal_page",
+    "name": "Page de journal",
+    "category": "document",
+    "rarity": "varies",
+    "weight": 0.0,
+    "stack": 99,
+    "use": "Indice narratif, code ou lore.",
+    "effect": {},
+    "found": [
+      "toutes zones"
+    ],
+    "model": "journal_page.obj",
+    "icon": "document.png",
+    "animation": "fp_read_document",
+    "sound": "paper_pickup"
+  },
+  {
+    "id": "map_fragment",
+    "name": "Fragment de carte",
+    "category": "document",
+    "rarity": "uncommon",
+    "weight": 0.0,
+    "stack": 12,
+    "use": "Révèle une zone ou un raccourci.",
+    "effect": {
+      "map_reveal": true
+    },
+    "found": [
+      "bureaux",
+      "métro",
+      "factions"
+    ],
+    "model": "map_fragment.obj",
+    "icon": "map_fragment.png",
+    "animation": "fp_read_document",
+    "sound": "paper_pickup"
+  },
+  {
+    "id": "noise_lure",
+    "name": "Leurre sonore",
+    "category": "device",
+    "rarity": "uncommon",
+    "weight": 0.3,
+    "stack": 3,
+    "use": "Détourne les ennemis sensibles au bruit.",
+    "effect": {
+      "noise_radius": 18
+    },
+    "found": [
+      "craft"
+    ],
+    "model": "noise_lure.obj",
+    "icon": "noise_lure.png",
+    "animation": "fp_throw_lure",
+    "sound": "lure_beep"
+  },
+  {
+    "id": "nail_trap",
+    "name": "Piège à clous",
+    "category": "device",
+    "rarity": "uncommon",
+    "weight": 0.7,
+    "stack": 2,
+    "use": "Ralentit ou blesse les ennemis au sol.",
+    "effect": {
+      "trap_damage": 25,
+      "slow": true
+    },
+    "found": [
+      "craft"
+    ],
+    "model": "nail_trap.obj",
+    "icon": "nail_trap.png",
+    "animation": "fp_place_trap",
+    "sound": "trap_place"
+  }
+]

@@ -1,0 +1,12 @@
+newmtl wet_asphalt
+Kd 0.05 0.055 0.05
+Ka 0.05 0.05 0.05
+Ks 0.14 0.14 0.14
+Ns 28
+
+newmtl lane_mark_faded
+Kd 0.6 0.58 0.45
+Ka 0.05 0.05 0.05
+Ks 0.14 0.14 0.14
+Ns 28
+

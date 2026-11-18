@@ -1,0 +1,170 @@
+[
+  {
+    "id": "DOC_OFF_001",
+    "category": "Official",
+    "title": "Avis de quarantaine secteur B",
+    "text": "Accès interdit. Toute tentative de franchissement sera considérée comme menace biologique.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_OFF_002",
+    "category": "Official",
+    "title": "Ordre d'évacuation partielle",
+    "text": "Les civils prioritaires seront déplacés vers des centres temporaires. Les autres doivent rester à domicile.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_OFF_003",
+    "category": "Official",
+    "title": "Communiqué public falsifié",
+    "text": "Les autorités assurent que la situation est stable. Les registres internes disent l'inverse.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_PER_001",
+    "category": "Personal",
+    "title": "Lettre jamais envoyée",
+    "text": "Si tu lis ça, c'est que je n'ai pas trouvé la sortie. Ne descends pas dans le métro.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_PER_002",
+    "category": "Personal",
+    "title": "Journal d'un survivant",
+    "text": "La pluie n'a pas cessé depuis trois jours. J'entends des pas dans l'escalier quand personne ne bouge.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_PER_003",
+    "category": "Personal",
+    "title": "Photo annotée",
+    "text": "Une famille devant Saint-Mary. Au dos : 'ne leur fais pas confiance'.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_MED_001",
+    "category": "Medical",
+    "title": "Dossier Patient 0",
+    "text": "Symptômes atypiques : mémoire fragmentée, réponse aux fréquences sonores, mutation progressive.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_MED_002",
+    "category": "Medical",
+    "title": "Rapport de triage",
+    "text": "Les patients réactifs aux stimuli ont été déplacés vers l'aile inférieure.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_MED_003",
+    "category": "Medical",
+    "title": "Ordonnance froissée",
+    "text": "Antibiotiques, sédatifs, antiseptique. Quantités barrées plusieurs fois.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_MIL_001",
+    "category": "Military",
+    "title": "Ordre Bastion D-14",
+    "text": "Priorité : contenir la zone. La vérité opérationnelle reste classifiée.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_MIL_002",
+    "category": "Military",
+    "title": "Rapport de pertes",
+    "text": "Les projecteurs n'arrêtent pas les sujets lourds. Les murs vibrent avant leur arrivée.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_MIL_003",
+    "category": "Military",
+    "title": "Carte de checkpoint",
+    "text": "Trois routes d'accès, une seule non minée. Le code change à chaque alerte.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_LAB_001",
+    "category": "Laboratory",
+    "title": "Protocole Hélios",
+    "text": "L'adaptation dépasse les prédictions. Le sujet conserve une forme de mémoire.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_LAB_002",
+    "category": "Laboratory",
+    "title": "Note d'Eva",
+    "text": "Nous n'avons pas créé une arme. Nous avons créé un miroir qui apprend trop vite.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_LAB_003",
+    "category": "Laboratory",
+    "title": "Fichier corrompu",
+    "text": "HÔTE — ZÉRO — NON STABLE — NE PAS RÉVEILLER.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_RAD_001",
+    "category": "Radio_Transcripts",
+    "title": "Transmission Saint-Mary",
+    "text": "...besoin d'aide... aile de triage... si quelqu'un reçoit... ne venez pas seul...",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_RAD_002",
+    "category": "Radio_Transcripts",
+    "title": "Signal du métro",
+    "text": "La station respire. Les murs renvoient nos voix. Coupez vos radios.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_RAD_003",
+    "category": "Radio_Transcripts",
+    "title": "Dernière fréquence",
+    "text": "Il ne reste plus de dehors. Seulement la Zone.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_MAP_001",
+    "category": "Maps_And_Codes",
+    "title": "Code pharmacie",
+    "text": "Le code est la date du premier confinement : 0314.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_MAP_002",
+    "category": "Maps_And_Codes",
+    "title": "Plan du métro",
+    "text": "Une ligne rouge marque un tunnel vers le laboratoire.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_MAP_003",
+    "category": "Maps_And_Codes",
+    "title": "Carte militaire brûlée",
+    "text": "Le bunker nord mène au cœur, mais le retour est barré.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_COL_001",
+    "category": "Collectibles",
+    "title": "Bracelet Saint-Mary",
+    "text": "Un bracelet d'hôpital portant le nom 'Mira L.' effacé.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_COL_002",
+    "category": "Collectibles",
+    "title": "Badge Bastion",
+    "text": "Grade rayé, nom illisible, encore magnétique.",
+    "gameplay_value": "indice, lore, quête ou code"
+  },
+  {
+    "id": "DOC_COL_003",
+    "category": "Collectibles",
+    "title": "Cassette audio",
+    "text": "Étiquette : 'ne jamais jouer près des patients'.",
+    "gameplay_value": "indice, lore, quête ou code"
+  }
+]

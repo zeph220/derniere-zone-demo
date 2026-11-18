@@ -1,0 +1,979 @@
+[
+  {
+    "id": "Q01_Radio",
+    "title": "La voix dans le silence",
+    "chapter": 1,
+    "type": "main",
+    "start": "Inspecter la radio cassée de l’abri",
+    "steps": [
+      "Inspecter la radio",
+      "Trouver une pile",
+      "Trouver un câble",
+      "Trouver le module radio",
+      "Retourner à l’abri",
+      "Réparer la radio",
+      "Écouter le message d’urgence"
+    ],
+    "locations": [
+      "shelter",
+      "supermarket",
+      "garage",
+      "district_01"
+    ],
+    "items_required": [
+      "battery",
+      "wire",
+      "radio_part"
+    ],
+    "rewards": [
+      "unlock_hospital_signal",
+      "xp_100"
+    ],
+    "choices": [],
+    "consequences": [
+      "débloque l’hôpital"
+    ]
+  },
+  {
+    "id": "Q02_Pharmacy",
+    "title": "Derrière le comptoir",
+    "chapter": 1,
+    "type": "main",
+    "start": "Note parlant de l’arrière-boutique",
+    "steps": [
+      "Atteindre la pharmacie",
+      "Trouver la clé",
+      "Ouvrir l’arrière-boutique",
+      "Récupérer médicaments et document"
+    ],
+    "locations": [
+      "pharmacy",
+      "district_01"
+    ],
+    "items_required": [
+      "pharmacy_key"
+    ],
+    "rewards": [
+      "antibiotics",
+      "hospital_hint"
+    ],
+    "choices": [
+      "garder_antibiotiques",
+      "donner_antibiotiques"
+    ],
+    "consequences": [
+      "influence Léa et Secouristes"
+    ]
+  },
+  {
+    "id": "Q03_Garage",
+    "title": "Ce qui ouvre les portes",
+    "chapter": 1,
+    "type": "main",
+    "start": "Besoin d’un outil lourd",
+    "steps": [
+      "Explorer le garage",
+      "Éviter l’ennemi",
+      "Trouver le pied-de-biche",
+      "Récupérer câbles et fusible"
+    ],
+    "locations": [
+      "garage"
+    ],
+    "items_required": [],
+    "rewards": [
+      "crowbar",
+      "wire",
+      "fuse"
+    ],
+    "choices": [],
+    "consequences": [
+      "débloque portes bloquées"
+    ]
+  },
+  {
+    "id": "Q04_Antibiotics",
+    "title": "Deux doses seulement",
+    "chapter": 2,
+    "type": "dilemma",
+    "start": "Rencontrer un survivant malade",
+    "steps": [
+      "Apporter antibiotiques",
+      "Choisir qui reçoit les doses",
+      "Voir conséquence après 1 journée"
+    ],
+    "locations": [
+      "shelter",
+      "pharmacy"
+    ],
+    "items_required": [
+      "antibiotics"
+    ],
+    "rewards": [
+      "reputation_change"
+    ],
+    "choices": [
+      "donner_au_survivant",
+      "garder_pour_abri"
+    ],
+    "consequences": [
+      "survivant sauvé ou mort"
+    ]
+  },
+  {
+    "id": "Q05_HospitalSignal",
+    "title": "Signal d’urgence",
+    "chapter": 2,
+    "type": "main",
+    "start": "Message radio",
+    "steps": [
+      "Atteindre l’hôpital",
+      "Trouver l’accueil",
+      "Localiser les Secouristes",
+      "Récupérer dossier de triage"
+    ],
+    "locations": [
+      "hospital"
+    ],
+    "items_required": [],
+    "rewards": [
+      "secouristes_contact",
+      "hospital_map"
+    ],
+    "choices": [],
+    "consequences": [
+      "débloque Secouristes"
+    ]
+  },
+  {
+    "id": "Q06_Generator",
+    "title": "Remettre la lumière",
+    "chapter": 2,
+    "type": "hub",
+    "start": "Abri trop sombre",
+    "steps": [
+      "Trouver fusible",
+      "Trouver carburant",
+      "Réparer générateur",
+      "Choisir consommation faible ou forte"
+    ],
+    "locations": [
+      "garage",
+      "military_zone",
+      "shelter"
+    ],
+    "items_required": [
+      "fuse",
+      "wire",
+      "fuel_can"
+    ],
+    "rewards": [
+      "shelter_power",
+      "craft_advanced"
+    ],
+    "choices": [
+      "économie_énergie",
+      "confort_abri"
+    ],
+    "consequences": [
+      "bruit peut attirer danger"
+    ]
+  },
+  {
+    "id": "Q07_ShelterAttack",
+    "title": "Ils ont suivi le signal",
+    "chapter": 3,
+    "type": "main_event",
+    "start": "Radio utilisée trop longtemps",
+    "steps": [
+      "Préparer barricades",
+      "Placer pièges",
+      "Choisir défenseurs",
+      "Survivre à l’attaque",
+      "Réparer dégâts"
+    ],
+    "locations": [
+      "shelter"
+    ],
+    "items_required": [
+      "wood_plank"
+    ],
+    "rewards": [
+      "trust_survivors",
+      "unlock_defense"
+    ],
+    "choices": [
+      "protéger_survivants",
+      "protéger_stock"
+    ],
+    "consequences": [
+      "pertes possibles"
+    ]
+  },
+  {
+    "id": "Q08_MetroAccess",
+    "title": "Sous la ville",
+    "chapter": 3,
+    "type": "main",
+    "start": "Secouristes parlent d’un accès",
+    "steps": [
+      "Trouver entrée métro",
+      "Rétablir courant",
+      "Éviter traqueur aveugle",
+      "Débloquer tunnel centre"
+    ],
+    "locations": [
+      "metro"
+    ],
+    "items_required": [
+      "fuse",
+      "flashlight"
+    ],
+    "rewards": [
+      "metro_shortcut",
+      "hidden_residents_contact"
+    ],
+    "choices": [],
+    "consequences": [
+      "débloque Habitants Cachés"
+    ]
+  },
+  {
+    "id": "Q09_FactionsChoice",
+    "title": "À qui faire confiance",
+    "chapter": 4,
+    "type": "main_dilemma",
+    "start": "Les factions demandent de l’aide",
+    "steps": [
+      "Parler aux Secouristes",
+      "Parler aux Pillards",
+      "Parler aux Sentinelles",
+      "Choisir aide prioritaire"
+    ],
+    "locations": [
+      "hospital",
+      "military_zone",
+      "depot_pillards"
+    ],
+    "items_required": [],
+    "rewards": [
+      "faction_path"
+    ],
+    "choices": [
+      "soutenir_secouristes",
+      "soutenir_pillards",
+      "soutenir_sentinelles",
+      "rester_neutre"
+    ],
+    "consequences": [
+      "modifie accès, prix, fins"
+    ]
+  },
+  {
+    "id": "Q10_LaboratoryAccess",
+    "title": "La porte Oméga",
+    "chapter": 5,
+    "type": "main",
+    "start": "Mention du Projet Hélios",
+    "steps": [
+      "Trouver carte d’accès",
+      "Traverser métro profond",
+      "Atteindre sas labo",
+      "Ouvrir accès"
+    ],
+    "locations": [
+      "hospital",
+      "metro",
+      "laboratory"
+    ],
+    "items_required": [
+      "lab_keycard"
+    ],
+    "rewards": [
+      "unlock_laboratory",
+      "truth_1"
+    ],
+    "choices": [
+      "faire_confiance_Eva",
+      "forcer_entrée"
+    ],
+    "consequences": [
+      "influence Scientifiques"
+    ]
+  },
+  {
+    "id": "Q11_Truth",
+    "title": "Projet Hélios",
+    "chapter": 5,
+    "type": "main_reveal",
+    "start": "Entrer salle serveurs",
+    "steps": [
+      "Lire dossiers",
+      "Voir salle de spécimens",
+      "Survivre au Sujet Oméga",
+      "Télécharger preuves"
+    ],
+    "locations": [
+      "laboratory"
+    ],
+    "items_required": [],
+    "rewards": [
+      "truth_evidence"
+    ],
+    "choices": [
+      "sauver_recherche",
+      "détruire_données",
+      "copier_et_fuir"
+    ],
+    "consequences": [
+      "détermine fins"
+    ]
+  },
+  {
+    "id": "Q12_Final",
+    "title": "La dernière transmission",
+    "chapter": 6,
+    "type": "final",
+    "start": "Factions convergent",
+    "steps": [
+      "Défendre ou quitter l’abri",
+      "Atteindre antenne centrale",
+      "Choisir diffusion/quarantaine/destruction/exode",
+      "Survivre finale"
+    ],
+    "locations": [
+      "shelter",
+      "military_zone",
+      "laboratory",
+      "tower"
+    ],
+    "items_required": [
+      "truth_evidence"
+    ],
+    "rewards": [
+      "ending"
+    ],
+    "choices": [
+      "fin_revelation",
+      "fin_quarantaine",
+      "fin_exode",
+      "fin_controle_scientifique",
+      "fin_fuite_solitaire"
+    ],
+    "consequences": [
+      "fin du jeu"
+    ]
+  },
+  {
+    "id": "Q13_Side",
+    "title": "Les caches de la pluie",
+    "chapter": 1,
+    "type": "side",
+    "start": "Découverte via note, radio ou survivant",
+    "steps": [
+      "Recevoir indice",
+      "Explorer zone ciblée",
+      "Faire un choix ou récupérer objet",
+      "Retourner ou garder récompense"
+    ],
+    "locations": [
+      "military_zone",
+      "hospital"
+    ],
+    "items_required": [
+      "antibiotics"
+    ],
+    "rewards": [
+      "xp_50",
+      "resource_cache",
+      "reputation_change"
+    ],
+    "choices": [
+      "aider",
+      "garder_ressources",
+      "mentir"
+    ],
+    "consequences": [
+      "réputation modifiée",
+      "dialogue futur modifié"
+    ]
+  },
+  {
+    "id": "Q14_Side",
+    "title": "La fille du pharmacien",
+    "chapter": 1,
+    "type": "side",
+    "start": "Découverte via note, radio ou survivant",
+    "steps": [
+      "Recevoir indice",
+      "Explorer zone ciblée",
+      "Faire un choix ou récupérer objet",
+      "Retourner ou garder récompense"
+    ],
+    "locations": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "items_required": [
+      "fuel_can"
+    ],
+    "rewards": [
+      "xp_50",
+      "resource_cache",
+      "reputation_change"
+    ],
+    "choices": [
+      "aider",
+      "garder_ressources",
+      "mentir"
+    ],
+    "consequences": [
+      "réputation modifiée",
+      "dialogue futur modifié"
+    ]
+  },
+  {
+    "id": "Q15_Side",
+    "title": "Le vieux tunnel",
+    "chapter": 1,
+    "type": "side",
+    "start": "Découverte via note, radio ou survivant",
+    "steps": [
+      "Recevoir indice",
+      "Explorer zone ciblée",
+      "Faire un choix ou récupérer objet",
+      "Retourner ou garder récompense"
+    ],
+    "locations": [
+      "shelter",
+      "metro"
+    ],
+    "items_required": [
+      "fuel_can"
+    ],
+    "rewards": [
+      "xp_50",
+      "resource_cache",
+      "reputation_change"
+    ],
+    "choices": [
+      "aider",
+      "garder_ressources",
+      "mentir"
+    ],
+    "consequences": [
+      "réputation modifiée",
+      "dialogue futur modifié"
+    ]
+  },
+  {
+    "id": "Q16_Side",
+    "title": "Le marchand sans nom",
+    "chapter": 1,
+    "type": "side",
+    "start": "Découverte via note, radio ou survivant",
+    "steps": [
+      "Recevoir indice",
+      "Explorer zone ciblée",
+      "Faire un choix ou récupérer objet",
+      "Retourner ou garder récompense"
+    ],
+    "locations": [
+      "garage",
+      "laboratory"
+    ],
+    "items_required": [
+      "wood_plank"
+    ],
+    "rewards": [
+      "xp_50",
+      "resource_cache",
+      "reputation_change"
+    ],
+    "choices": [
+      "aider",
+      "garder_ressources",
+      "mentir"
+    ],
+    "consequences": [
+      "réputation modifiée",
+      "dialogue futur modifié"
+    ]
+  },
+  {
+    "id": "Q17_Side",
+    "title": "Le message coupé",
+    "chapter": 1,
+    "type": "side",
+    "start": "Découverte via note, radio ou survivant",
+    "steps": [
+      "Recevoir indice",
+      "Explorer zone ciblée",
+      "Faire un choix ou récupérer objet",
+      "Retourner ou garder récompense"
+    ],
+    "locations": [
+      "metro",
+      "shelter"
+    ],
+    "items_required": [
+      "crowbar"
+    ],
+    "rewards": [
+      "xp_50",
+      "resource_cache",
+      "reputation_change"
+    ],
+    "choices": [
+      "aider",
+      "garder_ressources",
+      "mentir"
+    ],
+    "consequences": [
+      "réputation modifiée",
+      "dialogue futur modifié"
+    ]
+  },
+  {
+    "id": "Q18_Side",
+    "title": "Rations partagées",
+    "chapter": 2,
+    "type": "side",
+    "start": "Découverte via note, radio ou survivant",
+    "steps": [
+      "Recevoir indice",
+      "Explorer zone ciblée",
+      "Faire un choix ou récupérer objet",
+      "Retourner ou garder récompense"
+    ],
+    "locations": [
+      "metro",
+      "military_zone"
+    ],
+    "items_required": [
+      "gas_mask"
+    ],
+    "rewards": [
+      "xp_50",
+      "resource_cache",
+      "reputation_change"
+    ],
+    "choices": [
+      "aider",
+      "garder_ressources",
+      "mentir"
+    ],
+    "consequences": [
+      "réputation modifiée",
+      "dialogue futur modifié"
+    ]
+  },
+  {
+    "id": "Q19_Side",
+    "title": "La porte qui respire",
+    "chapter": 2,
+    "type": "side",
+    "start": "Découverte via note, radio ou survivant",
+    "steps": [
+      "Recevoir indice",
+      "Explorer zone ciblée",
+      "Faire un choix ou récupérer objet",
+      "Retourner ou garder récompense"
+    ],
+    "locations": [
+      "military_zone",
+      "hospital"
+    ],
+    "items_required": [
+      "fuel_can"
+    ],
+    "rewards": [
+      "xp_50",
+      "resource_cache",
+      "reputation_change"
+    ],
+    "choices": [
+      "aider",
+      "garder_ressources",
+      "mentir"
+    ],
+    "consequences": [
+      "réputation modifiée",
+      "dialogue futur modifié"
+    ]
+  },
+  {
+    "id": "Q20_Side",
+    "title": "Le toit aux corbeaux",
+    "chapter": 2,
+    "type": "side",
+    "start": "Découverte via note, radio ou survivant",
+    "steps": [
+      "Recevoir indice",
+      "Explorer zone ciblée",
+      "Faire un choix ou récupérer objet",
+      "Retourner ou garder récompense"
+    ],
+    "locations": [
+      "shelter",
+      "hospital"
+    ],
+    "items_required": [
+      "medkit"
+    ],
+    "rewards": [
+      "xp_50",
+      "resource_cache",
+      "reputation_change"
+    ],
+    "choices": [
+      "aider",
+      "garder_ressources",
+      "mentir"
+    ],
+    "consequences": [
+      "réputation modifiée",
+      "dialogue futur modifié"
+    ]
+  },
+  {
+    "id": "Q21_Side",
+    "title": "Une lampe dans le noir",
+    "chapter": 2,
+    "type": "side",
+    "start": "Découverte via note, radio ou survivant",
+    "steps": [
+      "Recevoir indice",
+      "Explorer zone ciblée",
+      "Faire un choix ou récupérer objet",
+      "Retourner ou garder récompense"
+    ],
+    "locations": [
+      "hospital",
+      "garage"
+    ],
+    "items_required": [
+      "crowbar"
+    ],
+    "rewards": [
+      "xp_50",
+      "resource_cache",
+      "reputation_change"
+    ],
+    "choices": [
+      "aider",
+      "garder_ressources",
+      "mentir"
+    ],
+    "consequences": [
+      "réputation modifiée",
+      "dialogue futur modifié"
+    ]
+  },
+  {
+    "id": "Q22_Side",
+    "title": "Dette de sang",
+    "chapter": 3,
+    "type": "side",
+    "start": "Découverte via note, radio ou survivant",
+    "steps": [
+      "Recevoir indice",
+      "Explorer zone ciblée",
+      "Faire un choix ou récupérer objet",
+      "Retourner ou garder récompense"
+    ],
+    "locations": [
+      "shelter",
+      "military_zone"
+    ],
+    "items_required": [
+      "medkit"
+    ],
+    "rewards": [
+      "xp_50",
+      "resource_cache",
+      "reputation_change"
+    ],
+    "choices": [
+      "aider",
+      "garder_ressources",
+      "mentir"
+    ],
+    "consequences": [
+      "réputation modifiée",
+      "dialogue futur modifié"
+    ]
+  },
+  {
+    "id": "Q23_Side",
+    "title": "Le carnet du médecin",
+    "chapter": 3,
+    "type": "side",
+    "start": "Découverte via note, radio ou survivant",
+    "steps": [
+      "Recevoir indice",
+      "Explorer zone ciblée",
+      "Faire un choix ou récupérer objet",
+      "Retourner ou garder récompense"
+    ],
+    "locations": [
+      "hospital",
+      "metro"
+    ],
+    "items_required": [
+      "cloth"
+    ],
+    "rewards": [
+      "xp_50",
+      "resource_cache",
+      "reputation_change"
+    ],
+    "choices": [
+      "aider",
+      "garder_ressources",
+      "mentir"
+    ],
+    "consequences": [
+      "réputation modifiée",
+      "dialogue futur modifié"
+    ]
+  },
+  {
+    "id": "Q24_Side",
+    "title": "Dernier bus",
+    "chapter": 3,
+    "type": "side",
+    "start": "Découverte via note, radio ou survivant",
+    "steps": [
+      "Recevoir indice",
+      "Explorer zone ciblée",
+      "Faire un choix ou récupérer objet",
+      "Retourner ou garder récompense"
+    ],
+    "locations": [
+      "supermarket",
+      "garage"
+    ],
+    "items_required": [
+      "water_bottle"
+    ],
+    "rewards": [
+      "xp_50",
+      "resource_cache",
+      "reputation_change"
+    ],
+    "choices": [
+      "aider",
+      "garder_ressources",
+      "mentir"
+    ],
+    "consequences": [
+      "réputation modifiée",
+      "dialogue futur modifié"
+    ]
+  },
+  {
+    "id": "Q25_Side",
+    "title": "L’atelier fermé",
+    "chapter": 3,
+    "type": "side",
+    "start": "Découverte via note, radio ou survivant",
+    "steps": [
+      "Recevoir indice",
+      "Explorer zone ciblée",
+      "Faire un choix ou récupérer objet",
+      "Retourner ou garder récompense"
+    ],
+    "locations": [
+      "shelter",
+      "laboratory"
+    ],
+    "items_required": [
+      "wood_plank"
+    ],
+    "rewards": [
+      "xp_50",
+      "resource_cache",
+      "reputation_change"
+    ],
+    "choices": [
+      "aider",
+      "garder_ressources",
+      "mentir"
+    ],
+    "consequences": [
+      "réputation modifiée",
+      "dialogue futur modifié"
+    ]
+  },
+  {
+    "id": "Q26_Side",
+    "title": "Haut-parleur nord",
+    "chapter": 4,
+    "type": "side",
+    "start": "Découverte via note, radio ou survivant",
+    "steps": [
+      "Recevoir indice",
+      "Explorer zone ciblée",
+      "Faire un choix ou récupérer objet",
+      "Retourner ou garder récompense"
+    ],
+    "locations": [
+      "military_zone",
+      "metro"
+    ],
+    "items_required": [
+      "antibiotics"
+    ],
+    "rewards": [
+      "xp_50",
+      "resource_cache",
+      "reputation_change"
+    ],
+    "choices": [
+      "aider",
+      "garder_ressources",
+      "mentir"
+    ],
+    "consequences": [
+      "réputation modifiée",
+      "dialogue futur modifié"
+    ]
+  },
+  {
+    "id": "Q27_Side",
+    "title": "L’enfant disparu",
+    "chapter": 4,
+    "type": "side",
+    "start": "Découverte via note, radio ou survivant",
+    "steps": [
+      "Recevoir indice",
+      "Explorer zone ciblée",
+      "Faire un choix ou récupérer objet",
+      "Retourner ou garder récompense"
+    ],
+    "locations": [
+      "shelter",
+      "supermarket"
+    ],
+    "items_required": [
+      "water_bottle"
+    ],
+    "rewards": [
+      "xp_50",
+      "resource_cache",
+      "reputation_change"
+    ],
+    "choices": [
+      "aider",
+      "garder_ressources",
+      "mentir"
+    ],
+    "consequences": [
+      "réputation modifiée",
+      "dialogue futur modifié"
+    ]
+  },
+  {
+    "id": "Q28_Side",
+    "title": "Les filtres rouges",
+    "chapter": 4,
+    "type": "side",
+    "start": "Découverte via note, radio ou survivant",
+    "steps": [
+      "Recevoir indice",
+      "Explorer zone ciblée",
+      "Faire un choix ou récupérer objet",
+      "Retourner ou garder récompense"
+    ],
+    "locations": [
+      "hospital",
+      "military_zone"
+    ],
+    "items_required": [
+      "flashlight"
+    ],
+    "rewards": [
+      "xp_50",
+      "resource_cache",
+      "reputation_change"
+    ],
+    "choices": [
+      "aider",
+      "garder_ressources",
+      "mentir"
+    ],
+    "consequences": [
+      "réputation modifiée",
+      "dialogue futur modifié"
+    ]
+  },
+  {
+    "id": "Q29_Side",
+    "title": "Le wagon scellé",
+    "chapter": 4,
+    "type": "side",
+    "start": "Découverte via note, radio ou survivant",
+    "steps": [
+      "Recevoir indice",
+      "Explorer zone ciblée",
+      "Faire un choix ou récupérer objet",
+      "Retourner ou garder récompense"
+    ],
+    "locations": [
+      "hospital",
+      "garage"
+    ],
+    "items_required": [
+      "wood_plank"
+    ],
+    "rewards": [
+      "xp_50",
+      "resource_cache",
+      "reputation_change"
+    ],
+    "choices": [
+      "aider",
+      "garder_ressources",
+      "mentir"
+    ],
+    "consequences": [
+      "réputation modifiée",
+      "dialogue futur modifié"
+    ]
+  },
+  {
+    "id": "Q30_Side",
+    "title": "La photo déchirée",
+    "chapter": 5,
+    "type": "side",
+    "start": "Découverte via note, radio ou survivant",
+    "steps": [
+      "Recevoir indice",
+      "Explorer zone ciblée",
+      "Faire un choix ou récupérer objet",
+      "Retourner ou garder récompense"
+    ],
+    "locations": [
+      "metro",
+      "shelter"
+    ],
+    "items_required": [
+      "scrap_metal"
+    ],
+    "rewards": [
+      "xp_50",
+      "resource_cache",
+      "reputation_change"
+    ],
+    "choices": [
+      "aider",
+      "garder_ressources",
+      "mentir"
+    ],
+    "consequences": [
+      "réputation modifiée",
+      "dialogue futur modifié"
+    ]
+  }
+]

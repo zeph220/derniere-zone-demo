@@ -1,0 +1,23 @@
+{
+  "id": "ui_launch_scene_premium",
+  "created": "2026-05-28",
+  "blender": "/Applications/Blender-4.2.3.app/Contents/MacOS/Blender",
+  "files": {
+    "glb": "/assets/dz-blender-pack/ui_launch_scene_premium.glb",
+    "blend": "/assets/dz-blender-pack/ui_launch_scene_premium.blend"
+  },
+  "purpose": "Accueil/cinematique runtime: quarantine sign, wet road, burning barrel, embers, barricades, bird anchors.",
+  "runtimeNotes": [
+    "Use as a 3D overlay or cinematic prop layer, not as a replacement for UI DOM.",
+    "Objects ending in _collision are collision/proxy candidates.",
+    "Objects ending in _runtime or _animate_opacity are intended to be animated by runtime."
+  ],
+  "materials": [
+    "wet_cracked_asphalt_procedural",
+    "oxidized_rusty_metal",
+    "dirty_quarantine_paint",
+    "burned_black_metal",
+    "animated_fire_emissive_runtime",
+    "hot_ember_points_runtime"
+  ]
+}

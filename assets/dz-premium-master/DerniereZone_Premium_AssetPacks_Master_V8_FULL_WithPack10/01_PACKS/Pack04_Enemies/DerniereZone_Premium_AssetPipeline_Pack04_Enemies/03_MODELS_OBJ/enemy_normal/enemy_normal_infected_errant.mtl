@@ -1,0 +1,12 @@
+newmtl torn_clothes
+Kd 0.22 0.24 0.2
+Ka 0.05 0.05 0.05
+Ks 0.1 0.1 0.1
+Ns 24
+
+newmtl infected_skin
+Kd 0.46 0.42 0.34
+Ka 0.05 0.05 0.05
+Ks 0.1 0.1 0.1
+Ns 24
+

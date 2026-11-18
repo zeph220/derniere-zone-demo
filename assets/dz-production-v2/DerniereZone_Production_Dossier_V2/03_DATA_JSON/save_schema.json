@@ -1,0 +1,46 @@
+{
+  "version": "0.2",
+  "player": [
+    "zone_id",
+    "position",
+    "rotation",
+    "stats",
+    "inventory",
+    "equipment",
+    "quickslots"
+  ],
+  "world": [
+    "time",
+    "weather",
+    "picked_items",
+    "opened_doors",
+    "containers",
+    "enemy_states",
+    "zone_discovery"
+  ],
+  "shelter": [
+    "upgrades",
+    "storage",
+    "survivors",
+    "security",
+    "power",
+    "water",
+    "food",
+    "damage"
+  ],
+  "story": [
+    "quests",
+    "objectives",
+    "choices",
+    "faction_reputation",
+    "documents_read",
+    "dialogues_seen",
+    "endings_unlocked"
+  ],
+  "settings": [
+    "difficulty",
+    "accessibility",
+    "audio_mix",
+    "controls"
+  ]
+}

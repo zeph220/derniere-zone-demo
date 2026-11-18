@@ -1,0 +1,88 @@
+# Quêtes zones
+
+```json
+[
+  {
+    "id": "Q05_HospitalSignal",
+    "zone": "hospital",
+    "title": "Signal d'urgence",
+    "steps": [
+      "Atteindre l'hôpital",
+      "Explorer l'accueil",
+      "Trouver le registre de triage",
+      "Contacter les Secouristes",
+      "Récupérer l'indice vers le sous-sol"
+    ],
+    "required_items": [],
+    "rewards": [
+      "secouristes_contact",
+      "hospital_map",
+      "medical_loot_access"
+    ],
+    "key_dilemma": "prendre les médicaments rares pour soi ou les livrer aux Secouristes"
+  },
+  {
+    "id": "Q08_MetroAccess",
+    "zone": "metro",
+    "title": "Sous la ville",
+    "steps": [
+      "Trouver l'entrée du métro",
+      "Rétablir le courant local",
+      "Éviter le Traqueur aveugle",
+      "Traverser les quais",
+      "Débloquer un raccourci vers l'abri"
+    ],
+    "required_items": [
+      "fuse",
+      "flashlight"
+    ],
+    "rewards": [
+      "metro_shortcut",
+      "hidden_residents_contact",
+      "laboratory_route_hint"
+    ],
+    "key_dilemma": "allumer les lumières pour voir mieux ou rester discret"
+  },
+  {
+    "id": "Q10_LaboratoryAccess",
+    "zone": "laboratory",
+    "title": "La porte Oméga",
+    "steps": [
+      "Récupérer la carte d'accès",
+      "Entrer dans le sas",
+      "Désactiver le verrouillage",
+      "Explorer les cellules",
+      "Accéder à la salle serveurs"
+    ],
+    "required_items": [
+      "lab_keycard"
+    ],
+    "rewards": [
+      "truth_evidence",
+      "omega_files",
+      "final_choice_unlock"
+    ],
+    "key_dilemma": "sauver les données, les détruire ou les donner à une faction"
+  },
+  {
+    "id": "Q12_MilitaryQuarantine",
+    "zone": "military_zone",
+    "title": "Ordre de quarantaine",
+    "steps": [
+      "Atteindre le checkpoint",
+      "Négocier ou infiltrer",
+      "Trouver le poste de commandement",
+      "Décider du sort de la quarantaine"
+    ],
+    "required_items": [
+      "truth_evidence_optional"
+    ],
+    "rewards": [
+      "quarantine_ending_path",
+      "heavy_equipment",
+      "sentinelles_reputation"
+    ],
+    "key_dilemma": "sécurité totale ou liberté des survivants"
+  }
+]
+```

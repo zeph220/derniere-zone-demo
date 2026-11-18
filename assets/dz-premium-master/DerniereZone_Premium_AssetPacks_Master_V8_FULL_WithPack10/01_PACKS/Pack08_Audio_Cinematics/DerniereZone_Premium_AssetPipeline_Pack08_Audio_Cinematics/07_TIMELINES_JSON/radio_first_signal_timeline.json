@@ -1,0 +1,27 @@
+[
+  {
+    "time": 0.0,
+    "beat": "main tourne bouton",
+    "event": "radio_first_signal_beat_1"
+  },
+  {
+    "time": 7.0,
+    "beat": "parasites",
+    "event": "radio_first_signal_beat_2"
+  },
+  {
+    "time": 14.0,
+    "beat": "voix coupée demande aide",
+    "event": "radio_first_signal_beat_3"
+  },
+  {
+    "time": 21.0,
+    "beat": "mot Saint-Mary entendu",
+    "event": "radio_first_signal_beat_4"
+  },
+  {
+    "time": 28.0,
+    "beat": "nouvel objectif apparaît",
+    "event": "radio_first_signal_beat_5"
+  }
+]

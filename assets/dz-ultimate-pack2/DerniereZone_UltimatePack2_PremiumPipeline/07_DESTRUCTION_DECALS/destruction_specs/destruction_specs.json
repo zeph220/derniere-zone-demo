@@ -1,0 +1,41 @@
+{
+  "breakable_glass": {
+    "stages": [
+      "intact",
+      "cracked",
+      "broken"
+    ],
+    "decal": "decal_crack.png",
+    "sfx": "glass_break",
+    "spawn": "glass_shards"
+  },
+  "wood_barricade": {
+    "stages": [
+      "intact",
+      "damaged",
+      "broken"
+    ],
+    "decal": "decal_grime.png",
+    "sfx": "wood_crack",
+    "spawn": "wood_splinters"
+  },
+  "metal_panel": {
+    "stages": [
+      "intact",
+      "bent",
+      "loose"
+    ],
+    "decal": "decal_rust.png",
+    "sfx": "metal_bend",
+    "spawn": "small_sparks"
+  },
+  "concrete_wall": {
+    "stages": [
+      "intact",
+      "cracked"
+    ],
+    "decal": "decal_crack.png",
+    "sfx": "concrete_hit",
+    "spawn": "dust"
+  }
+}

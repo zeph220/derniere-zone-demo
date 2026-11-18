@@ -1,0 +1,62 @@
+{
+  "street_exterior": {
+    "music": "02_rue_exterieure_pluie_brouillard_loop.wav",
+    "ambience": [
+      "ambience_rain_loop.wav",
+      "ambience_wind_empty_street_loop.wav"
+    ],
+    "footsteps": [
+      "footstep_wet_01.wav",
+      "footstep_concrete_01.wav"
+    ]
+  },
+  "shelter": {
+    "music": "03_abri_chaleur_faible_radio_loop.wav",
+    "ambience": [
+      "radio_static_short.wav"
+    ],
+    "sfx": [
+      "button_press_old_radio.wav",
+      "ui_inventory_open.wav"
+    ]
+  },
+  "hospital": {
+    "music": "04_hopital_froid_tension_clinique_loop.wav",
+    "ambience": [
+      "ambience_fluorescent_buzz_loop.wav"
+    ],
+    "footsteps": [
+      "footstep_concrete_01.wav",
+      "footstep_wet_01.wav"
+    ]
+  },
+  "metro": {
+    "music": "05_metro_rumble_souterrain_loop.wav",
+    "ambience": [
+      "ambience_subway_rumble_loop.wav"
+    ],
+    "footsteps": [
+      "footstep_metal_01.wav",
+      "footstep_wet_01.wav"
+    ]
+  },
+  "laboratory": {
+    "music": "06_laboratoire_neons_dread_loop.wav",
+    "ambience": [
+      "ambience_fluorescent_buzz_loop.wav"
+    ],
+    "enemy": [
+      "enemy_blind_clicking_breath.wav"
+    ]
+  },
+  "military_zone": {
+    "music": "07_zone_militaire_pression_loop.wav",
+    "ambience": [
+      "ambience_wind_empty_street_loop.wav"
+    ],
+    "sfx": [
+      "metal_gate_creak.wav",
+      "lock_click.wav"
+    ]
+  }
+}

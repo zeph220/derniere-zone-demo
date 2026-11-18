@@ -1,0 +1,19 @@
+{
+  "name": "door_light_open",
+  "duration": 0.8,
+  "tags": [
+    "prop",
+    "door"
+  ],
+  "keyframes": [
+    {
+      "time": 0,
+      "rot_y": 0
+    },
+    {
+      "time": 0.8,
+      "rot_y": 85
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "time": 0.0,
+    "beat": "projecteurs",
+    "event": "c06_military_entry_beat_1"
+  },
+  {
+    "time": 10.5,
+    "beat": "haut-parleur",
+    "event": "c06_military_entry_beat_2"
+  },
+  {
+    "time": 21.0,
+    "beat": "checkpoint",
+    "event": "c06_military_entry_beat_3"
+  },
+  {
+    "time": 31.5,
+    "beat": "choix infiltration ou force",
+    "event": "c06_military_entry_beat_4"
+  }
+]

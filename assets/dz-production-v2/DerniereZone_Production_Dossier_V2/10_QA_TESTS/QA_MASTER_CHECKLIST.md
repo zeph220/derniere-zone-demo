@@ -1,0 +1,47 @@
+# QA Master Checklist
+
+## inventory_tests
+- [ ] ramasser objet
+- [ ] stack max
+- [ ] inventaire plein
+- [ ] utiliser dernier objet
+- [ ] objet de quête impossible à jeter
+- [ ] coffre
+- [ ] sauvegarde/chargement
+
+## quest_tests
+- [ ] démarrer quête
+- [ ] compléter objectif
+- [ ] choix moral change réputation
+- [ ] quête sauvegardée/rechargée
+
+## enemy_ai_tests
+- [ ] vision derrière mur
+- [ ] bruit sprint
+- [ ] objet lancé
+- [ ] aveugle suit bruit
+- [ ] perte de vue
+- [ ] retour patrouille
+
+## survival_tests
+- [ ] faim baisse
+- [ ] soif baisse
+- [ ] 0 faim retire vie
+- [ ] bandage stop saignement
+- [ ] infection empire
+- [ ] mort affiche cause
+
+## save_tests
+- [ ] écriture slot
+- [ ] backup valide
+- [ ] charge inventaire
+- [ ] charge quêtes
+- [ ] charge abri
+
+## ui_tests
+- [ ] HUD lisible
+- [ ] popup empilé
+- [ ] menu options
+- [ ] death screen
+- [ ] dialogue choix
+- [ ] map markers

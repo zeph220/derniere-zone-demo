@@ -1,0 +1,12 @@
+newmtl electronics_dirty
+Kd 0.06 0.08 0.08
+Ka 0.05 0.05 0.05
+Ks 0.12 0.12 0.12
+Ns 24
+
+newmtl reader_light
+Kd 0.05 0.45 0.22
+Ka 0.05 0.05 0.05
+Ks 0.12 0.12 0.12
+Ns 24
+

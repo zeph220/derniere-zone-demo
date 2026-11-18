@@ -1,0 +1,17 @@
+{
+  "id": "string",
+  "name": "string",
+  "category": "survival|medical|craft|tool|quest|document|device",
+  "rarity": "common|uncommon|rare|unique",
+  "weight": "float",
+  "stack": "int",
+  "use": "string",
+  "effect": "object",
+  "found": [
+    "string"
+  ],
+  "model": "string",
+  "icon": "string",
+  "animation": "string",
+  "sound": "string"
+}

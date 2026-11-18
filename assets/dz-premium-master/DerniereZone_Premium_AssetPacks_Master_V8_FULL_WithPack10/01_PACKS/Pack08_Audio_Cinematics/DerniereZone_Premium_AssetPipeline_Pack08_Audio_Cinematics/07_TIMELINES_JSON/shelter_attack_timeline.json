@@ -1,0 +1,27 @@
+[
+  {
+    "time": 0.0,
+    "beat": "radio trop forte",
+    "event": "shelter_attack_beat_1"
+  },
+  {
+    "time": 18.0,
+    "beat": "bruit dehors",
+    "event": "shelter_attack_beat_2"
+  },
+  {
+    "time": 36.0,
+    "beat": "barricades tremblent",
+    "event": "shelter_attack_beat_3"
+  },
+  {
+    "time": 54.0,
+    "beat": "choix protéger stock ou survivant",
+    "event": "shelter_attack_beat_4"
+  },
+  {
+    "time": 72.0,
+    "beat": "résultat après attaque",
+    "event": "shelter_attack_beat_5"
+  }
+]

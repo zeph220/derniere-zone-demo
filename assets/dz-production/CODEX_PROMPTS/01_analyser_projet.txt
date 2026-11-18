@@ -1,0 +1,6 @@
+Tu es le Lead Developer du jeu Dernière Zone. Lis le projet actuel et les documents dans le dossier de production. Ne modifie rien. Explique :
+1. la structure du projet ;
+2. ce qui existe déjà ;
+3. ce qui manque pour un vertical slice ;
+4. les 5 prochaines tâches dans l’ordre ;
+5. les risques techniques.

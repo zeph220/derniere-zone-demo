@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030505"/><stop offset="0.48" stop-color="#111615"/><stop offset="1" stop-color="#050404"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.62" cy="0.48" r="0.38">
+      <stop offset="0" stop-color="#4f6f76" stop-opacity="0.44"/><stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.78" numOctaves="3"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 0.10"/></feComponentTransfer></filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#glow)"/>
+  <g opacity="0.86">
+    <path d="M310 760 L430 620 L580 640 L710 500 L875 520 L1010 390 L1180 430 L1330 310 L1525 335" fill="none" stroke="#b7a56f" stroke-width="7" opacity="0.42"/>
+    <path d="M380 790 L540 720 L720 735 L890 665 L1070 690 L1280 610 L1470 655" fill="none" stroke="#6e7f82" stroke-width="4" opacity="0.3"/>
+    <circle cx="430" cy="620" r="16" fill="#b7a56f" opacity="0.7"/><circle cx="875" cy="520" r="14" fill="#bb342b" opacity="0.75"/><circle cx="1330" cy="310" r="13" fill="#89b06a" opacity="0.72"/></g>
+  <g opacity="0.36">
+    <path d="M0 835 C420 760 670 810 945 754 C1270 690 1498 748 1920 650 L1920 1080 L0 1080 Z" fill="#050606"/>
+    <ellipse cx="1020" cy="842" rx="410" ry="42" fill="#b7a56f" opacity="0.06"/>
+  </g>
+  <rect x="42" y="44" width="1836" height="992" fill="none" stroke="#b7a56f" stroke-opacity="0.22" stroke-width="2"/>
+  <rect x="72" y="74" width="1776" height="932" fill="none" stroke="#d9d1b8" stroke-opacity="0.08" stroke-width="1"/>
+  <text x="96" y="118" font-family="Impact, Arial Black, sans-serif" font-size="58" fill="#e8e4d8" opacity="0.9">DERNIERE ZONE</text>
+  <text x="96" y="164" font-family="Arial Narrow, Arial, sans-serif" font-size="25" letter-spacing="6" fill="#b7a56f" opacity="0.9">PAUSE / JOURNAL / CARTE</text>
+  <text x="96" y="208" font-family="Arial Narrow, Arial, sans-serif" font-size="22" fill="#c7c0ab" opacity="0.78">information lisible, carte tactique, objectifs actifs</text>
+  <g opacity="0.16" stroke="#fff" stroke-width="1"><path d="M-160 0 L30 1080"/><path d="M-90 0 L100 1080"/><path d="M-20 0 L170 1080"/><path d="M50 0 L240 1080"/><path d="M120 0 L310 1080"/><path d="M190 0 L380 1080"/><path d="M260 0 L450 1080"/><path d="M330 0 L520 1080"/><path d="M400 0 L590 1080"/><path d="M470 0 L660 1080"/><path d="M540 0 L730 1080"/><path d="M610 0 L800 1080"/><path d="M680 0 L870 1080"/><path d="M750 0 L940 1080"/><path d="M820 0 L1010 1080"/><path d="M890 0 L1080 1080"/><path d="M960 0 L1150 1080"/><path d="M1030 0 L1220 1080"/><path d="M1100 0 L1290 1080"/><path d="M1170 0 L1360 1080"/><path d="M1240 0 L1430 1080"/><path d="M1310 0 L1500 1080"/><path d="M1380 0 L1570 1080"/><path d="M1450 0 L1640 1080"/><path d="M1520 0 L1710 1080"/><path d="M1590 0 L1780 1080"/><path d="M1660 0 L1850 1080"/><path d="M1730 0 L1920 1080"/><path d="M1800 0 L1990 1080"/><path d="M1870 0 L2060 1080"/><path d="M1940 0 L2130 1080"/><path d="M2010 0 L2200 1080"/><path d="M2080 0 L2270 1080"/><path d="M2150 0 L2340 1080"/></g>
+  <rect width="1920" height="1080" filter="url(#grain)" opacity="0.88"/>
+</svg>

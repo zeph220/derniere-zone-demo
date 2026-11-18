@@ -1,0 +1,24 @@
+newmtl lab_clean_panel_dirty
+Kd 0.58 0.62 0.62
+Ka 0.05 0.05 0.05
+Ks 0.12 0.12 0.12
+Ns 24
+
+newmtl lab_wall_panel
+Kd 0.55 0.58 0.58
+Ka 0.05 0.05 0.05
+Ks 0.12 0.12 0.12
+Ns 24
+
+newmtl lab_ceiling
+Kd 0.45 0.48 0.48
+Ka 0.05 0.05 0.05
+Ks 0.12 0.12 0.12
+Ns 24
+
+newmtl blue_light_strip
+Kd 0.25 0.45 0.65
+Ka 0.05 0.05 0.05
+Ks 0.12 0.12 0.12
+Ns 24
+

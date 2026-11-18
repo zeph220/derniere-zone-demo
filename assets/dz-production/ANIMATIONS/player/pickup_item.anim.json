@@ -1,0 +1,27 @@
+{
+  "name": "pickup_item",
+  "duration": 0.55,
+  "tags": [
+    "player",
+    "interaction"
+  ],
+  "keyframes": [
+    {
+      "time": 0.0,
+      "right_hand": "reach_down"
+    },
+    {
+      "time": 0.25,
+      "sfx": "pickup"
+    },
+    {
+      "time": 0.4,
+      "gameplay_effect": "add_to_inventory"
+    },
+    {
+      "time": 0.55,
+      "state": "complete"
+    }
+  ],
+  "notes": ""
+}

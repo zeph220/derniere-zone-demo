@@ -1,0 +1,54 @@
+# Placement ennemis
+
+```json
+{
+  "hospital": [
+    {
+      "area": "urgences",
+      "enemy": "enemy_normal",
+      "count": "2-4"
+    },
+    {
+      "area": "bloc opératoire",
+      "enemy": "enemy_heavy",
+      "count": "1"
+    }
+  ],
+  "metro": [
+    {
+      "area": "quais",
+      "enemy": "enemy_blind",
+      "count": "1"
+    },
+    {
+      "area": "tunnel",
+      "enemy": "enemy_fast",
+      "count": "1-2"
+    }
+  ],
+  "laboratory": [
+    {
+      "area": "cellules",
+      "enemy": "enemy_lab_subject",
+      "count": "1"
+    },
+    {
+      "area": "serveurs",
+      "enemy": "enemy_heavy",
+      "count": "0-1"
+    }
+  ],
+  "military_zone": [
+    {
+      "area": "bunker",
+      "enemy": "enemy_heavy",
+      "count": "1"
+    },
+    {
+      "area": "checkpoint",
+      "enemy": "human_hostile_placeholder",
+      "count": "2-3"
+    }
+  ]
+}
+```

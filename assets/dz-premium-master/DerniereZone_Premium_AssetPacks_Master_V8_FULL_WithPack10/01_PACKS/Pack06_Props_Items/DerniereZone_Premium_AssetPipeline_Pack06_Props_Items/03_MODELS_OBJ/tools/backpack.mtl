@@ -1,0 +1,18 @@
+newmtl backpack_fabric
+Kd 0.28 0.3 0.2
+Ka 0.05 0.05 0.05
+Ks 0.12 0.12 0.12
+Ns 24
+
+newmtl pocket
+Kd 0.2 0.22 0.15
+Ka 0.05 0.05 0.05
+Ks 0.12 0.12 0.12
+Ns 24
+
+newmtl strap
+Kd 0.04 0.04 0.035
+Ka 0.05 0.05 0.05
+Ks 0.12 0.12 0.12
+Ns 24
+

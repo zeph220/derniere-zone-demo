@@ -1,0 +1,63 @@
+{
+  "global_states": [
+    "idle",
+    "patrol",
+    "suspicious",
+    "investigate",
+    "alert",
+    "chase",
+    "attack",
+    "search",
+    "return",
+    "stagger",
+    "dead"
+  ],
+  "perception": {
+    "vision": {
+      "requires_line_of_sight": true,
+      "affected_by": [
+        "light_level",
+        "crouch",
+        "movement_speed",
+        "fog",
+        "cover",
+        "distance"
+      ]
+    },
+    "hearing": {
+      "noise_events": [
+        "walk",
+        "sprint",
+        "jump",
+        "door",
+        "melee",
+        "thrown_object",
+        "cough",
+        "generator",
+        "alarm"
+      ]
+    },
+    "memory": [
+      "last_seen_position",
+      "last_heard_position",
+      "suspicion_level",
+      "time_since_contact",
+      "search_points"
+    ]
+  },
+  "profiles": {
+    "balanced": "normal enemy",
+    "burst_chaser": "fast enemy",
+    "sound_hunter": "blind enemy",
+    "space_blocker": "heavy enemy",
+    "erratic_stalker": "lab subject"
+  },
+  "debug_tools": [
+    "vision_cone",
+    "hearing_radius",
+    "current_state",
+    "last_known_position",
+    "nav_path",
+    "suspicion_value"
+  ]
+}

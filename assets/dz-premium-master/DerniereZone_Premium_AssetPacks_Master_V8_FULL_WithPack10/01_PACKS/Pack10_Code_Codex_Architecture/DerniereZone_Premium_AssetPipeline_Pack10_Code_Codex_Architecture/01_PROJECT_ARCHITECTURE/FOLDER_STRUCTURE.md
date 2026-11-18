@@ -1,0 +1,106 @@
+# Structure de dossiers recommandée
+
+## Unity
+
+```txt
+Assets/
+  _DerniereZone/
+    Art/
+      Models/
+      Materials/
+      Textures/
+      Icons/
+      UI/
+    Audio/
+      Music/
+      SFX/
+      Ambience/
+      UI/
+    Data/
+      items.json
+      quests.json
+      enemies.json
+      crafting_recipes.json
+      zones.json
+      dialogues.json
+      save_schema.json
+    Prefabs/
+      Player/
+      Enemies/
+      Items/
+      UI/
+      Interactables/
+      Environment/
+    Scenes/
+      MainMenu.unity
+      Shelter.unity
+      District01_Street.unity
+      Interior_Supermarket.unity
+      Interior_Pharmacy.unity
+      Interior_Garage.unity
+      Hospital.unity
+      Metro.unity
+      Laboratory.unity
+      MilitaryZone.unity
+    Scripts/
+      Core/
+      Player/
+      Gameplay/
+      Inventory/
+      Quests/
+      Enemies/
+      UI/
+      Audio/
+      Save/
+      Data/
+      Debug/
+```
+
+## Godot
+
+```txt
+res://
+  dz/
+    art/
+      models/
+      materials/
+      textures/
+      icons/
+      ui/
+    audio/
+      music/
+      sfx/
+      ambience/
+      ui/
+    data/
+      items.json
+      quests.json
+      enemies.json
+      crafting_recipes.json
+      zones.json
+      dialogues.json
+      save_schema.json
+    scenes/
+      main_menu.tscn
+      shelter.tscn
+      district_01_street.tscn
+      interior_supermarket.tscn
+      interior_pharmacy.tscn
+      interior_garage.tscn
+      hospital.tscn
+      metro.tscn
+      laboratory.tscn
+      military_zone.tscn
+    scripts/
+      core/
+      player/
+      gameplay/
+      inventory/
+      quests/
+      enemies/
+      ui/
+      audio/
+      save/
+      data/
+      debug/
+```

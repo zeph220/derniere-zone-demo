@@ -1,0 +1,14 @@
+DERNIERE ZONE - DEMO UNIVERSELLE
+
+IMPORTANT : extrais le ZIP complet avant de lancer.
+
+Windows : double-clique sur LANCER_WINDOWS.bat
+Mac : double-clique sur LANCER_MAC.command
+Linux : ouvre un terminal dans ce dossier puis lance ./LANCER_LINUX.sh
+
+Si ton systeme bloque le fichier Mac/Linux :
+- Mac : clic droit sur LANCER_MAC.command, puis Ouvrir.
+- Linux/Mac terminal : chmod +x LANCER_LINUX.sh LANCER_MAC.command
+
+Le jeu s'ouvre normalement sur http://127.0.0.1:5174/
+Garde la fenetre serveur ouverte pendant que tu joues.

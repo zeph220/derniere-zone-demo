@@ -1,0 +1,30 @@
+newmtl rusty_metal
+Kd 0.19 0.17 0.14
+Ka 0.05 0.05 0.05
+Ks 0.15 0.15 0.15
+Ns 32
+
+newmtl vent_dark
+Kd 0.04 0.04 0.04
+Ka 0.05 0.05 0.05
+Ks 0.15 0.15 0.15
+Ns 32
+
+newmtl rubber
+Kd 0.02 0.02 0.02
+Ka 0.05 0.05 0.05
+Ks 0.15 0.15 0.15
+Ns 32
+
+newmtl handle_metal
+Kd 0.1 0.09 0.08
+Ka 0.05 0.05 0.05
+Ks 0.15 0.15 0.15
+Ns 32
+
+newmtl warning_label
+Kd 0.55 0.42 0.08
+Ka 0.05 0.05 0.05
+Ks 0.15 0.15 0.15
+Ns 32
+

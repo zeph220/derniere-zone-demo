@@ -1,0 +1,18 @@
+newmtl dirty_glass
+Kd 0.25 0.4 0.42
+Ka 0.05 0.05 0.05
+Ks 0.16 0.16 0.16
+Ns 32
+
+newmtl plastic_cap
+Kd 0.05 0.08 0.12
+Ka 0.05 0.05 0.05
+Ks 0.16 0.16 0.16
+Ns 32
+
+newmtl label_dirty
+Kd 0.65 0.6 0.42
+Ka 0.05 0.05 0.05
+Ks 0.16 0.16 0.16
+Ns 32
+

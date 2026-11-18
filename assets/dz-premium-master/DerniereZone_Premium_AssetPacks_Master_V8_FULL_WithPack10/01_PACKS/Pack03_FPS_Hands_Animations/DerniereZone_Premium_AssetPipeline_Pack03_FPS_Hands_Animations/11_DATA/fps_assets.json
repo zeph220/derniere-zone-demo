@@ -1,0 +1,122 @@
+[
+  {
+    "id": "fps_hands_gloved_pair",
+    "name": "Paire de mains gantées FPS",
+    "category": "hands",
+    "priority": "hero",
+    "materials": [
+      "glove_dirty_black",
+      "jacket_fabric_khaki",
+      "dirty_skin"
+    ],
+    "animations": [
+      "fp_idle_breathing",
+      "fp_pickup_small_item",
+      "fp_drink_water",
+      "fp_eat_food",
+      "fp_apply_bandage",
+      "fp_open_door",
+      "fp_radio_tune",
+      "fp_flashlight_toggle",
+      "fp_craft_workbench",
+      "fp_death_fall"
+    ],
+    "gameplay": "Base visuelle de toutes les interactions première personne."
+  },
+  {
+    "id": "fps_left_forearm_bandage_target",
+    "name": "Avant-bras gauche cible bandage",
+    "category": "hands",
+    "priority": "hero",
+    "materials": [
+      "jacket_fabric_khaki",
+      "dirty_skin",
+      "bandage_cloth"
+    ],
+    "animations": [
+      "fp_apply_bandage"
+    ],
+    "gameplay": "Permet l'animation de soin visible."
+  },
+  {
+    "id": "fps_bottle_hand_prop",
+    "name": "Bouteille tenue en main",
+    "category": "interaction_prop",
+    "priority": "high",
+    "materials": [
+      "dirty_glass",
+      "plastic_cap"
+    ],
+    "animations": [
+      "fp_drink_water"
+    ],
+    "gameplay": "Boire / restaurer soif."
+  },
+  {
+    "id": "fps_food_hand_prop",
+    "name": "Nourriture tenue en main",
+    "category": "interaction_prop",
+    "priority": "high",
+    "materials": [
+      "old_wrapper",
+      "metal_can"
+    ],
+    "animations": [
+      "fp_eat_food"
+    ],
+    "gameplay": "Manger / restaurer faim."
+  },
+  {
+    "id": "fps_bandage_roll_prop",
+    "name": "Bandage en main",
+    "category": "interaction_prop",
+    "priority": "high",
+    "materials": [
+      "bandage_cloth"
+    ],
+    "animations": [
+      "fp_apply_bandage"
+    ],
+    "gameplay": "Soin, arrêt saignement."
+  },
+  {
+    "id": "fps_flashlight_prop",
+    "name": "Lampe torche tenue",
+    "category": "interaction_prop",
+    "priority": "high",
+    "materials": [
+      "painted_metal_dirty",
+      "dirty_glass"
+    ],
+    "animations": [
+      "fp_flashlight_toggle"
+    ],
+    "gameplay": "Éclairage zones sombres."
+  },
+  {
+    "id": "fps_radio_interaction_pose",
+    "name": "Pose interaction radio",
+    "category": "pose_reference",
+    "priority": "medium",
+    "materials": [
+      "glove_dirty_black"
+    ],
+    "animations": [
+      "fp_radio_tune"
+    ],
+    "gameplay": "Main qui règle la radio."
+  },
+  {
+    "id": "fps_door_interaction_pose",
+    "name": "Pose interaction porte",
+    "category": "pose_reference",
+    "priority": "medium",
+    "materials": [
+      "glove_dirty_black"
+    ],
+    "animations": [
+      "fp_open_door"
+    ],
+    "gameplay": "Main sur poignée."
+  }
+]

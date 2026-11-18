@@ -1,0 +1,9 @@
+id,name,category,priority,materials,animations,gameplay
+fps_hands_gloved_pair,Paire de mains gantées FPS,hands,hero,glove_dirty_black;jacket_fabric_khaki;dirty_skin,fp_idle_breathing;fp_pickup_small_item;fp_drink_water;fp_eat_food;fp_apply_bandage;fp_open_door;fp_radio_tune;fp_flashlight_toggle;fp_craft_workbench;fp_death_fall,Base visuelle de toutes les interactions première personne.
+fps_left_forearm_bandage_target,Avant-bras gauche cible bandage,hands,hero,jacket_fabric_khaki;dirty_skin;bandage_cloth,fp_apply_bandage,Permet l'animation de soin visible.
+fps_bottle_hand_prop,Bouteille tenue en main,interaction_prop,high,dirty_glass;plastic_cap,fp_drink_water,Boire / restaurer soif.
+fps_food_hand_prop,Nourriture tenue en main,interaction_prop,high,old_wrapper;metal_can,fp_eat_food,Manger / restaurer faim.
+fps_bandage_roll_prop,Bandage en main,interaction_prop,high,bandage_cloth,fp_apply_bandage,"Soin, arrêt saignement."
+fps_flashlight_prop,Lampe torche tenue,interaction_prop,high,painted_metal_dirty;dirty_glass,fp_flashlight_toggle,Éclairage zones sombres.
+fps_radio_interaction_pose,Pose interaction radio,pose_reference,medium,glove_dirty_black,fp_radio_tune,Main qui règle la radio.
+fps_door_interaction_pose,Pose interaction porte,pose_reference,medium,glove_dirty_black,fp_open_door,Main sur poignée.

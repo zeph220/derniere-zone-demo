@@ -1,0 +1,127 @@
+{
+  "GameManager": {
+    "role": "Point d'entrée global, état du jeu, pause, mode, transitions.",
+    "depends_on": [
+      "DataRegistry",
+      "SaveManager",
+      "SceneLoader"
+    ],
+    "events": [
+      "GameStarted",
+      "GamePaused",
+      "GameResumed",
+      "GameOver"
+    ]
+  },
+  "DataRegistry": {
+    "role": "Charge tous les JSON et fournit les données par ID.",
+    "depends_on": [],
+    "events": [
+      "DataLoaded",
+      "DataLoadFailed"
+    ]
+  },
+  "InteractionSystem": {
+    "role": "Détecte l'objet regardé/proche et déclenche l'interaction.",
+    "depends_on": [
+      "UIManager",
+      "InventorySystem",
+      "QuestManager"
+    ],
+    "events": [
+      "InteractionTargetChanged",
+      "InteractionStarted",
+      "InteractionCompleted"
+    ]
+  },
+  "InventorySystem": {
+    "role": "Stocke items, quantités, poids, raccourcis, utilisation.",
+    "depends_on": [
+      "DataRegistry",
+      "PlayerSurvivalStats",
+      "UIManager"
+    ],
+    "events": [
+      "ItemAdded",
+      "ItemRemoved",
+      "InventoryChanged",
+      "ItemUsed"
+    ]
+  },
+  "CraftSystem": {
+    "role": "Valide les recettes, consomme ingrédients, crée résultats.",
+    "depends_on": [
+      "InventorySystem",
+      "DataRegistry",
+      "UIManager"
+    ],
+    "events": [
+      "CraftStarted",
+      "CraftCompleted",
+      "CraftFailed"
+    ]
+  },
+  "QuestManager": {
+    "role": "Gère quêtes, objectifs, états, choix, rewards, consequences.",
+    "depends_on": [
+      "DataRegistry",
+      "UIManager",
+      "SaveManager"
+    ],
+    "events": [
+      "QuestStarted",
+      "ObjectiveUpdated",
+      "QuestCompleted",
+      "QuestFailed"
+    ]
+  },
+  "EnemyBrain": {
+    "role": "Contrôle IA via perception, mémoire, state machine.",
+    "depends_on": [
+      "EnemyPerception",
+      "EnemyStateMachine",
+      "EnemyMovement",
+      "EnemyCombat"
+    ],
+    "events": [
+      "EnemySuspicious",
+      "EnemyAlert",
+      "EnemyChaseStarted",
+      "EnemyLostPlayer",
+      "EnemyDied"
+    ]
+  },
+  "SaveManager": {
+    "role": "Sauvegarde/charge joueur, monde, quêtes, abri, factions.",
+    "depends_on": [
+      "GameManager"
+    ],
+    "events": [
+      "SaveStarted",
+      "SaveCompleted",
+      "LoadStarted",
+      "LoadCompleted",
+      "SaveFailed"
+    ]
+  },
+  "UIManager": {
+    "role": "Route les updates UI vers HUD, inventaire, dialogue, mort, save.",
+    "depends_on": [
+      "GameManager"
+    ],
+    "events": [
+      "UIScreenOpened",
+      "UIScreenClosed"
+    ]
+  },
+  "AudioManager": {
+    "role": "États audio dynamiques, stingers, ambiances, ducking.",
+    "depends_on": [
+      "GameManager"
+    ],
+    "events": [
+      "AudioStateChanged",
+      "StingerPlayed"
+    ]
+  }
+}

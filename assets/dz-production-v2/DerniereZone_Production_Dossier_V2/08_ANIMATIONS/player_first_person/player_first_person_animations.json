@@ -1,0 +1,128 @@
+[
+  {
+    "id": "fp_idle",
+    "duration": 2.0,
+    "loop": true,
+    "keyframes": [
+      {
+        "t": 0,
+        "hands": "neutral"
+      },
+      {
+        "t": 1,
+        "hands": "breath_down"
+      },
+      {
+        "t": 2,
+        "hands": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "fp_pickup",
+    "duration": 0.8,
+    "loop": false,
+    "keyframes": [
+      {
+        "t": 0,
+        "right_hand": "idle"
+      },
+      {
+        "t": 0.25,
+        "right_hand": "reach"
+      },
+      {
+        "t": 0.55,
+        "right_hand": "grab"
+      },
+      {
+        "t": 0.8,
+        "right_hand": "return"
+      }
+    ]
+  },
+  {
+    "id": "fp_drink",
+    "duration": 2.2,
+    "loop": false,
+    "keyframes": [
+      {
+        "t": 0,
+        "bottle": "raise"
+      },
+      {
+        "t": 0.7,
+        "bottle": "mouth"
+      },
+      {
+        "t": 1.5,
+        "bottle": "drink_hold"
+      },
+      {
+        "t": 2.2,
+        "bottle": "lower"
+      }
+    ]
+  },
+  {
+    "id": "fp_eat",
+    "duration": 2.0,
+    "loop": false,
+    "keyframes": [
+      {
+        "t": 0,
+        "food": "raise"
+      },
+      {
+        "t": 0.6,
+        "food": "bite"
+      },
+      {
+        "t": 1.2,
+        "food": "chew"
+      },
+      {
+        "t": 2,
+        "food": "lower"
+      }
+    ]
+  },
+  {
+    "id": "fp_bandage",
+    "duration": 4.0,
+    "loop": false,
+    "interruptible": true,
+    "keyframes": [
+      {
+        "t": 0,
+        "left_arm": "show_wound"
+      },
+      {
+        "t": 1,
+        "right_hand": "wrap_start"
+      },
+      {
+        "t": 2.2,
+        "right_hand": "wrap_loop"
+      },
+      {
+        "t": 3.5,
+        "right_hand": "tighten"
+      },
+      {
+        "t": 4,
+        "hands": "return"
+      }
+    ]
+  },
+  {
+    "id": "fp_open_door",
+    "duration": 1.1,
+    "loop": false
+  },
+  {
+    "id": "fp_death_fall",
+    "duration": 2.5,
+    "loop": false
+  }
+]

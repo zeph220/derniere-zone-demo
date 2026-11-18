@@ -1,0 +1,191 @@
+[
+  {
+    "id": "main_menu",
+    "name": "Menu principal",
+    "priority": "critical",
+    "purpose": "Première impression du jeu.",
+    "states": [
+      "new_game",
+      "continue",
+      "load",
+      "options",
+      "credits",
+      "quit"
+    ],
+    "animation": "rain_loop + radio_static + title_fade"
+  },
+  {
+    "id": "hud_exploration",
+    "name": "HUD exploration",
+    "priority": "critical",
+    "purpose": "Afficher stats sans gêner l'immersion.",
+    "states": [
+      "normal",
+      "low_hunger",
+      "low_thirst",
+      "low_health",
+      "enemy_near"
+    ],
+    "animation": "subtle fade, danger pulse"
+  },
+  {
+    "id": "inventory",
+    "name": "Inventaire",
+    "priority": "critical",
+    "purpose": "Gérer objets, poids, raccourcis, description.",
+    "states": [
+      "category_select",
+      "item_detail",
+      "use_item",
+      "transfer",
+      "drop_confirm"
+    ],
+    "animation": "panel slide + item hover"
+  },
+  {
+    "id": "map",
+    "name": "Carte",
+    "priority": "critical",
+    "purpose": "Orientation, objectifs, zones découvertes, annotations.",
+    "states": [
+      "district",
+      "building",
+      "objective_focus",
+      "custom_marker"
+    ],
+    "animation": "paper unfold + marker pulse"
+  },
+  {
+    "id": "quest_journal",
+    "name": "Journal de quêtes",
+    "priority": "critical",
+    "purpose": "Suivre principale, secondaires, factions, abri.",
+    "states": [
+      "main",
+      "side",
+      "shelter",
+      "faction",
+      "completed"
+    ],
+    "animation": "tabs slide"
+  },
+  {
+    "id": "dialogue_choice",
+    "name": "Dialogue / choix",
+    "priority": "critical",
+    "purpose": "Discussions PNJ, dilemmes, conséquences.",
+    "states": [
+      "neutral",
+      "trust_gain",
+      "trust_loss",
+      "lie",
+      "skill_choice"
+    ],
+    "animation": "choice highlight + consequence tag"
+  },
+  {
+    "id": "save_load",
+    "name": "Sauvegarde / chargement",
+    "priority": "critical",
+    "purpose": "Slots, chapitre, lieu, temps de jeu, avertissement.",
+    "states": [
+      "manual_save",
+      "autosave",
+      "overwrite_confirm",
+      "load_confirm"
+    ],
+    "animation": "cassette/card pulse"
+  },
+  {
+    "id": "death_screen",
+    "name": "Écran de mort",
+    "priority": "critical",
+    "purpose": "Cause, astuce, reprise, ambiance.",
+    "states": [
+      "enemy",
+      "hunger",
+      "thirst",
+      "infection",
+      "bleeding",
+      "toxic"
+    ],
+    "animation": "red vignette + heartbeat stop"
+  },
+  {
+    "id": "options",
+    "name": "Options",
+    "priority": "high",
+    "purpose": "Audio, vidéo, contrôles, accessibilité, gameplay.",
+    "states": [
+      "audio",
+      "video",
+      "controls",
+      "accessibility",
+      "gameplay"
+    ],
+    "animation": "clean tab switch"
+  },
+  {
+    "id": "craft",
+    "name": "Craft",
+    "priority": "high",
+    "purpose": "Recettes, ingrédients, temps, station, résultat.",
+    "states": [
+      "available",
+      "missing_ingredients",
+      "crafting",
+      "complete"
+    ],
+    "animation": "progress bar + tool ticks"
+  },
+  {
+    "id": "reputation",
+    "name": "Réputation factions",
+    "priority": "medium",
+    "purpose": "Relations, récompenses, hostilité, alliances.",
+    "states": [
+      "neutral",
+      "friendly",
+      "ally",
+      "hostile"
+    ],
+    "animation": "faction card reveal"
+  },
+  {
+    "id": "shelter_panel",
+    "name": "Panneau abri",
+    "priority": "high",
+    "purpose": "Améliorations, eau, énergie, défense, survivants.",
+    "states": [
+      "upgrades",
+      "storage",
+      "defense",
+      "survivors",
+      "power"
+    ],
+    "animation": "blueprint overlay"
+  },
+  {
+    "id": "pause_menu",
+    "name": "Pause",
+    "priority": "high",
+    "purpose": "Reprendre, sauvegarder, options, quitter.",
+    "states": [
+      "pause",
+      "confirm_quit"
+    ],
+    "animation": "background blur + fade"
+  },
+  {
+    "id": "chapter_end",
+    "name": "Fin de chapitre",
+    "priority": "medium",
+    "purpose": "Résumé conséquences, choix, relations, zones débloquées.",
+    "states": [
+      "summary",
+      "consequence",
+      "next_chapter"
+    ],
+    "animation": "radio report + typed text"
+  }
+]

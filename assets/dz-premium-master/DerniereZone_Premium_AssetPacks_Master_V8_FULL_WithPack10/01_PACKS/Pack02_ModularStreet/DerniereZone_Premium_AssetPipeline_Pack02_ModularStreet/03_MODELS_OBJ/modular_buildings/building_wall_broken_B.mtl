@@ -1,0 +1,18 @@
+newmtl dirty_wall
+Kd 0.38 0.37 0.32
+Ka 0.05 0.05 0.05
+Ks 0.14 0.14 0.14
+Ns 28
+
+newmtl crack_dark
+Kd 0.05 0.05 0.04
+Ka 0.05 0.05 0.05
+Ks 0.14 0.14 0.14
+Ns 28
+
+newmtl broken_patch
+Kd 0.22 0.21 0.18
+Ka 0.05 0.05 0.05
+Ks 0.14 0.14 0.14
+Ns 28
+

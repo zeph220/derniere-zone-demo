@@ -1,0 +1,10 @@
+{
+  "version": "string",
+  "player": "PlayerSaveData",
+  "world": "WorldSaveData",
+  "inventory": "InventorySaveData",
+  "quests": "QuestSaveData",
+  "shelter": "ShelterSaveData",
+  "factions": "FactionSaveData",
+  "settings": "SettingsSaveData"
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "enemy_normal",
+    "name": "Infecté errant",
+    "role": "Ennemi de base, apprend au joueur le danger.",
+    "silhouette": "humanoïde courbé, marche irrégulière, vêtements civils sales",
+    "health": 80,
+    "damage": 12,
+    "walk_speed": 1.15,
+    "chase_speed": 3.0,
+    "vision_distance": 15,
+    "vision_angle": 85,
+    "hearing_radius": 8,
+    "weakness": "facile à éviter seul, dangereux en groupe",
+    "zones": [
+      "rue",
+      "hôpital",
+      "métro"
+    ],
+    "ai_profile": "balanced",
+    "materials": [
+      "infected_skin",
+      "torn_clothes"
+    ],
+    "animations": [
+      "idle_sway",
+      "walk_limp",
+      "turn_alert",
+      "chase_lurch",
+      "attack_swipe",
+      "hit_react",
+      "death_collapse",
+      "search_room"
+    ],
+    "audio": [
+      "groan_idle",
+      "groan_alert",
+      "footstep_drag",
+      "attack_breath"
+    ]
+  },
+  {
+    "id": "enemy_fast",
+    "name": "Féral rapide",
+    "role": "Créer panique, poursuites courtes, pression nocturne.",
+    "silhouette": "très mince, dos bas, bras tendus, posture animale",
+    "health": 45,
+    "damage": 10,
+    "walk_speed": 1.8,
+    "chase_speed": 5.4,
+    "vision_distance": 18,
+    "vision_angle": 95,
+    "hearing_radius": 13,
+    "weakness": "peu de vie, vulnérable aux pièges",
+    "zones": [
+      "rue_nuit",
+      "métro",
+      "laboratoire"
+    ],
+    "ai_profile": "burst_chaser",
+    "materials": [
+      "infected_skin",
+      "torn_clothes"
+    ],
+    "animations": [
+      "idle_twitch",
+      "crouched_walk",
+      "sprint_low",
+      "lunge_attack",
+      "wall_recoil",
+      "quick_hit_react",
+      "death_roll"
+    ],
+    "audio": [
+      "fast_click_idle",
+      "screech_alert",
+      "rapid_breath",
+      "lunge_scream"
+    ]
+  },
+  {
+    "id": "enemy_blind",
+    "name": "Traqueur aveugle",
+    "role": "Ennemi de discrétion centré sur le bruit.",
+    "silhouette": "yeux couverts, tête penchée, mains en avant, écoute constante",
+    "health": 95,
+    "damage": 18,
+    "walk_speed": 1.0,
+    "chase_speed": 3.2,
+    "vision_distance": 0,
+    "vision_angle": 0,
+    "hearing_radius": 26,
+    "weakness": "ne voit pas, peut être détourné par leurres sonores",
+    "zones": [
+      "métro",
+      "hôpital_sous_sol",
+      "laboratoire"
+    ],
+    "ai_profile": "sound_hunter",
+    "materials": [
+      "blind_pale_skin",
+      "dirty_medical_fabric"
+    ],
+    "animations": [
+      "idle_listen",
+      "slow_probe_walk",
+      "sound_snap_turn",
+      "investigate_sound",
+      "grab_attack",
+      "kneel_listen",
+      "death_fold"
+    ],
+    "audio": [
+      "breath_click",
+      "listen_twitch",
+      "sound_alert_hiss",
+      "grab_roar"
+    ]
+  },
+  {
+    "id": "enemy_heavy",
+    "name": "Lourd contaminé",
+    "role": "Contrôle d’espace, obstacle vivant, menace lente.",
+    "silhouette": "grand, massif, épaules larges, marche lourde",
+    "health": 230,
+    "damage": 35,
+    "walk_speed": 0.75,
+    "chase_speed": 2.0,
+    "vision_distance": 13,
+    "vision_angle": 70,
+    "hearing_radius": 10,
+    "weakness": "lent, peut être contourné, sensible aux pièges lourds",
+    "zones": [
+      "hôpital",
+      "zone_militaire",
+      "laboratoire"
+    ],
+    "ai_profile": "space_blocker",
+    "materials": [
+      "heavy_bruised_skin",
+      "torn_clothes",
+      "rusted_restraints"
+    ],
+    "animations": [
+      "idle_heavy_breath",
+      "heavy_walk",
+      "roar_alert",
+      "slow_chase",
+      "slam_attack",
+      "stagger_big",
+      "death_crash"
+    ],
+    "audio": [
+      "heavy_breath",
+      "heavy_step",
+      "low_roar",
+      "slam_impact"
+    ]
+  },
+  {
+    "id": "enemy_lab_subject",
+    "name": "Sujet Oméga",
+    "role": "Ennemi rare narratif, imprévisible, lié au laboratoire.",
+    "silhouette": "très pâle, nerveux, mouvements cassés, sangles médicales",
+    "health": 135,
+    "damage": 22,
+    "walk_speed": 1.35,
+    "chase_speed": 4.1,
+    "vision_distance": 20,
+    "vision_angle": 110,
+    "hearing_radius": 18,
+    "weakness": "lumière forte, alarmes, systèmes électriques",
+    "zones": [
+      "laboratoire",
+      "fin_jeu"
+    ],
+    "ai_profile": "erratic_stalker",
+    "materials": [
+      "lab_subject_skin",
+      "dirty_medical_fabric",
+      "rusted_restraints"
+    ],
+    "animations": [
+      "idle_shiver",
+      "observe_still",
+      "erratic_turn",
+      "crawl_burst",
+      "scream_stun",
+      "claw_combo",
+      "flee_to_dark",
+      "death_twitch"
+    ],
+    "audio": [
+      "lab_whisper",
+      "lab_scream",
+      "nervous_breath",
+      "stun_react"
+    ]
+  }
+]

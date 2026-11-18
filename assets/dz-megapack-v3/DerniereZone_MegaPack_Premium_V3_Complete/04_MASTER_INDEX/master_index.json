@@ -1,0 +1,18 @@
+{
+  "pack_name": "DerniereZone_MegaPack_Premium_V3_Complete",
+  "sections": [
+    "Humans_Factions",
+    "Bosses_Arenas_Cinematics",
+    "Chapters_Complete"
+  ],
+  "counts": {
+    "survivor_archetypes": 6,
+    "pnj_roles": 5,
+    "merchants": 4,
+    "factions": 5,
+    "bosses": 6,
+    "chapters": 7,
+    "human_obj_models": 3,
+    "boss_obj_models": 6
+  }
+}
